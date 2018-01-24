@@ -1,21 +1,32 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-11-29"
+lastupdated: "2017-12-27"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Edit a VLAN Name
 
-Each VLAN is issued a permanent VLAN Number to assist in identifying it. You also may assign a VLAN Name and edit it at any time. VLAN Names are displayed on the VLANs screen and when viewing the individual VLAN, and it may be edited on either screen. We recommend using a naming convention for your VLANs, so they may be identified easily by all users on the account. Follow these steps to edit a VLAN Name.
+Each VLAN is issued a permanent VLAN number to assist in identifying it. You also may assign a VLAN name and edit it at any time. VLAN names are displayed on the VLANs screen and also when you view the individual VLAN. We recommend using a naming convention for your VLANs, so they can be identified easily by all users on the account. 
 
-* Navigate to the **VLANs** screen in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). Refer to [Use the VLANs Screen](vlans-screen.html){:new_window}.
-* Determine whether you'll be updating the VLAN Name on the VLANs screen or when viewing an individual VLAN.
-  * **Note:** The VLAN Name is editable from either screen; changes are visible in all locations for the VLAN regardless of where the name is changed.<br/><br/><table border="1"><tr><th>If updating the VLAN Name...</th><th>Then...</th></tr><tr><td>On the VLANs Screen</td><td>Select the **Name** cell for the desired VLAN to open the cell for edits.</td></tr><tr><td>When viewing an individual VLAN</td><td><ul><li>Access the desired VLAN. Refer to [Access a VLAN](access-vlan.html){:new_window}.</li><li>Click the **Name** field to open the field for edits.</li></ul></td></tr></table>
-* Enter the new **VLAN Name** in the **Name** field.
-* Click anywhere on the screen to close the field for edits and save the change.
+You can update the VLAN name from the **VLANs** screen or from the **VLAN Details** screen. Your changes are visible in all locations for the VLAN, regardless of which screen you use.
+
+For either option, first go to the VLANs screen: 
+
+1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
+2. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
+
+To edit a VLAN name from the VLANs screen:
+
+1. Select the **Name** cell for the desired VLAN to open the cell for edits.
+2. Click anywhere on the screen to close the field for edits and save the change.
+
+To edit a VLAN name from the VLAN Details screen: 
+
+1. Click on the VLAN to view its details.
+2. Select the **Name** cell for the desired VLAN to open the cell for edits.
+3. Click anywhere on the screen to close the field for edits and save the change.
 
 ## What Happens Next
-
-After editing a VLAN Name, the top-left corner of the field will briefly turn red, indicating the change has been saved. At any time, the VLAN Name may be edited again by repeating the previous steps.
+After you edit the VLAN name, the field will change color briefly, indicating that your change has been saved. You may edit the VLAN name again at any time by repeating the previous steps.

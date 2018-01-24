@@ -1,18 +1,19 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-12-04"
+lastupdated: "2017-12-27"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Display your VLANs
+# View VLAN Details
 
-VLANs are displayed on the VLANs screen in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). Each VLAN has details associated with it, including the router, location, and associated devices and subnets. All of these details may be viewed by displaying the VLANs screen. Follow these steps: 
+To view all your VLANs and their details: 
 
-* Navigate to the **VLANs** screen. Refer to [Use the VLANs Screen](vlans-screen.html){:new_window}.
-* Click the **VLAN Number** link for the desired VLAN.
+1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
+2. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
+3. Click the **VLAN Number** link to view more details about that specific VLAN.
 
 ## What Happens Next
 
-After displaying a VLAN, you may [edit the VLAN name](edit-vlan.html), view and manage devices associated with the VLAN, and view and manage associated subnets. Devices and subnets may be displayed for editing by clicking the link for the desired device or subnet. Return to the VLANs screen at any time by clicking the **View all VLANs** link at the top of the screen or the appropriate **VLAN Number** link if viewing details at the device or subnet level.
+After displaying a VLAN, you may [edit the VLAN name](edit-vlan.html), view or manage devices associated with the VLAN, and view or manage associated subnets. To display devices and subnets, for editing click the link for the desired device or subnet. Return to the VLANs screen at any time by clicking the **View all VLANs** link at the top of the screen, or by clicking the appropriate **VLAN Number** link if you're viewing details at the device or subnet level.
