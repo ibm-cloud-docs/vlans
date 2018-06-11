@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-12-27"
+lastupdated: "2018-06-06"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -12,11 +12,12 @@ Sometimes, multiple private network VLANs can exist on a single customer account
 
 VLAN spanning service applies to all devices on the account; spanning may not be applied to specific VLANs or to specific devices. VLAN spanning may be enabled or disabled as necessary, and it takes approximately 15 minutes to process, once a change to the setting has been made. Follow the steps given in this article to enable or disable VLAN spanning on an account.
 
+1. From your browser, open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){: new_window} and log into your account.
+2. In the menu, select **Infrastructure**. The Customer Portal opens.
+3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
+4. Select the **Span** tab to access the VLAN Spanning section.
+5. Select the **On** radio button to enable VLAN spanning. Choose the **Off** radio button to disable VLAN spanning.
 
-1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
-2. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
-3. Select the **Span** tab to access the VLAN Spanning section.
-4. Select the **On** radio button to enable VLAN spanning. Choose the **Off** radio button to disable VLAN spanning.
 
 ## What Happens Next
 

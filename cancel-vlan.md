@@ -1,18 +1,20 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-11-29"
+lastupdated: "2018-06-06"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Cancel a VLAN
 
-VLANs ordered independently of a device can be canceled when there are no references to the VLAN.  References include devices on the VLAN and portable subnets ordered on the VLAN. 
+VLANs ordered independently of a device can be canceled when there are no references to the VLAN.  References include devices on the VLAN and portable subnets ordered on the VLAN.
 
 Follow the steps in this article to cancel a VLAN.
 
-* Navigate to the **VLANs** screen in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). Refer to [Use the VLANs Screen](vlans-screen.html).
+* From your browser, open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){: new_window} and log into your account.
+* In the menu, select **Infrastructure**. The Customer Portal opens.
+* In the Customer Portal navigation, select **Network > IP Management > VLANs**.
 * Choose the **Cancel** icon for the desired VLAN.
 * Select the appropriate **Cancel** radio box based on your preference of how the VLAN should be canceled. **Note:** Specific information on cancellation options is displayed next to each radio button.
 * Enter notes regarding the cancellation in the **Notes** text box.

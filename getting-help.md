@@ -4,15 +4,15 @@
 
 copyright:
   years: 2017,2018
-lastupdated: "2018-02-28"
+lastupdated: "2018-06-06"
 
 
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
-{:tsSymptoms: .tsSymptoms} 
-{:tsCauses: .tsCauses} 
-{:tsResolve: .tsResolve} 
+{:tsSymptoms: .tsSymptoms}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
@@ -28,10 +28,10 @@ lastupdated: "2018-02-28"
 <!-- The short description section should include the service long name and "Bluemix" for search optimization. Example short description: -->
 
 <!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
-# Getting Help and Support 
+# Getting Help and Support
 {: #gettinghelp}
 
-If you have problems or questions when using VLANs, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
+If you have problems or questions when using VLANs, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the Customer Portal by opening the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){: new_window} and log into your account. In the menu, select **Infrastructure**.
 {:shortdesc}
 
 When using the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
@@ -43,4 +43,3 @@ When using the forums to ask a question, tag your question so that it is seen by
 See [Getting help](https://console.bluemix.net/docs/support/index.html#getting-help) for more details about using the forums.
 
 For information about opening an IBM support ticket, or about support levels and ticket severities, see [Contacting support](https://console.bluemix.net/docs/support/index.html#contacting-support).
-

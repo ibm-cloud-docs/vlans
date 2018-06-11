@@ -1,18 +1,19 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-12-27"
+lastupdated: "2018-06-06"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # View VLAN Details
 
-To view all your VLANs and their details: 
+To view all your VLANs and their details:
 
-1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
-2. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
-3. Click the **VLAN Number** link to view more details about that specific VLAN.
+1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){: new_window} and log into your account.
+2. In the menu, select **Infrastructure**.
+3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
+4. Click the **VLAN Number** link to view more details about that specific VLAN.
 
 ## What Happens Next
 

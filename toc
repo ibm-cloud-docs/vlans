@@ -10,12 +10,17 @@ VLANs
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    order-vlan.md
     vlan-spanning.md
     display-vlans.md
     edit-vlan.md
     comm-across-multiple-vlans.md
     {: .navgroup-end}
-
+    
+    {: .navgroup id="reference"}
+    legacy-customers.md
+    {: .navgroup-end}
+    
     {: .navgroup id="help"}
     faq.md
     getting-help.md

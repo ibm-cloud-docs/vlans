@@ -1,21 +1,22 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-10-20"
+lastupdated: "2018-06-06"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Getting Started with VLANs
 
-A VLAN is a Virtual Local Area Network, which can be created to permit customers to separate parts of a larger network into smaller subnets. A VLAN works as a container within which a single customer's connections and IP addresses can remain separate from any other customer. VLANs allow for better security and for isolation of certain issues. On our {{site.data.keyword.BluSoftlayer_notm}} network, VLANs provide the ability to partition your devices and subnets. 
+A VLAN is a Virtual Local Area Network, which can be created to permit customers to separate parts of a larger network into smaller subnets. A VLAN works as a container within which a single customer's connections and IP addresses can remain separate from any other customer. VLANs allow for better security and for isolation of certain issues. On our {{site.data.keyword.BluSoftlayer_notm}} network, VLANs provide the ability to partition your devices and subnets.
 
 You may manage your VLANs from the VLANs screen:
 
-1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
-2. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
+1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){: new_window} and log into your account.
+2. In the menu, select **Infrastructure**.
+3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
 
-The VLANs screen displays information about your VLANs, and it provides access to each VLAN, along with associated devices or subnets. As an added service, customers may enable VLAN Spanning, which connects all private network VLANs on an account, thereby allowing devices on separate VLANs to communicate with each other. 
+The VLANs screen displays information about your VLANs, and it provides access to each VLAN, along with associated devices or subnets. As an added service, customers may enable VLAN Spanning, which connects all private network VLANs on an account, thereby allowing devices on separate VLANs to communicate with each other.
 
 ## VLAN Identification
 
