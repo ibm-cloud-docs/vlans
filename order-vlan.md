@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-06"
+lastupdated: "2018-06-11"
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,7 +15,7 @@ To order a VLAN, follow these steps.
   - check: Sales/Inquiry
   - check: Infrastructure
 2. Put that you would like to request an additional VLAN and attach the form: 
-[VLAN_Request_Form.fill-in.pdf](images/VLAN_Request_Form.fill-in.pdf)
+[vlan_request_form.fill-in.pdf](images/vlan_request_form.fill-in.pdf)
 
 ## What Happens Next?
 Support will contact you to complete the order. See [Getting Help](getting-help.html) for more information on how to check the status of your ticket.
