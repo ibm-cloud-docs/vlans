@@ -15,7 +15,7 @@ To order a VLAN, follow these steps.
   - check: Sales/Inquiry
   - check: Infrastructure
 2. Put that you would like to request an additional VLAN and attach the form: 
-[vlan_request_form.fill-in.pdf](images/vlan_request_form.fill-in.pdf)
+[vlan_request_form_fill_in.pdf](https://public.dhe.ibm.com/cloud/bluemix/network/vlans/vlan_request_form_fill_in.pdf)
 
 ## What Happens Next?
 Support will contact you to complete the order. See [Getting Help](getting-help.html) for more information on how to check the status of your ticket.
