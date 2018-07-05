@@ -1,12 +1,12 @@
 ---
  copyright:
    years: 2018
-lastupdated: "2018-06-08"
- ---
- {:shortdesc: .shortdesc}
- {:new_window: target="_blank"}
+lastupdated: "2018-07-05"
+---
+{:shortdesc: .shortdesc}
+{:new_window: target="_blank"}
  
- # Legacy Customer Portal
+# Legacy Customer Portal
  
 Some legacy customers only have access to the Customer Portal through `https.control.softlayer.com`. Follow these instructions to log in, then perform any of the activities as described in VLANs documentation. 
 
