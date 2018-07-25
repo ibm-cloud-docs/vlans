@@ -16,12 +16,12 @@ VLANs
     edit-vlan.md
     comm-across-multiple-vlans.md
     {: .navgroup-end}
-      
+       
+    {: .navgroup id="reference"}
+    legacy-customers.md
+    {: .navgroup-end}
+    
     {: .navgroup id="help"}
     faq.md
     getting-help.md
-    {: .navgroup-end}
-    
-    {: .navgroup id="reference"}
-    legacy-customers.md
     {: .navgroup-end}
