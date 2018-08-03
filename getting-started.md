@@ -8,24 +8,56 @@ lastupdated: "2018-06-06"
 
 # Getting Started with VLANs
 
-A VLAN is a Virtual Local Area Network, which can be created to permit customers to separate parts of a larger network into smaller subnets. A VLAN works as a container within which a single customer's connections and IP addresses can remain separate from any other customer. VLANs allow for better security and for isolation of certain issues. On our {{site.data.keyword.BluSoftlayer_notm}} network, VLANs provide the ability to partition your devices and subnets.
+Virtual Local Area Networks or VLANs are used by {{site.data.keyword.cloud}} to
+isolate broadcast traffic on both the public and private networks. VLANs are
+automatically assigned as needed to fulfill other offerings. For instance,
+compute orders in a datacenter you don't yet have a presence in will
+automatically receive a VLAN. Further compute orders for the same datacenter,
+and which do not specify network requirements, will be placed in the previously
+assigned VLAN (for the most part, other product factors can effect this). All
+VLANs which are assigned automatically, are also removed automatically when
+resources no longer require them. Don't be alarmed when a new VLAN is assigned
+or an existing VLAN is removed.
 
-You may manage your VLANs from the VLANs screen:
+VLANs are specific to the routers used in our datacenters, and a datacenter will
+contain multiple routers for both the public and private networks. Thus, it is
+possible, depending on the other products used, that multiple VLANs are assigned
+within a single datacenter. It is also possible to order additional VLANs to
+construct more complex network topologies; typically in conjunction with a
+(Virtual Router Appliance)[https://console.bluemix.net/docs/infrastructure
+/virtual-router-appliance/getting-started.html].
 
-1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){: new_window} and log into your account.
-2. In the menu, select **Infrastructure**.
-3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
+Learn more about how VLANs operate in [About VLANs](about-vlans.md).
 
-The VLANs screen displays information about your VLANs, and it provides access to each VLAN, along with associated devices or subnets. As an added service, customers may enable VLAN Spanning, which connects all private network VLANs on an account, thereby allowing devices on separate VLANs to communicate with each other.
 
-## VLAN Identification
+## Managing VLANs
 
-VLANs exist on routers within our datacenters. Each VLAN is identified by a unique number, router, and datacenter location. For example, `VLAN 829`, which is located on router `fcr02` within datacenter `SJC01` is identified by our systems as `829 fcr02.sjc01`.
+Follow these steps to review the VLANs on your account:
 
-## VLAN Spanning
+  1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){: new_window} and log into your account.
+  2. In the menu, select **Infrastructure**.
+  3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
 
-VLAN spanning is an account setting that enables traffic to travel between private VLANs that belong to a single account. Due to the nature of the private network, very little traffic is allowed into an account's private VLANs. In general, VLANs protect devices from network traffic on other customer accounts. Private VLANs take this protection a step further by restricting traffic on the VLAN to occur only between devices on that VLAN; therefore, by default, devices that are located on two different private VLANs may not send traffic to one another. By [enabling VLAN spanning](vlan-spanning.html), this restriction is lifted so that devices on one account's different private VLANs may communicate.
+The VLANs listing displays information about your VLANs, and it provides access
+to each VLAN, along with associated devices or subnets.
 
-### When should I enable VLAN spanning for my account?
 
-VLAN spanning should be enabled whenever the business need arises. For example, if servers that reside on more than one private subnet need to communicate, VLAN spanning should be enabled. Communication between VLANs is not specific to the physical location of the VLAN; for example, private VLANs in the same datacenter are still entirely segregated from one another. When devices are located in two or more VLANs, each with their own subnet, VLAN spanning must be enabled for the devices to communicate.
+## Ordering VLANs
+
+When you're ready to explore a more complex network topology, additional VLANs
+can be used to isolate traffic between groups of devices. Unlike VLANs
+automatically assigned to fulfill the needs of other products, a purchased VLAN
+will remain on your account until canceled.
+
+Order a VLAN by following these steps:
+
+  1. Open a ticket at https://control.bluemix.net/ > Support > Add Ticket
+    - check: Sales/Inquiry
+    - check: Infrastructure
+  2. Put that you would like to request an additional VLAN and attach the form:
+     [vlan_request_form_fill_in.pdf](https://public.dhe.ibm.com/cloud/bluemix/network/vlans/vlan_request_form_fill_in.pdf)
+
+### What Happens Next?
+
+Support will contact you to complete the order. See [Getting Help](getting-help.html)
+for more information on how to check the status of your ticket.
