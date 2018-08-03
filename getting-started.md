@@ -24,10 +24,10 @@ contain multiple routers for both the public and private networks. Thus, it is
 possible, depending on the other products used, that multiple VLANs are assigned
 within a single datacenter. It is also possible to order additional VLANs to
 construct more complex network topologies; typically in conjunction with a
-(Virtual Router Appliance)[https://console.bluemix.net/docs/infrastructure
-/virtual-router-appliance/getting-started.html].
+[Virtual Router Appliance](https://console.bluemix.net/docs/infrastructure
+/virtual-router-appliance/getting-started.html).
 
-Learn more about how VLANs operate in [About VLANs](about-vlans.md).
+Learn more about how VLANs operate in [About VLANs](about-vlans.html).
 
 
 ## Managing VLANs
