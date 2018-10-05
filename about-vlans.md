@@ -1,30 +1,22 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-10-16"
+lastupdated: "2018-10-05"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # About VLANs
 
-VLANs are central in directing traffic to your resources. Depending on your
-situation, you may never need to directly interact with VLANs as they are
-managed automatically. Assigned as needed, removed when not.
+VLANs are central in directing traffic to your resources. You may never need to interact directly with any VLANs, because they are managed automatically: they are assigned as needed and removed when not.
 
-A VLAN is network concept which provides for creating broadcast domains at the
-[OSI Model ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/OSI_model) layer 2 level, the _data link layer_. VLANs provide one means of
-packet identification and allow multiple workloads to coexist on the same
+A VLAN is network concept. It provides for creating broadcast domains at the [OSI Model ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/OSI_model) layer 2 level, the _data link layer_. VLANs provide one method of packet identification, and they allow multiple workloads to coexist on the same
 physical equipment. For more information about VLANs, please refer to [this article ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Virtual_LAN).
 
 
 ## VLAN Identification
 
-VLANs exist on routers within our datacenters. Each VLAN is identified by a
-unique number, router, and datacenter location combination. For example, public
-`VLAN 829`, which is located on router `fcr02` within datacenter `SJC01` would
-be identified by `sjc01.fcr02.829`. Private VLAN 2234, located on router `bcr01`
-within datacenter `AMS01` would be identified by `ams01.bcr01.2234`.
+VLANs exist on routers within IBM Cloud datacenters. Each VLAN is identified by a unique number, router, and datacenter location combination. For example, public `VLAN 829`, which is located on router `fcr02` within datacenter `SJC01` would be identified by `sjc01.fcr02.829`. Private VLAN 2234, located on router `bcr01` within datacenter `AMS01` would be identified by `ams01.bcr01.2234`.
 
 
 ## VLANs and Subnets
