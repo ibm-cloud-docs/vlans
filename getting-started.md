@@ -1,31 +1,16 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2018-09-05"
+lastupdated: "2018-10-05"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Getting Started with VLANs
 
-Virtual Local Area Networks or VLANs are used by {{site.data.keyword.cloud}} to
-isolate broadcast traffic on both the public and private networks. VLANs are
-automatically assigned as needed to fulfill other offerings. For instance,
-compute orders in a datacenter you don't yet have a presence in will
-automatically receive a VLAN. Further compute orders for the same datacenter,
-and which do not specify network requirements, will be placed in the previously
-assigned VLAN (for the most part, other product factors can effect this). All
-VLANs which are assigned automatically, are also removed automatically when
-resources no longer require them. Don't be alarmed when a new VLAN is assigned
-or an existing VLAN is removed.
+Virtual Local Area Networks or VLANs are used by {{site.data.keyword.cloud}} to isolate broadcast traffic on the public and private networks. VLANs are assigned as needed to fulfill other offerings. For instance, if you place a compute orders for a datacenter in which you don't yet have a presence, you'll automatically receive a VLAN. Additional compute orders for the same datacenter, which do not specify network requirements, are placed in the previously assigned VLAN (for the most part, other product factors can affect this). All VLANs that are assigned automatically are also removed automatically when your resources no longer require them. 
 
-VLANs are specific to the routers used in our datacenters, and a datacenter will
-contain multiple routers for both the public and private networks. Thus, it is
-possible, depending on the other products used, that multiple VLANs are assigned
-within a single datacenter. It is also possible to order additional VLANs to
-construct more complex network topologies; typically in conjunction with a
-[Virtual Router Appliance](https://console.bluemix.net/docs/infrastructure
-/virtual-router-appliance/getting-started.html).
+VLANs are specific to the routers used in IBM Cloud datacenters, and a datacenter contains multiple routers to handle the public and private networks. Thus, it is possible, that multiple VLANs can be assigned within a single datacenter. It also is possible to order additional VLANs to construct more complex network topologies; typically in conjunction with a [Virtual Router Appliance](https://console.bluemix.net/docs/infrastructure/virtual-router-appliance/getting-started.html).
 
 Learn more about how VLANs operate in [About VLANs](about-vlans.html).
 
