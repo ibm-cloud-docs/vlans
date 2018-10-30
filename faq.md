@@ -56,7 +56,7 @@ see those devices associated with both public and private VLANs.
 ## How do I trunk my VLANs to my servers?
 
 VLANs may only be trunked to bare metal servers through use of the API; no portal interface is available for this activity. 
-For more information for managing VLANs as trunks, see the API documentation links below.
+For more information about managing VLANs as trunks, see the API documentation links below.
 * https://softlayer.github.io/reference/services/SoftLayer_Network_Component/addNetworkVlanTrunks
 * https://softlayer.github.io/reference/services/SoftLayer_Network_Component/removeNetworkVlanTrunks
 
