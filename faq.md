@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-10-17"
+lastupdated: "2017-10-29"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -52,3 +52,11 @@ reside on the VLAN.
 Any device that has a network connection will be associated with a VLAN.
 Dedicated servers have both a public and private network connection, so you will
 see those devices associated with both public and private VLANs.
+
+## How do I trunk my VLANs to my servers?
+
+VLANs may only be trunked to bare metal servers through use of the API; no portal interface is available for this activity. 
+For more information about managing VLANs as trunks, see the API documentation links below.
+* https://softlayer.github.io/reference/services/SoftLayer_Network_Component/addNetworkVlanTrunks
+* https://softlayer.github.io/reference/services/SoftLayer_Network_Component/removeNetworkVlanTrunks
+
