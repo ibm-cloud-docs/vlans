@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2018-08-24"
+lastupdated: "2018-11-02"
 ---
 
 {:shortdesc: .shortdesc}
@@ -17,24 +17,22 @@ VLAN spanning enables all devices on an account to communicate with each other b
 {: #understanding}
 
 
-In {{site.data.keyword.Bluemix}}, VLAN spanning can be used for many different purposes and has an impact on device communication. To learn more about the basics of VLAN spanning before you get started, review the following questions and answers.
+In {{site.data.keyword.Bluemix}}, VLAN spanning can be used for many different purposes and has an impact on device communication. To learn more about the basics of VLAN spanning before you get started, review the following information.
 {: shortdesc}
 
-### How does VLAN spanning work?
+### How VLAN spanning works
 
-By enabling VLAN spanning, all of your routed traffic is able to travel between the VLANs and private subnets in your account. There are times that a business need might arise that requires the global communication of your routed traffic. For example: if devices that reside on more than one private subnet, or VLANS need to communicate, then VLAN spanning should be enabled.
+By enabling VLAN spanning, all of your routed traffic is able to travel between all private subnets, across all private VLANs on your account. This serves business needs that require the global communication of your routed traffic. For example: Enable VLAN spanning if devices residing on more than one private subnet need to communicate, whether on the same or different VLANs.
 
-**Note**: When spanning is enabled, it affects the entire account. You cannot specify VLANS or devices for which VLAN spanning is not applied.
+**Note**: When spanning is enabled, it affects the entire account. You cannot exempt any subnets, VLANs or devices from VLAN Spanning. If you currently rely solely on private subnets to segregate servers into roles or tiers, enabling VLAN spanning removes that segregation.
 
-### What is the default?
+### Default values
 
-By default, VLAN spanning is disabled. Devices located on two different private VLANS or subnets within the same VLAN can not send IP traffic to each other.
+By default, VLAN spanning is disabled. Devices located on two different private subnets, whether on the same or different VLANs, will not be able to send IP traffic to one another.
 
-### Are there any services that commonly require VLAN spanning?
+### Services that commonly require VLAN spanning
 
-When working with [{{site.data.keyword.containerlong_notm}}](/docs/containers/container_index.html), you frequently need to enable VLAN spanning. If you have multiple VLANs for a cluster, multiple subnets on the same VLAN, or a multizone cluster, you must enable VLAN spanning for your {{site.data.keyword.Bluemix_notm}} infrastructure account so your worker nodes can communicate with each other on the private network. If you do not have the correct access to perform this action, you can request that the account owner enable it. If you're unsure about whether VLAN spanning is enabled, you can run `ibmcloud ks vlan-spanning-get` to see your account status.
-
-If you are using {{site.data.keyword.BluDirectLink}}, you must use a [Virtual Router Function (VRF)](/docs/infrastructure/direct-link/subnet-configuration.html#more-about-using-vrf) instead. To enable VRF, contact your {{site.data.keyword.Bluemix_notm}} infrastructure account representative.
+Specific tutorials are available to help you set up VLAN spanning for your situation. See our links to [Other resources](other-resources.html).
 
 
 ## Managing VLAN spanning

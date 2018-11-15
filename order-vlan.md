@@ -1,21 +1,25 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-11"
+lastupdated: "2018-11-09"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Order VLANs
+# Ordering Premium VLANs
 
-To order a VLAN, follow these steps.
+When you're ready to explore a more complex network topology, you can use additional VLANs to isolate traffic between groups of devices. Unlike Automatic VLANs which are automatically assigned to fulfill the needs of other products, a Premium VLAN remains on your account until canceled.
 
-1. Open a ticket at https://control.bluemix.net/ > Support > Add Ticket
-  - check: Sales/Inquiry
-  - check: Infrastructure
-2. Put that you would like to request an additional VLAN and attach the form: 
-[vlan_request_form_fill_in.pdf](https://public.dhe.ibm.com/cloud/bluemix/network/vlans/vlan_request_form_fill_in.pdf)
+Follow these steps to order a VLAN.
 
-## What Happens Next?
-Support will contact you to complete the order. See [Getting Help](getting-help.html) for more information on how to check the status of your ticket.
+  1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){: new_window} and log into your account.
+  1. In the menu, select **Infrastructure**.
+  1. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
+  1. Select **Order VLAN** and specify your desired configuration.
+
+## What happens next?
+
+Barring any necessary approval processes for your account status, a new VLAN with your desired configuration appears on your account within a few moments.
+
+New VLANs are typically delivered without a Primary Subnet. Whether one exists is not an indication that it will be added in the future. To understand more about what Primary Subnets are and how they are used, review [Subnets and IPs](../../infrastructure/subnets/).

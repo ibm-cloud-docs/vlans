@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017,2018
-lastupdated: "2018-06-06"
+lastupdated: "2018-11-02"
 
 
 ---
@@ -40,6 +40,6 @@ When using the forums to ask a question, tag your question so that it is seen by
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
 * For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/answers/topics/vlans.html?smartspace=ibm-cloud){:new_window} forum. Include the  "vlans" and "ibm-cloud" tags.
 
-See [Getting help](https://console.bluemix.net/docs/support/index.html#getting-help) for more details about using the forums.
+See [Getting help](../../support/index.html#getting-help) for more details about using the forums.
 
-For information about opening an IBM support ticket, or about support levels and ticket severities, see [Contacting support](https://console.bluemix.net/docs/support/index.html#contacting-support).
+For information about opening an IBM support ticket, or about support levels and ticket severities, see [Contacting support](../../docs/support/index.html#contacting-support).
