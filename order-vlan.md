@@ -22,4 +22,4 @@ Follow these steps to order a VLAN.
 
 Barring any necessary approval processes for your account status, a new VLAN with your desired configuration appears on your account within a few moments.
 
-New VLANs are typically delivered without a Primary Subnet. Whether one exists is not an indication that it will be added in the future. To understand more about what Primary Subnets are and how they are used, review [Subnets and IPs](../../infrastructure/subnets/getting-started.html).
+New VLANs are typically delivered without a Primary Subnet. Whether one exists is not an indication that it will be added in the future. To understand more about what Primary Subnets are and how they are used, review [Subnets and IPs](../infrastructure/subnets/getting-started.html).

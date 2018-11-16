@@ -14,9 +14,9 @@ If you are using {{site.data.keyword.BluDirectLink}}, you must use a [Virtual Ro
 
 For help with specific tasks involving VLANs, refer to the following resources. 
 
-* [Tutorial on setting up classic VLAN spanning using VRAs](https://../../docs/tutorials/vlan-spanning.html#vlan-spanning)
-* [For Kubernetes service, configuring edge nodes with multiple VLANs](https://../../docs/containers/cs_loadbalancer.html#edge_nodes_multiple_vlans)
-* [IBM Cloud CLI commands for VLANs](https://../docs/cli/reference/ibmcloud/cli_vlan.html)
-* [Route multiple VLANs over the same network interface using Juniper vSRX](https://../../docs/infrastructure/vsrx/manage-vlans.html#route-multiple-vlans-over-the-same-network-interface)
-* [Configuring subnets for Kubernetes clusters](https://../../docs/containers/cs_subnets.html#vlans)
-* [Overview of IBM Cloud Networking, VLAN spanning for VMware solutions](https://../../docs/services/vmwaresolutions/archiref/vcsnsxt/vcsnsxt-overview-ic4vnetwork.html#vlan-spanning)
+* [Tutorial on setting up classic VLAN spanning using VRAs](../tutorials/vlan-spanning.html#vlan-spanning)
+* [For Kubernetes service, configuring edge nodes with multiple VLANs](../containers/cs_loadbalancer.html#edge_nodes_multiple_vlans)
+* [IBM Cloud CLI commands for VLANs](../cli/reference/ibmcloud/cli_vlan.html)
+* [Route multiple VLANs over the same network interface using Juniper vSRX](../infrastructure/vsrx/manage-vlans.html#route-multiple-vlans-over-the-same-network-interface)
+* [Configuring subnets for Kubernetes clusters](../containers/cs_subnets.html#vlans)
+* [Overview of IBM Cloud Networking, VLAN spanning for VMware solutions](../services/vmwaresolutions/archiref/vcsnsxt/vcsnsxt-overview-ic4vnetwork.html#vlan-spanning)
