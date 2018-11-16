@@ -23,7 +23,7 @@ Automatic VLANs are managed by {{site.data.keyword.cloud}} automatically; assign
 
 ### Premium VLANs
 
-Premium VLANs are acquired by ordering a VLAN. See (Ordering Premium VLANs)[getting-started.html] for instructions. Premium VLANs remain on your account until explicitly canceled. You may order as many premium VLANs as you like, subject to capacity limitations. In the event capacity is unavailable, seek VLANs in another pod or datacenter.
+Premium VLANs are acquired by ordering a VLAN. See [Ordering Premium VLANs](getting-started.html) for instructions. Premium VLANs remain on your account until explicitly canceled. You may order as many premium VLANs as you like, subject to capacity limitations. In the event capacity is unavailable, seek VLANs in another pod or datacenter.
 
 An important distinction of Premium VLANs is that they are not selected automatically to fulfill a server order. Premium VLANs must be explicitly selected during the server ordering process to have servers reside on them. See the [FAQ](faq.html#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-) for instructions concerning VLAN selection.
 
