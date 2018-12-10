@@ -69,6 +69,4 @@ request). Follow these instructions to request a specially sized Primary Subnet:
   4. Open a ticket by navigating to **Support > Add Ticket** in the menu.
     - Subject: "Private Network Question" or "Public Network Question"
     - Title: "Large Primary Subnet Request"
-    - Details: Specify the Premium VLAN you desire the subnet on using datacenter.router.vlan notation (for example, ams03.bcr01.1234). Then specify the desired subnet size in CIDR notation (for example, /25). Denote how many servers you plan on purchasing and over what time period. Additionally, explain how your usage would be hindered without the requested subnet. Be verbose in explaining how your situation would be hindered, because this input helps us evaluate improvements to our platform.
-
-No other properties of the subnet will be considered, so there is no need for further specification.
+    - Details: Specify the Premium VLAN you desire the subnet on using datacenter.router.vlan notation (for example, ams03.bcr01.1234). Then specify the desired subnet size in CIDR notation (for example, /25). Denote how many servers you plan on purchasing and over what time period. Additionally, explain how your usage would be hindered without the requested subnet. Be verbose in explaining how your situation would be hindered, because this input helps us evaluate improvements to our platform. No other properties of the subnet will be considered, so there is no need for further specification.
