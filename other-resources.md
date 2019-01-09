@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017-2018
-lastupdated: "2018-11-02"
+  years: 1994, 2017-2019
+lastupdated: "2019-01-02"
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -14,6 +14,7 @@ If you are using {{site.data.keyword.BluDirectLink}}, you must use a [Virtual Ro
 
 For help with specific tasks involving VLANs, refer to the following resources. 
 
+* [Premium VLANs](https://www.ibm.com/blogs/bluemix/2018/12/introducing-premium-vlans-are-you-compute-first-or-network-first/)
 * [Tutorial on setting up classic VLAN spanning using VRAs](../tutorials/vlan-spanning.html#vlan-spanning)
 * [For Kubernetes service, configuring edge nodes with multiple VLANs](../containers/cs_loadbalancer.html#edge_nodes_multiple_vlans)
 * [IBM Cloud CLI commands for VLANs](../cli/reference/ibmcloud/cli_vlan.html)
