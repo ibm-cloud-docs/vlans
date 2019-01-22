@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2018
-lastupdated: "2019-01-09"
+lastupdated: "2019-01-21"
 ---
 
 
@@ -13,10 +13,14 @@ lastupdated: "2019-01-09"
 {:tip: .tip}
 {:download: .download}
 {:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
 
 # Ordering Premium VLANs
 
 When you're ready to explore a more complex network topology, you can use additional VLANs to isolate traffic between groups of devices. Unlike Automatic VLANs which are automatically assigned to fulfill the needs of other products, a Premium VLAN remains on your account until canceled.
+
+Pricing is visible during the ordering process.
+{:note}
 
 Follow these steps to order a VLAN.
 

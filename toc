@@ -19,6 +19,7 @@ VLANs
 
     {: .navgroup id="reference"}
     legacy-customers.md
+    other-resources.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
