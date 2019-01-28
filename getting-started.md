@@ -1,16 +1,25 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2018-11-09"
+lastupdated: "2019-01-28"
 ---
+
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:codeblock: .codeblock}
+{:pre: .pre}
+{:screen: .screen}
+{:tip: .tip}
+{:download: .download}
+{:important: .important}
+{:note: .note}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Getting started with VLANs
 
 Virtual Local Area Networks (VLANs) are used by {{site.data.keyword.cloud}} to isolate broadcast traffic on the public and private networks. VLANs are assigned as needed to fulfill other offerings. For instance, if you place a compute order for a datacenter in which you don't yet have a presence, you automatically receive a VLAN. Additional compute orders for the same datacenter, which do not specify network requirements, usually are placed in the previously assigned VLAN. All VLANs that are assigned automatically are also removed automatically when your resources no longer require them.
 
-VLANs are specific to the routers used in IBM Cloud datacenters, and a datacenter contains multiple routers for both the public and private networks. Thus, it is possible that multiple VLANs can be assigned within a single datacenter. It also is possible to order additional VLANs to construct more complex network topologies; typically in conjunction with a [Virtual Router Appliance](../../docs/infrastructure/virtual-router-appliance/getting-started.html).
+VLANs are specific to the routers used in IBM Cloud datacenters, and a datacenter contains multiple routers for both the public and private networks. Thus, it is possible that multiple VLANs can be assigned within a single datacenter. It also is possible to order additional VLANs to construct more complex network topologies; typically in conjunction with a [Virtual Router Appliance](https://{DomainName}/docs/infrastructure/virtual-router-appliance/getting-started.html).
 
 We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed by {{site.data.keyword.cloud}} as **Automatic VLANs**. Learn more about how VLANs operate in [About VLANs](about-vlans.html).
 
@@ -19,7 +28,7 @@ We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed
 
 Follow these steps to review the VLANs on your account.
 
-  1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){: new_window} and log into your account.
+  1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window} and log into your account.
   2. In the menu, select **Infrastructure**.
   3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
 
