@@ -1,11 +1,16 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2018-11-02"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-03"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}}
 
 # VLAN Spanning
 {: #vlan-spanning}
@@ -24,7 +29,8 @@ In {{site.data.keyword.Bluemix}}, VLAN spanning can be used for many different p
 
 By enabling VLAN spanning, all of your routed traffic is able to travel between all private subnets, across all private VLANs on your account. This serves business needs that require the global communication of your routed traffic. For example: Enable VLAN spanning if devices residing on more than one private subnet need to communicate, whether on the same or different VLANs.
 
-**Note**: When spanning is enabled, it affects the entire account. You cannot exempt any subnets, VLANs or devices from VLAN Spanning. If you currently rely solely on private subnets to segregate servers into roles or tiers, enabling VLAN spanning removes that segregation.
+When spanning is enabled, it affects the entire account. You cannot exempt any subnets, VLANs or devices from VLAN Spanning. If you currently rely solely on private subnets to segregate servers into roles or tiers, enabling VLAN spanning removes that segregation.
+{:note}
 
 ### Default values
 
@@ -32,7 +38,7 @@ By default, VLAN spanning is disabled. Devices located on two different private 
 
 ### Services that commonly require VLAN spanning
 
-Specific tutorials are available to help you set up VLAN spanning for your situation. See our links to [Other resources](other-resources.html).
+Specific tutorials are available to help you set up VLAN spanning for your situation. See our links to [Other resources](/docs/infrastructure/vlans?topic=vlans-other-resources-for-vlan-spanning).
 
 
 ## Managing VLAN spanning
@@ -43,12 +49,13 @@ You can enable or disable VLAN spanning for your account.
 
 To update your account setting, follow these steps:
 
-  1. From your browser, open the [{{site.data.keyword.Bluemix_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){: new_window} and log into your account.
+  1. From your browser, open the [{{site.data.keyword.Bluemix_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
   2. In the menu, select **Infrastructure**. The Customer Portal opens.
   3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
   4. Select the **Span** tab to access the VLAN Spanning section.
   5. Select the **On** or **Off** radio button as desired to enable or disable VLAN spanning respectively.
 
-**Note**: Toggling VLAN Spanning within a short amount of time might result in delayed application.
+Toggling VLAN Spanning within a short amount of time might result in delayed application.
+{:note}
 
 The update request can take up to 15 minutes to process. A confirmation of the change displays on the screen. You can update your VLAN spanning settings at any time by repeating the previous steps.

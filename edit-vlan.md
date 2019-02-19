@@ -1,10 +1,16 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2018-06-06"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-03"
 ---
+
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # Edit a VLAN Name
 
@@ -14,7 +20,7 @@ You can update the VLAN name from the **VLANs** screen or from the **VLAN Detail
 
 For either option, first go to the VLANs screen:
 
-1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){: new_window} and log into your account.
+1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
 2. In the menu, select **Infrastructure**.
 3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
 

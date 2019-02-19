@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2018
-lastupdated: "2019-01-21"
+  years: 1994, 2018, 2019
+lastupdated: "2019-02-03"
 ---
 
 
@@ -24,8 +24,8 @@ Pricing is visible during the ordering process.
 
 Follow these steps to order a VLAN.
 
-  1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.bluemix.net/){: new_window} and log into your account.
-  1. In the menu, select **Infrastructure**.
+  1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
+  1. In the menu, select **Classic Infrastructure**.
   1. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
   1. Select **Order VLAN** and specify your desired configuration.
 
@@ -33,4 +33,4 @@ Follow these steps to order a VLAN.
 
 Barring any necessary approval processes for your account status, a new VLAN with your desired configuration appears on your account within a few moments.
 
-New VLANs are typically delivered without a Primary Subnet. Whether one exists is not an indication that it will be added in the future. To understand more about what Primary Subnets are and how they are used, review [Subnets and IPs](https://{DomainName}/docs/infrastructure/subnets/getting-started.html).
+New VLANs are typically delivered without a Primary Subnet. Whether one exists is not an indication that it will be added in the future. To understand more about what Primary Subnets are and how they are used, review [Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips).

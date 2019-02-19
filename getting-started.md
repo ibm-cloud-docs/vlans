@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2019-01-28"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-03"
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,16 +19,16 @@ lastupdated: "2019-01-28"
 
 Virtual Local Area Networks (VLANs) are used by {{site.data.keyword.cloud}} to isolate broadcast traffic on the public and private networks. VLANs are assigned as needed to fulfill other offerings. For instance, if you place a compute order for a datacenter in which you don't yet have a presence, you automatically receive a VLAN. Additional compute orders for the same datacenter, which do not specify network requirements, usually are placed in the previously assigned VLAN. All VLANs that are assigned automatically are also removed automatically when your resources no longer require them.
 
-VLANs are specific to the routers used in IBM Cloud datacenters, and a datacenter contains multiple routers for both the public and private networks. Thus, it is possible that multiple VLANs can be assigned within a single datacenter. It also is possible to order additional VLANs to construct more complex network topologies; typically in conjunction with a [Virtual Router Appliance](https://{DomainName}/docs/infrastructure/virtual-router-appliance/getting-started.html).
+VLANs are specific to the routers used in IBM Cloud datacenters, and a datacenter contains multiple routers for both the public and private networks. Thus, it is possible that multiple VLANs can be assigned within a single datacenter. It also is possible to order additional VLANs to construct more complex network topologies; typically in conjunction with a [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-getting-started-with-ibm-virtual-router-appliance).
 
-We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed by {{site.data.keyword.cloud}} as **Automatic VLANs**. Learn more about how VLANs operate in [About VLANs](about-vlans.html).
+We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed by {{site.data.keyword.cloud}} as **Automatic VLANs**. Learn more about how VLANs operate in [About VLANs](/docs/infrastructure/vlans?topic=vlans-about-vlans).
 
 
 ## Managing VLANs
 
 Follow these steps to review the VLANs on your account.
 
-  1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/){: new_window} and log into your account.
+  1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
   2. In the menu, select **Infrastructure**.
   3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
 
@@ -50,7 +50,7 @@ The portal ordering experience only provides for ordering a single VLAN configur
 
 ### A note about capacity
 
-An attempt to order a VLAN may be prevented due to capacity restrictions in the location selected. If encountered, it affects all users trying to order VLANs in that location; no recourse is available. If possible, we encourage you to establish a presence in another datacenter, and consider taking advantage of [VLAN Spanning](vlan-spanning.html). If your location needs are flexible, it's best to use the least specific location option when ordering VLANs, because this allows for greater flexibility in allocating your VLANs. Additionally, VLAN capacity in a previously attempted location can become available at a later time.
+An attempt to order a VLAN may be prevented due to capacity restrictions in the location selected. If encountered, it affects all users trying to order VLANs in that location; no recourse is available. If possible, we encourage you to establish a presence in another datacenter, and consider taking advantage of [VLAN Spanning](/docs/infrastructure/vlans?topic=vlans-vlan-spanning). If your location needs are flexible, it's best to use the least specific location option when ordering VLANs, because this allows for greater flexibility in allocating your VLANs. Additionally, VLAN capacity in a previously attempted location can become available at a later time.
 
 
 ## Canceling Premium VLANs
