@@ -1,7 +1,12 @@
 ---
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-02-03"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-27"
+
+keywords: new VLAN, subnet selector, VLAN moves
+
+subcollection: vlans
+
 ---
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -13,6 +18,7 @@ lastupdated: "2019-02-03"
 {:faq: data-hd-content-type='faq'}
 
 # FAQs
+{:#vlans-faqs}
 
 
 ## Can I move an existing device to a new VLAN?

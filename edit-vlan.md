@@ -1,7 +1,11 @@
 ---
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-02-03"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-27"
+
+keywords: VLAN Name, VLANs screen, permanent VLAN number
+
+subcollection: vlans
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +17,7 @@ lastupdated: "2019-02-03"
 {:generic: data-hd-programlang="generic"}
 
 # Edit a VLAN Name
+{:#edit-vlan-name}
 
 Each VLAN is issued a permanent VLAN number to assist in identifying it. You also may assign a VLAN name and edit it at any time. VLAN names are displayed on the VLANs screen and also when you view the individual VLAN. We recommend using a naming convention for your VLANs, so they can be identified easily by all users on the account.
 
@@ -36,4 +41,6 @@ To edit a VLAN name from the VLAN Details screen:
 3. Click anywhere on the screen to close the field for edits and save the change.
 
 ## What Happens Next
+{:#edit-vlan-name-what-happens-next}
+
 After you edit the VLAN name, the field will change color briefly, indicating that your change has been saved. You may edit the VLAN name again at any time by repeating the previous steps.

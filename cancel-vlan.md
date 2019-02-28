@@ -1,7 +1,12 @@
 ---
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-02-03”
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-27”
+
+keywords: Cancel icon, VLANs, cancellation options
+
+subcollection: vlans
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -11,7 +16,9 @@ lastupdated: "2019-02-03”
 {:important: .important}
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
+
 # Cancel a VLAN
+{:#cancel-vlan}
 
 VLANs ordered independently of a device can be canceled when there are no references to the VLAN.  References include devices on the VLAN and portable subnets ordered on the VLAN.
 
@@ -28,5 +35,6 @@ Follow the steps in this article to cancel a VLAN.
 * Select the **Cancel VLAN** button to confirm the cancellation, or select the **Close** button to cancel the action and keep the VLAN active.
 
 ## What Happens Next
+{:#cancel-vlan-what-happens-next}
 
 After submitting a cancellation request, the VLAN is canceled according to your selection: either immediately, or on the billing anniversary date. If you choose to cancel the VLAN immediately, the VLAN is reclaimed as soon as possible. If you select cancellation on the billing anniversary date, the VLAN remains active until the billing anniversary date.

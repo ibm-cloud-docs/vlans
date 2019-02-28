@@ -1,13 +1,20 @@
 ---
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-02-03"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-27"
+
+keywords: IBM Cloud Kubernetes Service, IBM Cloud infrastructure account, private network
+
+subcollection: vlans
+
 ---
+
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Other resources for VLAN spanning
+{:#other-resources-vlan-spanning}
 
 When working with [{{site.data.keyword.containerlong_notm}}](https://{DomainName}/docs/containers/container_index.html), you frequently need to enable VLAN spanning. If you have multiple VLANs for a cluster, multiple subnets on the same VLAN, or a multizone cluster, you must enable VLAN spanning for your {{site.data.keyword.Bluemix_notm}} infrastructure account so your worker nodes can communicate with each other on the private network. If you do not have the correct access to perform this action, you can request that the account owner enable it. If you're unsure about whether VLAN spanning is enabled, you can run `ibmcloud ks vlan-spanning-get` to see your account status.
 

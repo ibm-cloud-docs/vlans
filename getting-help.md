@@ -1,8 +1,12 @@
 ---
 
 copyright:
-  years: 2017-2019
-lastupdated: "2019-02-03"
+  years: 2017, 2018, 2019
+lastupdated: "2019-02-27"
+
+keywords: support ticket, IBM support ticket, questions
+
+subcollection: vlans
 
 ---
 
@@ -31,7 +35,7 @@ lastupdated: "2019-02-03"
 
 <!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
 # Getting Help and Support
-{: #gettinghelp}
+{: #gettinghelp-vlans}
 
 If you have problems or questions when using VLANs, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the Customer Portal by opening the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account. 
 {:shortdesc}

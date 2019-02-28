@@ -1,7 +1,12 @@
 ---
 copyright:
   years: 1994, 2018, 2019
-lastupdated: "2019-02-03"
+lastupdated: "2019-02-27"
+
+keywords: Premium VLANs, complex network topology, Automatic VLANs
+
+subcollection: vlans
+
 ---
 
 
@@ -16,6 +21,7 @@ lastupdated: "2019-02-03"
 {:note: .note}
 
 # Ordering Premium VLANs
+{:#ordering-premium-vlans}
 
 When you're ready to explore a more complex network topology, you can use additional VLANs to isolate traffic between groups of devices. Unlike Automatic VLANs which are automatically assigned to fulfill the needs of other products, a Premium VLAN remains on your account until canceled.
 
@@ -30,6 +36,7 @@ Follow these steps to order a VLAN.
   1. Select **Order VLAN** and specify your desired configuration.
 
 ## What happens next?
+{:#order-premium-vlans-what-happens-next}
 
 Barring any necessary approval processes for your account status, a new VLAN with your desired configuration appears on your account within a few moments.
 

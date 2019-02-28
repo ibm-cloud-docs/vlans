@@ -1,7 +1,12 @@
 ---
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-02-03"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-27"
+
+keywords: View VLAN Details, VLAN Number link, VLANs screen
+
+subcollection: vlans
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +18,7 @@ lastupdated: "2019-02-03"
 {:generic: data-hd-programlang="generic"}
 
 # View VLAN Details
+{:#view-vlan-details}
 
 To view all your VLANs and their details:
 
@@ -22,5 +28,6 @@ To view all your VLANs and their details:
 4. Click the **VLAN Number** link to view more details about that specific VLAN.
 
 ## What Happens Next
+{:#view-vlan-details-what-happens-next}
 
 After displaying a VLAN, you may [edit the VLAN name](/docs/infrastructure/vlans?topic=vlans-edit-a-vlan-name), view or manage devices associated with the VLAN, and view or manage associated subnets. To display devices and subnets, for editing click the link for the desired device or subnet. Return to the VLANs screen at any time by clicking the **View all VLANs** link at the top of the screen, or by clicking the appropriate **VLAN Number** link if you're viewing details at the device or subnet level.

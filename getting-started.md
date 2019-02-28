@@ -1,7 +1,12 @@
 ---
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-02-03"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-27"
+
+keywords: compute order, Additional compute orders, Premium VLANs
+
+subcollection: vlans
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -16,6 +21,7 @@ lastupdated: "2019-02-03"
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Getting started with VLANs
+{:#getting-started-with-vlans}
 
 Virtual Local Area Networks (VLANs) are used by {{site.data.keyword.cloud}} to isolate broadcast traffic on the public and private networks. VLANs are assigned as needed to fulfill other offerings. For instance, if you place a compute order for a datacenter in which you don't yet have a presence, you automatically receive a VLAN. Additional compute orders for the same datacenter, which do not specify network requirements, usually are placed in the previously assigned VLAN. All VLANs that are assigned automatically are also removed automatically when your resources no longer require them.
 
@@ -25,6 +31,7 @@ We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed
 
 
 ## Managing VLANs
+{:#managing-vlans}
 
 Follow these steps to review the VLANs on your account.
 
@@ -35,6 +42,7 @@ Follow these steps to review the VLANs on your account.
 The VLANs listing displays information about your VLANs, and it provides access to each VLAN, along with associated devices or subnets.
 
 ### Understanding pod vs. datacenter selection
+{:#pod-vs-datacenter-selection}
 
 The options for where to order a VLAN provide for different needs and constraints. This section summarizes reasons why you might select one option over another.
 
@@ -45,15 +53,18 @@ Use the **Order by Datacenter** option when the location of the VLAN is less imp
 It's best to use the least specific location option available that fits your current need.
 
 ### Complex orders
+{:#complex-orders-vlans}
 
 The portal ordering experience only provides for ordering a single VLAN configuration per order. A configuration consists of the desired network, location option, and quantity. While it is possible to order multiple VLAN configurations in a single order via the API, each configuration quantity is restricted to 1. This means that each VLAN configuration provided is fulfilled independently. Thus, if each configuration utilizes the datacenter location option, each VLAN can be assigned to different pods within that datacenter.
 
 ### A note about capacity
+{:#note-about-capacity}
 
 An attempt to order a VLAN may be prevented due to capacity restrictions in the location selected. If encountered, it affects all users trying to order VLANs in that location; no recourse is available. If possible, we encourage you to establish a presence in another datacenter, and consider taking advantage of [VLAN Spanning](/docs/infrastructure/vlans?topic=vlans-vlan-spanning). If your location needs are flexible, it's best to use the least specific location option when ordering VLANs, because this allows for greater flexibility in allocating your VLANs. Additionally, VLAN capacity in a previously attempted location can become available at a later time.
 
 
 ## Canceling Premium VLANs
+{:#canceling-premium-vlans}
 
 When you are ready to remove a premium VLAN, locate that VLAN in your account's VLAN listing (See Managing VLANs above) and click the "X" icon within the entry to initiate the cancellation prompts.
 
