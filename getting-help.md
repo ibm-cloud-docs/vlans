@@ -37,7 +37,7 @@ subcollection: vlans
 # Getting Help and Support
 {: #gettinghelp-vlans}
 
-If you have problems or questions when using VLANs, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the Customer Portal by opening the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account. 
+If you have problems or questions when using VLANs, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the Customer Portal by opening the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/unifiedsupport/cases/add){: new_window} and log into your account. 
 {:shortdesc}
 
 * In the navigation menu, select **Classic Infrastructure**.

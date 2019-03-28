@@ -30,7 +30,7 @@ Existing devices can be moved to other VLANs, but only when the move is requeste
 ## Is there a way to specify which VLAN I want to use for my device when I order it?
 {: faq}
 
-Yes, a specific VLAN may be selected during the ordering process. When ordering a device, this option is available at the end of the order form. A private VLAN is selected, followed by a public VLAN. Also note that a subnet selector is presented for each VLAN; this selection is **optional**. Only select a subnet if you have reason to do so, as selecting a subnet which lacks available IP addresses will negatively impact the fulfillment of the device (See the [Subnet FAQ](/docs/infrastructure/subnets?topic=subnets-faq) for more details).
+Yes, a specific VLAN may be selected during the ordering process. When ordering a device, this option is available at the end of the order form. A private VLAN is selected, followed by a public VLAN. Also note that a subnet selector is presented for each VLAN; this selection is **optional**. Only select a subnet if you have reason to do so, as selecting a subnet which lacks available IP addresses will negatively impact the fulfillment of the device (See the [Subnet FAQ](/docs/infrastructure/subnets?topic=subnets-subnets-faq) for more details).
 
 It is important to note that the selected VLAN must be located in the same datacenter as the device. We cannot assign a device to a VLAN that is in a different datacenter.
 

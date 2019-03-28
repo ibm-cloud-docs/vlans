@@ -52,7 +52,7 @@ VLANs exist on routers within IBM Cloud datacenters. Each VLAN is identified by 
 ## VLANs and subnets
 {:#vlans-subnets}
 
-VLANs can contain one or more subnets. Like VLANs, some subnets are automatically added and removed as devices require IP addresses. What subnets can exist, and how they operate is further detailed in [Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips).
+VLANs can contain one or more subnets. Like VLANs, some subnets are automatically added and removed as devices require IP addresses. What subnets can exist, and how they operate is further detailed in [Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-getting-started-subnets-ips).
 
 
 ## Communication within a VLAN

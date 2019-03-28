@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2018, 2019
-lastupdated: "2019-02-27"
+lastupdated: "2019-03-28"
 
 keywords: Premium VLANs, complex network topology, Automatic VLANs
 
@@ -40,4 +40,4 @@ Follow these steps to order a VLAN.
 
 Barring any necessary approval processes for your account status, a new VLAN with your desired configuration appears on your account within a few moments.
 
-New VLANs are typically delivered without a Primary Subnet. Whether one exists is not an indication that it will be added in the future. To understand more about what Primary Subnets are and how they are used, review [Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips).
+New VLANs are typically delivered without a Primary Subnet. Whether one exists is not an indication that it will be added in the future. To understand more about what Primary Subnets are and how they are used, review [Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-getting-started-subnets-ips).
