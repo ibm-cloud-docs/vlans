@@ -40,7 +40,7 @@ VLAN은 네트워크 개념입니다. [OSI 모델 ![외부 링크 아이콘](../
 
 프리미엄 VLAN은 VLAN을 주문하여 얻습니다. 지시사항은 [프리미엄 VLAN 주문](/docs/infrastructure/vlans?topic=vlans-ordering-premium-vlans)을 참조하십시오. 프리미엄 VLAN은 명시적으로 취소할 때까지 계정에 남아 있습니다. 원하는 만큼 많은 수의 프리미엄 VLAN을 주문할 수 있지만, 용량 제한사항이 적용될 수 있습니다. 용량을 사용할 수 없는 경우 다른 팟(Pod)이나 데이터 센터에서 VLAN을 찾으십시오.
 
-프리미엄 VLAN은 서버 주문을 이행하기 위해 자동으로 선택되지 않는다는 중요한 차이점이 있습니다. 프리미엄 VLAN에 서버가 상주하게 하려면 서버 주문 프로세스 중에 명시적으로 프리미엄 VLAN을 선택해야 합니다. VLAN 선택에 관한 지시사항은 [FAQ](/docs/infrastructure/vlans?topic=vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-)를 참조하십시오.
+프리미엄 VLAN은 서버 주문을 이행하기 위해 자동으로 선택되지 않는다는 중요한 차이점이 있습니다. 프리미엄 VLAN에 서버가 상주하게 하려면 서버 주문 프로세스 중에 명시적으로 프리미엄 VLAN을 선택해야 합니다. VLAN 선택에 관한 지시사항은 [FAQ](/docs/infrastructure/vlans?topic=vlans-vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-)를 참조하십시오.
 
 
 ## VLAN 식별
