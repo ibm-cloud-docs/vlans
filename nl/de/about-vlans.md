@@ -39,7 +39,7 @@ Automatische VLANs werden von {{site.data.keyword.cloud}} automatisch verwaltet;
 
 Premium-VLANs werden durch die Bestellung eines VLANs erworben. Anweisungen hierzu finden Sie im Abschnitt [Premium-VLANs bestellen](/docs/infrastructure/vlans?topic=vlans-ordering-premium-vlans). Premium-VLANs bleiben in Ihrem Konto, bis sie explizit storniert werden. Abgesehen von Kapazitätsbeschränkungen können Sie so viele Premium-VLANs bestellen, wie Sie möchten. Falls nicht ausreichend Kapazität vorhanden ist, suchen Sie VLANs in einem anderen Pod oder Rechenzentrum.
 
-Ein wichtiger Unterschied zwischen Premium-VLANs und automatischen VLANs besteht darin, dass Premium-VLANs nicht automatisch ausgewählt werden, damit eine Serverbestellung erfüllt wird. Premium-VLANs müssen während des Bestellablaufs für einen Server explizit ausgewählt werden, damit die Server verwendet werden. Anweisungen zur VLAN-Auswahl finden Sie im Abschnitt [Häufig gestellte Fragen](/docs/infrastructure/vlans?topic=vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-).
+Ein wichtiger Unterschied zwischen Premium-VLANs und automatischen VLANs besteht darin, dass Premium-VLANs nicht automatisch ausgewählt werden, damit eine Serverbestellung erfüllt wird. Premium-VLANs müssen während des Bestellablaufs für einen Server explizit ausgewählt werden, damit die Server verwendet werden. Anweisungen zur VLAN-Auswahl finden Sie im Abschnitt [Häufig gestellte Fragen](/docs/infrastructure/vlans?topic=vlans-vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-).
 
 
 ## VLAN-Identifikation
