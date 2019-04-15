@@ -40,7 +40,7 @@ VLAN は一種のネットワーク概念です。VLAN は、[OSI モデル ![�
 
 プレミアム VLAN は、VLAN を注文することで割り当てられます。手順については、[プレミアム VLAN の注文](/docs/infrastructure/vlans?topic=vlans-ordering-premium-vlans)を参照してください。プレミアム VLAN は、明示的にキャンセルするまでアカウントに存在します。プレミアム VLAN は、容量制限の範囲内でいくつでも注文できます。容量制限に達した場合は、別のポッドまたはデータ・センターで VLAN を注文してください。
 
-プレミアム VLAN の重要な性質は、サーバーの注文を満たす目的で自動的に選択されるものではないという点です。プレミアム VLAN 上にサーバーを配置するためには、サーバーを注文するプロセスの中で、プレミアム VLAN を明示的に選択する必要があります。VLAN 選択に関する手順については、[FAQ](/docs/infrastructure/vlans?topic=vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-) を参照してください。
+プレミアム VLAN の重要な性質は、サーバーの注文を満たす目的で自動的に選択されるものではないという点です。プレミアム VLAN 上にサーバーを配置するためには、サーバーを注文するプロセスの中で、プレミアム VLAN を明示的に選択する必要があります。VLAN 選択に関する手順については、[FAQ](/docs/infrastructure/vlans?topic=vlans-vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-) を参照してください。
 
 
 ## VLAN ID
