@@ -39,7 +39,7 @@ Les VLAN automatiques sont gérés directement par {{site.data.keyword.cloud}}. 
 
 Les VLAN Premium s'obtiennent en commandant un réseau local virtuel. Pour savoir comment faire, reportez-vous à la rubrique [Commander des VLAN Premium](/docs/infrastructure/vlans?topic=vlans-ordering-premium-vlans). Les réseaux locaux virtuels Premium restent sur votre compte tant qu'ils ne sont pas explicitement annulés. Vous pouvez commander autant de VLAN Premium que vous le souhaitez, sous réserve des limites de capacité. Si aucun réseau n'est disponible, recherchez des VLAN dans un autre pod ou centre de données.
 
-L'une des particularités des réseaux locaux virtuels Premium est qu'ils ne sont pas sélectionnés automatiquement pour satisfaire une commande de serveur. Les VLAN Premium doivent être explicitement sélectionnés au cours du processus de commande du serveur afin que des serveurs résident sur eux. Pour plus d'informations sur la sélection des VLAN, veuillez consulter la [FAQ](/docs/infrastructure/vlans?topic=vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-).
+L'une des particularités des réseaux locaux virtuels Premium est qu'ils ne sont pas sélectionnés automatiquement pour satisfaire une commande de serveur. Les VLAN Premium doivent être explicitement sélectionnés au cours du processus de commande du serveur afin que des serveurs résident sur eux. Pour plus d'informations sur la sélection des VLAN, veuillez consulter la [FAQ](/docs/infrastructure/vlans?topic=vlans-vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-).
 
 
 ## Identification des VLAN
