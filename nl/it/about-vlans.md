@@ -40,7 +40,7 @@ Le VLAN automatiche sono gestite da {{site.data.keyword.cloud}} automaticamente;
 
 Le VLAN premium vengono acquisite ordinando una VLAN. Per istruzioni, vedi [Ordine di VLAN premium](/docs/infrastructure/vlans?topic=vlans-ordering-premium-vlans). Le VLAN premium rimangono sul tuo account fino a quando non vengono esplicitamente annullate. Puoi ordinare tutte le VLAN premium che desideri, in base ai limiti di capacità. Nel caso in cui la capacità non sia disponibile, cerca le VLAN in un altro pod o data center.
 
-Una distinzione importante delle VLAN premium è che non vengono selezionate automaticamente per adempiere un ordine del server. Le VLAN premium devono essere selezionate esplicitamente durante il processo di ordine del server per far sì che i server risiedano su di esse. Consulta la [FAQ](/docs/infrastructure/vlans?topic=vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-) per istruzioni sulla selezione della VLAN.
+Una distinzione importante delle VLAN premium è che non vengono selezionate automaticamente per adempiere un ordine del server. Le VLAN premium devono essere selezionate esplicitamente durante il processo di ordine del server per far sì che i server risiedano su di esse. Consulta la [FAQ](/docs/infrastructure/vlans?topic=vlans-vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-) per istruzioni sulla selezione della VLAN.
 
 
 ## Identificazione della VLAN
