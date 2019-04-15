@@ -39,7 +39,7 @@ VLAN 是网络概念。它允许您在 [OSI 模型 ![外部链接图标](../../i
 
 通过订购 VLAN 获取高端 VLAN。请参阅[订购高端 VLAN](/docs/infrastructure/vlans?topic=vlans-ordering-premium-vlans) 以获取指示信息。在明确取消之前，高端 VLAN 将保留在帐户上。在容量限制范围内，您可以订购所需任意数量的高端 VLAN。如果容量不可用，请寻求其他 pod 或数据中心内的 VLAN。
 
-高端 VLAN 的重要区别在于，它们不是自动选择用于满足服务器订单的。必须在服务器订购过程中明确选择高端 VLAN 以使服务器驻留其中。请参阅[常见问题](/docs/infrastructure/vlans?topic=vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-)以获取有关 VLAN 选择的指示信息。
+高端 VLAN 的重要区别在于，它们不是自动选择用于满足服务器订单的。必须在服务器订购过程中明确选择高端 VLAN 以使服务器驻留其中。请参阅[常见问题](/docs/infrastructure/vlans?topic=vlans-vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-)以获取有关 VLAN 选择的指示信息。
 
 
 ## VLAN 标识
