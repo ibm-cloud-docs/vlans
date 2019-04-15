@@ -39,7 +39,7 @@ VLAN 是一個網路概念。它容許您在 [OSI 模型 ![外部鏈結圖示](.
 
 超值 VLAN 會藉由訂購 VLAN 來獲得。如需指示，請參閱[訂購超值 VLAN](/docs/infrastructure/vlans?topic=vlans-ordering-premium-vlans)。超值 VLAN 會維持在您的帳戶上，直到明確取消為止。您可以訂購任意數量的超值 VLAN，但要遵循容量限制。當容量無法使用時，請尋求另一個 Pod 或資料中心裡的 VLAN。
 
-超值 VLAN 的一項重要區別，在於它們不會自動選取以完成伺服器訂單。超值 VLAN 必須在伺服器訂購處理程序期間明確地選取，其上才會有伺服器存在。如需關於 VLAN 選取的指示，請參閱[常見問題](/docs/infrastructure/vlans?topic=vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-)。
+超值 VLAN 的一項重要區別，在於它們不會自動選取以完成伺服器訂單。超值 VLAN 必須在伺服器訂購處理程序期間明確地選取，其上才會有伺服器存在。如需關於 VLAN 選取的指示，請參閱[常見問題](/docs/infrastructure/vlans?topic=vlans-vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-)。
 
 
 ## VLAN 識別
