@@ -30,4 +30,4 @@ subcollection: vlans
 ## 后续操作
 {:#view-vlan-details-what-happens-next}
 
-显示 VLAN 后，可以[编辑 VLAN 名称](/docs/infrastructure/vlans?topic=vlans-edit-a-vlan-name)，查看或管理与该 VLAN 关联的设备，以及查看或管理关联的子网。要显示设备和子网以进行编辑，请单击所需设备或子网的链接。通过单击屏幕顶部的**查看所有 VLAN** 链接，或单击相应的 **VLAN 编号**链接（如果在查看设备或子网级别的详细信息），可随时返回到 VLAN 屏幕。
+显示 VLAN 后，可以[编辑 VLAN 名称](/docs/infrastructure/vlans?topic=vlans-edit-vlan-name)，查看或管理与该 VLAN 关联的设备，以及查看或管理关联的子网。要显示设备和子网以进行编辑，请单击所需设备或子网的链接。通过单击屏幕顶部的**查看所有 VLAN** 链接，或单击相应的 **VLAN 编号**链接（如果在查看设备或子网级别的详细信息），可随时返回到 VLAN 屏幕。
