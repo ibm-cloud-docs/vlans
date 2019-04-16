@@ -48,7 +48,7 @@ Per impostazione predefinita, lo spanning di VLAN è disabilitato. I dispositivi
 ### Servizi che in genere richiedono lo spanning della VLAN
 {: #vlan-spanning-services}
 
-Sono disponibili esercitazioni specifiche per aiutarti a configurare lo spanning della VLAN per la tua situazione. Vedi i nostri link in [Altre risorse](/docs/infrastructure/vlans?topic=vlans-other-resources-for-vlan-spanning).
+Sono disponibili esercitazioni specifiche per aiutarti a configurare lo spanning della VLAN per la tua situazione. Vedi i nostri link in [Altre risorse](/docs/infrastructure/vlans?topic=vlans-other-resources-vlan-spanning).
 
 
 ## Gestione dello spanning della VLAN
