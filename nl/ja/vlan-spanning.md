@@ -48,7 +48,7 @@ VLAN スパンニングを有効にすると、ルーティングされるすべ
 ### VLAN スパンニングを必要とすることが多いサービス
 {: #vlan-spanning-services}
 
-状況に応じて VLAN スパンニングをセットアップできるように、詳しいチュートリアルが用意されています。[他のリソース](/docs/infrastructure/vlans?topic=vlans-other-resources-for-vlan-spanning)へのリンクを参照してください。
+状況に応じて VLAN スパンニングをセットアップできるように、詳しいチュートリアルが用意されています。[他のリソース](/docs/infrastructure/vlans?topic=vlans-other-resources-vlan-spanning)へのリンクを参照してください。
 
 
 ## VLAN スパンニングの管理
