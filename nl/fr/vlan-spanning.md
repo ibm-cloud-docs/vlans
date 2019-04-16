@@ -48,7 +48,7 @@ Par défaut, le Spanning VLAN est désactivé. Les unités situées sur deux sou
 ### Services ayant généralement besoin du Spanning VLAN
 {: #vlan-spanning-services}
 
-Des tutoriels spécifiques sont mis à votre disposition afin de vous aider à configurer le Spanning VLAN en fonction de votre situation. Voir les liens [Autres ressources](/docs/infrastructure/vlans?topic=vlans-other-resources-for-vlan-spanning).
+Des tutoriels spécifiques sont mis à votre disposition afin de vous aider à configurer le Spanning VLAN en fonction de votre situation. Voir les liens [Autres ressources](/docs/infrastructure/vlans?topic=vlans-other-resources-vlan-spanning).
 
 
 ## Gestion du Spanning VLAN
