@@ -30,4 +30,4 @@ To view all your VLANs and their details:
 ## What Happens Next
 {:#view-vlan-details-what-happens-next}
 
-After displaying a VLAN, you may [edit the VLAN name](/docs/infrastructure/vlans?topic=vlans-edit-a-vlan-name), view or manage devices associated with the VLAN, and view or manage associated subnets. To display devices and subnets, for editing click the link for the desired device or subnet. Return to the VLANs screen at any time by clicking the **View all VLANs** link at the top of the screen, or by clicking the appropriate **VLAN Number** link if you're viewing details at the device or subnet level.
+After displaying a VLAN, you may [edit the VLAN name](/docs/infrastructure/vlans?topic=vlans-edit-vlan-name), view or manage devices associated with the VLAN, and view or manage associated subnets. To display devices and subnets, for editing click the link for the desired device or subnet. Return to the VLANs screen at any time by clicking the **View all VLANs** link at the top of the screen, or by clicking the appropriate **VLAN Number** link if you're viewing details at the device or subnet level.
