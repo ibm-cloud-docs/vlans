@@ -48,7 +48,7 @@ De forma predeterminada, la expansión de VLAN está inhabilitada. Los dispositi
 ### Servicios que habitualmente requieren expansión de VLAN
 {: #vlan-spanning-services}
 
-Hay guías de aprendizaje específicas disponibles para ayudarle a configurar la expansión de VLAN en su situación. Consulte los enlaces a [Otros recursos](/docs/infrastructure/vlans?topic=vlans-other-resources-for-vlan-spanning).
+Hay guías de aprendizaje específicas disponibles para ayudarle a configurar la expansión de VLAN en su situación. Consulte los enlaces a [Otros recursos](/docs/infrastructure/vlans?topic=vlans-other-resources-vlan-spanning).
 
 
 ## Gestión de la expansión de VLAN
