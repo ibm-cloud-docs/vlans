@@ -48,7 +48,7 @@ Por padrão, a ampliação de VLAN está desativada. Os dispositivos localizados
 ### Serviços que normalmente requerem a ampliação de VLAN
 {: #vlan-spanning-services}
 
-Tutoriais específicos estão disponíveis para ajudá-lo a configurar a ampliação de VLAN para a sua situação. Consulte nossos links para [Outros recursos](/docs/infrastructure/vlans?topic=vlans-other-resources-for-vlan-spanning).
+Tutoriais específicos estão disponíveis para ajudá-lo a configurar a ampliação de VLAN para a sua situação. Consulte nossos links para [Outros recursos](/docs/infrastructure/vlans?topic=vlans-other-resources-vlan-spanning).
 
 
 ## Gerenciamento a ampliação de VLAN
