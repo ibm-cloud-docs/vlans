@@ -47,7 +47,7 @@ Das VLAN-Spanning ist standardmäßig inaktiviert. Zwischen Geräten, die sich i
 ### Services, für die üblicherweise VLAN-Spanning erforderlich ist
 {: #vlan-spanning-services}
 
-Als Unterstützung für die Konfiguration des VLAN-Spanning stehen bestimmte Lernprogramm für Ihre Situation zur Verfügung. Informationen hierzu finden Sie unter den Links zu [Weitere Ressourcen](/docs/infrastructure/vlans?topic=vlans-other-resources-for-vlan-spanning).
+Als Unterstützung für die Konfiguration des VLAN-Spanning stehen bestimmte Lernprogramm für Ihre Situation zur Verfügung. Informationen hierzu finden Sie unter den Links zu [Weitere Ressourcen](/docs/infrastructure/vlans?topic=vlans-other-resources-vlan-spanning).
 
 
 ## VLAN-Spanning verwalten
