@@ -48,7 +48,7 @@ Spanning을 사용하도록 설정하면 전체 계정에 영향을 미칩니다
 ### 일반적으로 VLAN Spanning이 필요한 서비스
 {: #vlan-spanning-services}
 
-상황에 맞게 VLAN Spanning을 설정하는 데 유용한 특정 튜토리얼을 사용할 수 있습니다. [기타 리소스](/docs/infrastructure/vlans?topic=vlans-other-resources-for-vlan-spanning)에 대한 링크를 참조하십시오.
+상황에 맞게 VLAN Spanning을 설정하는 데 유용한 특정 튜토리얼을 사용할 수 있습니다. [기타 리소스](/docs/infrastructure/vlans?topic=vlans-other-resources-vlan-spanning)에 대한 링크를 참조하십시오.
 
 
 ## VLAN Spanning 관리
