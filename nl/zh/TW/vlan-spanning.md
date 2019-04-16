@@ -48,7 +48,7 @@ VLAN Spanning 會讓帳戶上的所有裝置都透過專用網路彼此通訊，
 ### 一般需要 VLAN Spanning 的服務
 {: #vlan-spanning-services}
 
-有特定的指導教學可以協助您針對您的狀況設定 VLAN Spanning。請參閱[其他資源](/docs/infrastructure/vlans?topic=vlans-other-resources-for-vlan-spanning)的鏈結。
+有特定的指導教學可以協助您針對您的狀況設定 VLAN Spanning。請參閱[其他資源](/docs/infrastructure/vlans?topic=vlans-other-resources-vlan-spanning)的鏈結。
 
 
 ## 管理 VLAN Spanning
