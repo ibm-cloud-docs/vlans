@@ -30,4 +30,4 @@ subcollection: vlans
 ## 後續情形
 {:#view-vlan-details-what-happens-next}
 
-顯示 VLAN 之後，您可以[編輯 VLAN 名稱](/docs/infrastructure/vlans?topic=vlans-edit-a-vlan-name)、檢視或管理與 VLAN 相關聯的裝置，以及檢視或管理相關聯的子網路。若要顯示裝置及子網路，請針對編輯，按一下所需裝置或子網路的鏈結。您隨時都可以回到 VLAN 畫面，方法是按一下畫面頂端的**檢視所有 VLAN** 鏈結，或是在檢視裝置或子網路層次的詳細資料時，按一下適當的 **VLAN 號碼**鏈結。
+顯示 VLAN 之後，您可以[編輯 VLAN 名稱](/docs/infrastructure/vlans?topic=vlans-edit-vlan-name)、檢視或管理與 VLAN 相關聯的裝置，以及檢視或管理相關聯的子網路。若要顯示裝置及子網路，請針對編輯，按一下所需裝置或子網路的鏈結。您隨時都可以回到 VLAN 畫面，方法是按一下畫面頂端的**檢視所有 VLAN** 鏈結，或是在檢視裝置或子網路層次的詳細資料時，按一下適當的 **VLAN 號碼**鏈結。
