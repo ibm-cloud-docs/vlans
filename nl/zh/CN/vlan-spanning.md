@@ -48,7 +48,7 @@ VLAN 生成支持帐户中的所有设备通过专用网络相互通信，而不
 ### 通常需要 VLAN 生成的服务
 {: #vlan-spanning-services}
 
-提供了具体教程以帮助您针对自己的情况设置 VLAN 生成。请访问指向[其他资源](/docs/infrastructure/vlans?topic=vlans-other-resources-for-vlan-spanning)的链接。
+提供了具体教程以帮助您针对自己的情况设置 VLAN 生成。请访问指向[其他资源](/docs/infrastructure/vlans?topic=vlans-other-resources-vlan-spanning)的链接。
 
 
 ## 管理 VLAN 生成
