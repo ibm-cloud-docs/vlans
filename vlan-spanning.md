@@ -60,7 +60,7 @@ You can enable or disable VLAN spanning for your account.
 To update your account setting, follow these steps:
 
   1. From your browser, open the [{{site.data.keyword.Bluemix_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
-  2. In the menu, select **Infrastructure**. The Customer Portal opens.
+  2. In the menu, select **Classic Infrastructure**. The Customer Portal opens.
   3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
   4. Select the **Span** tab to access the VLAN Spanning section.
   5. Select the **On** or **Off** radio button as desired to enable or disable VLAN spanning respectively.
