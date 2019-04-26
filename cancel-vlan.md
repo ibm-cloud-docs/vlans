@@ -23,7 +23,6 @@ subcollection: vlans
 VLANs ordered independently of a device can be canceled when there are no references to the VLAN.  References include devices on the VLAN and portable subnets ordered on the VLAN.
 
 Follow the steps in this article to cancel a VLAN.
-
 * From your browser, open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
 * In the menu, select **Classic Infrastructure**. The Customer Portal opens.
 * In the Customer Portal navigation, select **Network > IP Management > VLANs**.

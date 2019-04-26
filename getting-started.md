@@ -36,7 +36,7 @@ We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed
 Follow these steps to review the VLANs on your account.
 
   1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
-  2. In the menu, select **Infrastructure**.
+  2. In the menu, select **Classic Infrastructure**.
   3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
 
 The VLANs listing displays information about your VLANs, and it provides access to each VLAN, along with associated devices or subnets.
