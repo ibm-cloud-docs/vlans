@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017, 2018, 2019
-lastupdated: "2019-02-27"
+lastupdated: "2019-06-05"
 
 keywords: compute order, Additional compute orders, Premium VLANs
 
@@ -18,10 +18,11 @@ subcollection: vlans
 {:download: .download}
 {:important: .important}
 {:note: .note}
+{:external: target="_blank" .external}
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Getting started with VLANs
-{:#getting-started-with-vlans}
+{: #getting-started}
 
 Virtual Local Area Networks (VLANs) are used by {{site.data.keyword.cloud}} to isolate broadcast traffic on the public and private networks. VLANs are assigned as needed to fulfill other offerings. For instance, if you place a compute order for a datacenter in which you don't yet have a presence, you automatically receive a VLAN. Additional compute orders for the same datacenter, which do not specify network requirements, usually are placed in the previously assigned VLAN. All VLANs that are assigned automatically are also removed automatically when your resources no longer require them.
 
@@ -35,7 +36,7 @@ We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed
 
 Follow these steps to review the VLANs on your account.
 
-  1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
+  1. Open the [IBM Cloud console](https://{DomainName}/){: external}{: new_window} and log into your account.
   2. In the menu, select **Classic Infrastructure**.
   3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
 
