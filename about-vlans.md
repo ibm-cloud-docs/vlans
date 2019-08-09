@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017, 2018, 2019
-lastupdated: "2019-02-27"
+lastupdated: "2019-08-07"
 
 keywords: VLANs, different role, network concept
 
@@ -15,6 +15,7 @@ subcollection: vlans
 {:note: .note}
 {:important: .important}
 {:deprecated: .deprecated}
+{:external: target="_blank" .external}
 {:generic: data-hd-programlang="generic"}
 
 # About VLANs
@@ -22,8 +23,8 @@ subcollection: vlans
 
 VLANs are central in directing traffic to your resources. You may never need to interact directly with any VLANs, because they are managed automatically: they are assigned as needed and removed when not.
 
-A VLAN is a network concept. It allows you to create broadcast domains at the [OSI Model ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/OSI_model) layer 2 level, the _data link layer_. VLANs provide one method of packet identification, and they allow multiple workloads to coexist on the same
-physical equipment. For more information about VLANs, refer to [this article ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://en.wikipedia.org/wiki/Virtual_LAN).
+A VLAN is a network concept. It allows you to create broadcast domains at the [OSI Model](https://en.wikipedia.org/wiki/OSI_model){:external} layer 2 level, the _data link layer_. VLANs provide one method of packet identification, and they allow multiple workloads to coexist on the same
+physical equipment. For more information about VLANs, refer to [this article](https://en.wikipedia.org/wiki/Virtual_LAN){:external}.
 
 ## Types of VLANs
 {:#types-of-vlans}
@@ -52,7 +53,7 @@ VLANs exist on routers within IBM Cloud datacenters. Each VLAN is identified by 
 ## VLANs and subnets
 {:#vlans-subnets}
 
-VLANs can contain one or more subnets. Like VLANs, some subnets are automatically added and removed as devices require IP addresses. What subnets can exist, and how they operate is further detailed in [Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-getting-started-subnets-ips).
+VLANs can contain one or more subnets. Like VLANs, some subnets are automatically added and removed as devices require IP addresses. What subnets can exist, and how they operate is further detailed in [Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-getting-started).
 
 
 ## Communication within a VLAN

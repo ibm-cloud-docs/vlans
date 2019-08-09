@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017, 2018, 2019
-lastupdated: "2019-04-26"
+lastupdated: "2019-08-07"
 
 keywords: new VLAN, subnet selector, VLAN moves
 
@@ -14,6 +14,7 @@ subcollection: vlans
 {:note: .note}
 {:important: .important}
 {:deprecated: .deprecated}
+{:external: target="_blank" .external}
 {:generic: data-hd-programlang="generic"}
 {:faq: data-hd-content-type='faq'}
 
@@ -58,7 +59,7 @@ For more information about managing VLANs as trunks, see the API documentation l
 ## When ordering a VLAN, what does it mean when I'm told there aren't any available VLANs?
 {: faq}
 
-See [A note about capacity](/docs/infrastructure/vlans?topic=vlans-getting-started-with-vlans#note-about-capacity).
+See [A note about capacity](/docs/infrastructure/vlans?topic=vlans-getting-started#note-about-capacity).
 
 
 ## Why can't my devices communicate with one another on the same private VLAN?
@@ -73,7 +74,7 @@ If each server is on a different subnet, then by default, they will not be able 
 We understand managing routes on servers is cumbersome considering {{site.data.keyword.cloud}} automatically assigns and removes Primary Subnets as needed. We also understand that [VLAN Spanning](/docs/infrastructure/vlans?topic=vlans-vlan-spanning) is not always a possibility. If you have a large deployment that is hindered by this behavior, you may request an accommodating Primary Subnet on a
 [Premium VLAN](/docs/infrastructure/vlans?topic=vlans-about-vlans#about-premium-vlans) only. Charges will apply to this subnet, and may vary per request. It is at our discretion to grant or deny such requests on a case by case basis (not account by account, but each request). Follow these instructions to request a specially sized Primary Subnet:
 
-  1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
+  1. Open the [IBM Cloud console](https://{DomainName}/){: new_window} and log into your account.
   1. In the menu, select **Classic Infrastructure**. 
   1. In the Classic Infrastructure navigation menu, select **Network > IP Management > VLANs**.
   1. Order a Premium VLAN, if needed. See [Ordering Premium VLANs](/docs/infrastructure/vlans?topic=vlans-ordering-premium-vlans).
