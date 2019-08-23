@@ -8,6 +8,10 @@ VLANs
     getting-started.md
     about-vlans.md
     vlan-spanning.md
+    
+    {: .topicgroup}
+    Tutorials
+        /tutorials/solution-tutorials-vlan-spanning         
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
