@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017, 2018, 2019
-lastupdated: "2019-08-07"
+lastupdated: "2019-10-10"
 
 keywords: new VLAN, subnet selector, VLAN moves
 
@@ -21,11 +21,10 @@ subcollection: vlans
 # FAQs
 {:#vlans-faqs}
 
-
 ## Can I move an existing device to a new VLAN?
 {: faq}
 
-Existing devices can be moved to other VLANs, but only when the move is requested. Because VLANs are tied to a router and connections to each router are dependent upon the device's physical location, some VLAN moves may require a physical relocation, as well. This is always the case when the new VLAN is located in a different datacenter, but it also may apply when moving a device to a different VLAN within the same datacenter. Making this change interrupts network connectivity and requires changing the device's IP address when the connection is moved to the new VLAN. When moving a device to a new VLAN we ask that ample planning is allowed, because the machine will be offline for the duration of the move.
+Existing compute devices, such as a virtual server instance (VSI) or a bare metal, cannot be moved to a new VLAN. A new VSI or bare metal needs to be provisioned in the new VLAN and deprovisioned accordingly. Single VLAN firewalls cannot be moved to a new VLAN either. Multi VLAN firewalls can be attached to the new VLAN and then detached from the previous VLAN. Refer to the specific offering documentation for capabilities and limitations.
 
 
 ## Is there a way to specify which VLAN I want to use for my device when I order it?
@@ -48,6 +47,7 @@ reside on the VLAN.
 
 Any device that has a network connection will be associated with a VLAN. Dedicated servers have both a public and private network connection, so you will see those devices associated with both public and private VLANs.
 
+
 ## How do I trunk my VLANs to my servers?
 {: faq}
 
@@ -67,18 +67,7 @@ See [A note about capacity](/docs/infrastructure/vlans?topic=vlans-getting-start
 
 If each server is on a different subnet, then by default, they will not be able to communicate via IP addresses. Technically, your servers can communicate using OSI Model Layer 2 methods because they are on the same VLAN (a Layer 2 construct). For internet protocol (IP) (also called Layer 3) communication to work, you can either add a route for the subnet you're attempting to communicate with on each server (the route is different on each server), or enable [VLAN Spanning](/docs/infrastructure/vlans?topic=vlans-vlan-spanning). Note that [VLAN Spanning](/docs/infrastructure/vlans?topic=vlans-vlan-spanning) has additional implications, so review the feature in detail before deciding to enable it.
 
-
 ## What options do I have if I need devices on different private subnets within the same VLAN to communicate by default, but I don't want to enable VLAN Spanning?
 {: faq}
 
-We understand managing routes on servers is cumbersome considering {{site.data.keyword.cloud}} automatically assigns and removes Primary Subnets as needed. We also understand that [VLAN Spanning](/docs/infrastructure/vlans?topic=vlans-vlan-spanning) is not always a possibility. If you have a large deployment that is hindered by this behavior, you may request an accommodating Primary Subnet on a
-[Premium VLAN](/docs/infrastructure/vlans?topic=vlans-about-vlans#about-premium-vlans) only. Charges will apply to this subnet, and may vary per request. It is at our discretion to grant or deny such requests on a case by case basis (not account by account, but each request). Follow these instructions to request a specially sized Primary Subnet:
-
-  1. Open the [IBM Cloud console](https://{DomainName}/){: new_window} and log into your account.
-  1. In the menu, select **Classic Infrastructure**. 
-  1. In the Classic Infrastructure navigation menu, select **Network > IP Management > VLANs**.
-  1. Order a Premium VLAN, if needed. See [Ordering Premium VLANs](/docs/infrastructure/vlans?topic=vlans-ordering-premium-vlans).
-  1. Open a ticket by navigating to **Support > Add Ticket** in the menu.
-    - Subject: "Private Network Question" or "Public Network Question"
-    - Title: "Large Primary Subnet Request"
-    - Details: Specify the Premium VLAN you desire the subnet on using datacenter.router.vlan notation (for example, ams03.bcr01.1234). Then specify the desired subnet size in CIDR notation (for example, /25). Denote how many servers you plan on purchasing and over what time period. Additionally, explain how your usage would be hindered without the requested subnet. Be verbose in explaining how your situation would be hindered, because this input helps us evaluate improvements to our platform. No other properties of the subnet will be considered, so there is no need for further specification.
+If you cannot enable VLAN spanning but require some VLANs and subnets to route between each other, you can associate those VLANs with a firewall or gateway, and manage the routing and security to fit your needs. In addition, to route between Pods and data centers, all VLANs requiring connectivity need to be associated with the gateway device and an overlay, typically GRE tunnel(s), established between the gateway devices.
