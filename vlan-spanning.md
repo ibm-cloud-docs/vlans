@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2017, 2018, 2019
-lastupdated: "2019-02-28"
+  years: 1994,2019
+lastupdated: "2019-11-27"
 
 keywords: VLAN Spanning VLAN, Default values, VLAN Spanning
 
@@ -19,7 +19,7 @@ subcollection: vlans
 {:generic: data-hd-programlang="generic"}
 
 
-# VLAN Spanning
+# VLAN spanning
 {: #vlan-spanning}
 
 VLAN spanning enables all devices on an account to communicate with each other by means of the private network, regardless of the devices assigned VLAN.
@@ -29,7 +29,7 @@ VLAN spanning enables all devices on an account to communicate with each other b
 {: #understanding-vlan-spanning}
 
 
-In {{site.data.keyword.Bluemix}}, VLAN spanning can be used for many different purposes and has an impact on device communication. To learn more about the basics of VLAN spanning before you get started, review the following information.
+In {{site.data.keyword.cloud}}, VLAN spanning can be used for many different purposes and has an impact on device communication. To learn more about the basics of VLAN spanning before you get started, review the following information.
 {: shortdesc}
 
 ### How VLAN spanning works
@@ -59,11 +59,11 @@ You can enable or disable VLAN spanning for your account.
 
 To update your account setting, follow these steps:
 
-  1. From your browser, open the [{{site.data.keyword.Bluemix_notm}} console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
-  2. In the menu, select **Classic Infrastructure**. The Customer Portal opens.
-  3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
-  4. Select the **Span** tab to access the VLAN Spanning section.
-  5. Select the **On** or **Off** radio button as desired to enable or disable VLAN spanning respectively.
+  1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
+  1. In the Classic Infrastructure navigation, select **Network > IP Management > VLANs**.
+  1. Select the **Span** tab to access the VLAN Spanning section.
+  1. Select the **On** or **Off** radio button as desired to enable or disable VLAN spanning respectively.
 
 Toggling VLAN Spanning within a short amount of time might result in delayed application.
 {:note}

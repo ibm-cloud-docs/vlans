@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017, 2018, 2019
-lastupdated: "2019-06-05"
+  years: 1994, 2019
+lastupdated: "2019-11-27"
 
 keywords: compute order, Additional compute orders, Premium VLANs
 
@@ -36,9 +36,9 @@ We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed
 
 Follow these steps to review the VLANs on your account.
 
-  1. Open the [IBM Cloud console](https://{DomainName}/){: external}{: new_window} and log into your account.
-  2. In the menu, select **Classic Infrastructure**.
-  3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
+  1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page. 
+  1. In the Classic Infrastructure navigation, select **Network > IP Management > VLANs**.
 
 The VLANs listing displays information about your VLANs, and it provides access to each VLAN, along with associated devices or subnets.
 

@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017, 2018, 2019
-lastupdated: "2019-02-27"
+  years: 1994, 2019
+lastupdated: "2019-11-27"
 
 keywords: View VLAN Details, VLAN Number link, VLANs screen
 
@@ -17,15 +17,15 @@ subcollection: vlans
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
 
-# View VLAN Details
+# Viewing VLAN Details
 {:#view-vlan-details}
 
 To view all your VLANs and their details:
 
-1. Open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
-2. In the menu, select **Classic Infrastructure**.
-3. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
-4. Click the **VLAN Number** link to view more details about that specific VLAN.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
+1. In the Classic Infrastructure navigation, select **Network > IP Management > VLANs**.
+1. Click the **VLAN Number** link to view more details about that specific VLAN.
 
 ## What Happens Next
 {:#view-vlan-details-what-happens-next}

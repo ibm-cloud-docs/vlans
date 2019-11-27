@@ -21,6 +21,9 @@ subcollection: vlans
 # FAQs
 {:#vlans-faqs}
 
+Have a question about VLANs? Review frequently asked questions, which provide answers to provisioning concerns, application access, and other common inquiries.
+{: shortdesc}
+
 ## Can I move an existing device to a new VLAN?
 {: faq}
 
@@ -51,7 +54,7 @@ Any device that has a network connection will be associated with a VLAN. Dedicat
 ## How do I trunk my VLANs to my servers?
 {: faq}
 
-VLANs may only be trunked to bare metal servers through use of the API; no portal interface is available for this activity. 
+VLANs may only be trunked to bare metal servers through use of the API; no portal interface is available for this activity.
 For more information about managing VLANs as trunks, see the API documentation links below.
 * https://softlayer.github.io/reference/services/SoftLayer_Network_Component/addNetworkVlanTrunks
 * https://softlayer.github.io/reference/services/SoftLayer_Network_Component/removeNetworkVlanTrunks

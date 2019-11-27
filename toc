@@ -8,10 +8,10 @@ VLANs
     getting-started.md
     about-vlans.md
     vlan-spanning.md
-    
+
     {: .topicgroup}
     Tutorials
-        /tutorials/solution-tutorials-vlan-spanning         
+        /tutorials/solution-tutorials-vlan-spanning
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -22,6 +22,7 @@ VLANs
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+    [Subnets and IPs](/subnets/subnets-getting-started)
     legacy-customers.md
     other-resources.md
     {: .navgroup-end}

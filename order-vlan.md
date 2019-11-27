@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2018, 2019
-lastupdated: "2019-08-07"
+  years: 1994, 2019
+lastupdated: "2019-11-27"
 
 keywords: Premium VLANs, complex network topology, Automatic VLANs
 
@@ -31,9 +31,9 @@ Pricing is visible during the ordering process.
 
 Follow these steps to order a VLAN.
 
-  1. Open the [IBM Cloud console](https://{DomainName}/){: new_window} and log into your account.
-  1. In the menu, select **Classic Infrastructure**.
-  1. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
+  1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page. 
+  1. In the Classic Infrastructure navigation, select **Network > IP Management > VLANs**.
   1. Select **Order VLAN** and specify your desired configuration.
 
 ## What happens next?

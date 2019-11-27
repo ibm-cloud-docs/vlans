@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2018, 2019
 lastupdated: "2019-02-27"
 
-keywords: support ticket, IBM support ticket, questions
+keywords: support case, IBM support case, questions, support ticket
 
 subcollection: vlans
 
@@ -24,10 +24,10 @@ subcollection: vlans
 {:generic: data-hd-programlang="generic"}
 
 
-# Getting Help and Support
+# Getting help and support
 {: #gettinghelp-vlans}
 
-If you have problems or questions when using VLANs, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the Customer Portal by opening the [IBM Cloud console](https://{DomainName}/unifiedsupport/cases/add){:external}{: new_window} and log into your account. 
+If you have problems or questions when using VLANs, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support case in the customer console by opening the [IBM Cloud console](https://{DomainName}/unifiedsupport/cases/add){:external}{: new_window} and log into your account.
 {:shortdesc}
 
 * In the navigation menu, select **Classic Infrastructure**.
@@ -43,6 +43,5 @@ When using the forums to ask a question, tag your question so that it is seen by
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
 * For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/vlans.html?smartspace=ibm-cloud){:external}{:new_window} forum. Include the  "vlans" and "ibm-cloud" tags.
 
-See [Getting help](/docs/get-support?topic=get-support-getting-customer-support) for more details about using the forums.
 
-For information about opening an IBM support ticket, or about support levels and ticket severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).
+For information about opening an IBM support cases, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).
