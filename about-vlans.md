@@ -39,7 +39,7 @@ Automatic VLANs are managed by {{site.data.keyword.cloud}} automatically; assign
 ### Premium VLANs
 {:#about-premium-vlans}
 
-Premium VLANs are acquired by ordering a VLAN. See [Ordering Premium VLANs](/docs/infrastructure/vlans?topic=vlans-ordering-premium-vlans) for instructions. Premium VLANs remain on your account until explicitly canceled. You may order as many premium VLANs as you like, subject to capacity limitations. In the event capacity is unavailable, seek VLANs in another pod or datacenter.
+Premium VLANs are acquired by ordering a VLAN. See [Ordering Premium VLANs](/docs/infrastructure/vlans?topic=vlans-ordering-premium-vlans) for instructions. Premium VLANs remain on your account until explicitly canceled. You may order as many premium VLANs as you like, subject to capacity limitations. In the event capacity is unavailable, seek VLANs in another pod or data center.
 
 An important distinction of Premium VLANs is that they are not selected automatically to fulfill a server order. Premium VLANs must be explicitly selected during the server ordering process to have servers reside on them. See the [FAQ](/docs/infrastructure/vlans?topic=vlans-vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-) for instructions concerning VLAN selection.
 
@@ -47,7 +47,7 @@ An important distinction of Premium VLANs is that they are not selected automati
 ## VLAN identification
 {:#vlan-identification}
 
-VLANs exist on routers within IBM Cloud datacenters. Each VLAN is identified by a unique number, router, and datacenter location combination. For example, public `VLAN 829`, which is located on router `fcr02` within datacenter `SJC01` is identified by `sjc01.fcr02.829`. Private VLAN 2234, located on router `bcr01` within datacenter `AMS01` is identified by `ams01.bcr01.2234`.
+VLANs exist on routers within IBM Cloud data centers. Each VLAN is identified by a unique number, router, and data center location combination. For example, public `VLAN 829`, which is located on router `fcr02` within data center `SJC01` is identified by `sjc01.fcr02.829`. Private VLAN 2234, located on router `bcr01` within data center `AMS01` is identified by `ams01.bcr01.2234`.
 
 
 ## VLANs and subnets

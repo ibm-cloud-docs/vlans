@@ -34,7 +34,7 @@ If you have problems or questions when using VLANs, you can get help by searchin
 * Click **Support** in the navigation bar.
 * In the **Need more help?** box, select **Create a case**.
 * Choose the **Technical** radio button.
-* Select **VLAN Spanning** from the **Category** dropdown menu.
+* Select **VLAN Spanning** from the **Category** list.
 * Fill out the remaining information and click **Submit** to create a case.
 
 When using the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.cloud_notm}} development teams.

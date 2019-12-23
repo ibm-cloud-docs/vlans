@@ -35,7 +35,7 @@ Existing compute devices, such as a virtual server instance (VSI) or a bare meta
 
 Yes, a specific VLAN may be selected during the ordering process. When ordering a device, this option is available at the end of the order form. A private VLAN is selected, followed by a public VLAN. Also note that a subnet selector is presented for each VLAN; this selection is **optional**. Only select a subnet if you have reason to do so, as selecting a subnet which lacks available IP addresses will negatively impact the fulfillment of the device (See the [Subnet FAQ](/docs/infrastructure/subnets?topic=subnets-faq) for more details).
 
-It is important to note that the selected VLAN must be located in the same datacenter as the device. We cannot assign a device to a VLAN that is in a different datacenter.
+It is important to note that the selected VLAN must be located in the same data center as the device. We cannot assign a device to a VLAN that is in a different data center.
 
 
 ## How many devices may be assigned to a single VLAN?
