@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="vlans" category="network" audience="service" arm="3662768" href="/docs/infrastructure/vlans?topic=vlans-getting-started" path="infrastructure/vlans"}
+{: .toc subcollection="vlans" category="network" audience="service" href="/docs/infrastructure/vlans?topic=vlans-getting-started" path="infrastructure/vlans"}
 VLANs
 
     {: .navgroup id="learn"}
