@@ -36,7 +36,7 @@ We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed
 
 Follow these steps to review the VLANs on your account.
 
-  1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+  1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and log in to your account.
   1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
   1. In the Classic Infrastructure navigation, select **Network > IP Management > VLANs**.
 
@@ -67,7 +67,7 @@ An attempt to order a VLAN may be prevented due to capacity restrictions in the 
 ## Canceling Premium VLANs
 {:#canceling-premium-vlans}
 
-When you are ready to remove a premium VLAN, locate that VLAN in your account's VLAN listing (See Managing VLANs above) and click the "X" icon within the entry to initiate the cancellation prompts.
+When you are ready to remove a premium VLAN, locate that VLAN in your account's VLAN listing (See Managing VLANs) and click the "X" icon within the entry to initiate the cancellation prompts.
 
 Premium VLANs cannot be canceled if they are being used by other products. The following uses prevent cancellation:
 

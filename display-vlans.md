@@ -22,7 +22,7 @@ subcollection: vlans
 
 To view all your VLANs and their details:
 
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure navigation, select **Network > IP Management > VLANs**.
 1. Click the **VLAN Number** link to view more details about that specific VLAN.

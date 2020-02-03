@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018, 2019
-lastupdated: "2019-02-27"
+  years: 2017, 2020
+lastupdated: "2020-02-03"
 
 keywords: support case, IBM support case, questions, support ticket
 
@@ -27,7 +27,7 @@ subcollection: vlans
 # Getting help and support
 {: #gettinghelp-vlans}
 
-If you have problems or questions when using VLANs, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support case in the customer console by opening the [IBM Cloud console](https://{DomainName}/unifiedsupport/cases/add){:external}{: new_window} and log into your account.
+If you have problems or questions when using VLANs, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support case by opening the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/unifiedsupport/cases/add){:external} and logging into your account.
 {:shortdesc}
 
 * In the navigation menu, select **Classic Infrastructure**.
