@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="vlans" category="network" audience="service" href="/docs/infrastructure/vlans?topic=vlans-getting-started" path="infrastructure/vlans"}
+{: .toc subcollection="vlans" category="network" audience="service" href="/docs/vlans?topic=vlans-getting-started" path="vlans"}
 VLANs
 
     {: .navgroup id="learn"}
@@ -12,8 +12,8 @@ VLANs
     {: .topicgroup}
     Tutorials
         /tutorials/solution-tutorials-vlan-spanning
-        
-    [Subnets and IPs](/subnets/subnets-getting-started)    
+
+    [Subnets and IPs](/subnets/subnets-getting-started)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

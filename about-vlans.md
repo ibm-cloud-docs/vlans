@@ -39,9 +39,9 @@ Automatic VLANs are managed by {{site.data.keyword.cloud}} automatically; assign
 ### Premium VLANs
 {:#about-premium-vlans}
 
-Premium VLANs are acquired by ordering a VLAN. See [Ordering Premium VLANs](/docs/infrastructure/vlans?topic=vlans-ordering-premium-vlans) for instructions. Premium VLANs remain on your account until explicitly canceled. You may order as many premium VLANs as you like, subject to capacity limitations. In the event capacity is unavailable, seek VLANs in another pod or data center.
+Premium VLANs are acquired by ordering a VLAN. See [Ordering Premium VLANs](/docs/vlans?topic=vlans-ordering-premium-vlans) for instructions. Premium VLANs remain on your account until explicitly canceled. You may order as many premium VLANs as you like, subject to capacity limitations. In the event capacity is unavailable, seek VLANs in another pod or data center.
 
-An important distinction of Premium VLANs is that they are not selected automatically to fulfill a server order. Premium VLANs must be explicitly selected during the server ordering process to have servers reside on them. See the [FAQ](/docs/infrastructure/vlans?topic=vlans-vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-) for instructions concerning VLAN selection.
+An important distinction of Premium VLANs is that they are not selected automatically to fulfill a server order. Premium VLANs must be explicitly selected during the server ordering process to have servers reside on them. See the [FAQ](/docs/vlans?topic=vlans-vlans-faqs#is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-) for instructions concerning VLAN selection.
 
 
 ## VLAN identification
@@ -53,7 +53,7 @@ VLANs exist on routers within IBM Cloud data centers. Each VLAN is identified by
 ## VLANs and subnets
 {:#vlans-subnets}
 
-VLANs can contain one or more subnets. Like VLANs, some subnets are automatically added and removed as devices require IP addresses. What subnets can exist, and how they operate is further detailed in [Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-getting-started).
+VLANs can contain one or more subnets. Like VLANs, some subnets are automatically added and removed as devices require IP addresses. What subnets can exist, and how they operate is further detailed in [Subnets and IPs](/docs/subnets?topic=subnets-getting-started).
 
 
 ## Communication within a VLAN
@@ -70,4 +70,4 @@ There are no inherent restrictions to communication between resources on the pub
 {:#communication-within-vlans-private}
 
 By default, only compute within the same subnet can communicate, even if multiple subnets are in the same VLAN. However, it is possible to communicate with other subnets on the same VLAN as long as the compute instances have route entries for
-the additional subnets on that VLAN. Managing route entries on all compute nodes which need to communicate across private subnets can be cumbersome. For the situations in which default communication is required among all compute within the same VLAN, see [VLAN Spanning](/docs/infrastructure/vlans?topic=vlans-vlan-spanning). Note that VLAN Spanning has broad implications and should be reviewed carefully before enabling.
+the additional subnets on that VLAN. Managing route entries on all compute nodes which need to communicate across private subnets can be cumbersome. For the situations in which default communication is required among all compute within the same VLAN, see [VLAN Spanning](/docs/vlans?topic=vlans-vlan-spanning). Note that VLAN Spanning has broad implications and should be reviewed carefully before enabling.

@@ -48,7 +48,7 @@ By default, VLAN spanning is disabled. Devices located on two different private 
 ### Services that commonly require VLAN spanning
 {: #vlan-spanning-services}
 
-Specific tutorials are available to help you set up VLAN spanning for your situation. See our links to [Other resources](/docs/infrastructure/vlans?topic=vlans-other-resources-vlan-spanning).
+Specific tutorials are available to help you set up VLAN spanning for your situation. See our links to [Other resources](/docs/vlans?topic=vlans-other-resources-vlan-spanning).
 
 
 ## Managing VLAN spanning

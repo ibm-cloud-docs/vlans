@@ -33,7 +33,7 @@ Existing compute devices, such as a virtual server instance (VSI) or a bare meta
 ## Is there a way to specify which VLAN I want to use for my device when I order it?
 {: faq}
 
-Yes, a specific VLAN may be selected during the ordering process. When ordering a device, this option is available at the end of the order form. A private VLAN is selected, followed by a public VLAN. Also note that a subnet selector is presented for each VLAN; this selection is **optional**. Only select a subnet if you have reason to do so, as selecting a subnet which lacks available IP addresses will negatively impact the fulfillment of the device (See the [Subnet FAQ](/docs/infrastructure/subnets?topic=subnets-faq) for more details).
+Yes, a specific VLAN may be selected during the ordering process. When ordering a device, this option is available at the end of the order form. A private VLAN is selected, followed by a public VLAN. Also note that a subnet selector is presented for each VLAN; this selection is **optional**. Only select a subnet if you have reason to do so, as selecting a subnet which lacks available IP addresses will negatively impact the fulfillment of the device (See the [Subnet FAQ](/docs/subnets?topic=subnets-faq) for more details).
 
 It is important to note that the selected VLAN must be located in the same data center as the device. We cannot assign a device to a VLAN that is in a different data center.
 
@@ -62,13 +62,13 @@ For more information about managing VLANs as trunks, see the API documentation l
 ## When ordering a VLAN, what does it mean when I'm told there aren't any available VLANs?
 {: faq}
 
-See [A note about capacity](/docs/infrastructure/vlans?topic=vlans-getting-started#note-about-capacity).
+See [A note about capacity](/docs/vlans?topic=vlans-getting-started#note-about-capacity).
 
 
 ## Why can't my devices communicate with one another on the same private VLAN?
 {: faq}
 
-If each server is on a different subnet, then by default, they will not be able to communicate via IP addresses. Technically, your servers can communicate using OSI Model Layer 2 methods because they are on the same VLAN (a Layer 2 construct). For internet protocol (IP) (also called Layer 3) communication to work, you can either add a route for the subnet you're attempting to communicate with on each server (the route is different on each server), or enable [VLAN Spanning](/docs/infrastructure/vlans?topic=vlans-vlan-spanning). Note that [VLAN Spanning](/docs/infrastructure/vlans?topic=vlans-vlan-spanning) has additional implications, so review the feature in detail before deciding to enable it.
+If each server is on a different subnet, then by default, they will not be able to communicate via IP addresses. Technically, your servers can communicate using OSI Model Layer 2 methods because they are on the same VLAN (a Layer 2 construct). For internet protocol (IP) (also called Layer 3) communication to work, you can either add a route for the subnet you're attempting to communicate with on each server (the route is different on each server), or enable [VLAN Spanning](/docs/vlans?topic=vlans-vlan-spanning). Note that [VLAN Spanning](/docs/vlans?topic=vlans-vlan-spanning) has additional implications, so review the feature in detail before deciding to enable it.
 
 ## What options do I have if I need devices on different private subnets within the same VLAN to communicate by default, but I don't want to enable VLAN Spanning?
 {: faq}

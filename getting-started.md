@@ -26,9 +26,9 @@ subcollection: vlans
 
 Virtual Local Area Networks (VLANs) are used by {{site.data.keyword.cloud}} to isolate broadcast traffic on the public and private networks. VLANs are assigned as needed to fulfill other offerings. For instance, if you place a compute order for a data center in which you don't yet have a presence, you automatically receive a VLAN. Additional compute orders for the same data center, which do not specify network requirements, usually are placed in the previously assigned VLAN. All VLANs that are assigned automatically are also removed automatically when your resources no longer require them.
 
-VLANs are specific to the routers used in IBM Cloud data centers, and a data center contains multiple routers for both the public and private networks. Thus, it is possible that multiple VLANs can be assigned within a single data center. It also is possible to order additional VLANs to construct more complex network topologies; typically in conjunction with a [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-getting-started-with-ibm-virtual-router-appliance).
+VLANs are specific to the routers used in IBM Cloud data centers, and a data center contains multiple routers for both the public and private networks. Thus, it is possible that multiple VLANs can be assigned within a single data center. It also is possible to order additional VLANs to construct more complex network topologies; typically in conjunction with a [Virtual Router Appliance](/docs/virtual-router-appliance??topic=virtual-router-appliance-getting-started).
 
-We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed by {{site.data.keyword.cloud}} as **Automatic VLANs**. Learn more about how VLANs operate in [About VLANs](/docs/infrastructure/vlans?topic=vlans-about-vlans).
+We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed by {{site.data.keyword.cloud}} as **Automatic VLANs**. Learn more about how VLANs operate in [About VLANs](/docs/vlans?topic=vlans-about-vlans).
 
 
 ## Managing VLANs
@@ -61,7 +61,7 @@ The portal ordering experience only provides for ordering a single VLAN configur
 ### A note about capacity
 {:#note-about-capacity}
 
-An attempt to order a VLAN may be prevented due to capacity restrictions in the location selected. If encountered, it affects all users trying to order VLANs in that location; no recourse is available. If possible, we encourage you to establish a presence in another data center, and consider taking advantage of [VLAN Spanning](/docs/infrastructure/vlans?topic=vlans-vlan-spanning). If your location needs are flexible, it's best to use the least specific location option when ordering VLANs, because this allows for greater flexibility in allocating your VLANs. Additionally, VLAN capacity in a previously attempted location can become available at a later time.
+An attempt to order a VLAN may be prevented due to capacity restrictions in the location selected. If encountered, it affects all users trying to order VLANs in that location; no recourse is available. If possible, we encourage you to establish a presence in another data center, and consider taking advantage of [VLAN Spanning](/docs/vlans?topic=vlans-vlan-spanning). If your location needs are flexible, it's best to use the least specific location option when ordering VLANs, because this allows for greater flexibility in allocating your VLANs. Additionally, VLAN capacity in a previously attempted location can become available at a later time.
 
 
 ## Canceling Premium VLANs
