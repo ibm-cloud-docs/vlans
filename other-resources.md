@@ -28,4 +28,4 @@ For help with specific tasks involving VLANs, refer to the following resources.
 * [IBM Cloud CLI commands for VLANs](/docs/cli/reference/ibmcloud?topic=cloud-cli-manage-classic-vlans)
 * [Route multiple VLANs over the same network interface using Juniper vSRX](/docs/vsrx?topic=vsrx-managing-ibm-vlans#route-multiple-vlans-over-the-same-network-interface)
 * [Configuring subnets for Kubernetes clusters](/docs/containers?topic=containers-subnets#vlan-spanning)
-* [Overview of IBM Cloud Networking, VLAN spanning for VMware solutions](/docs/services/vmwaresolutions/archiref/vcsnsxt?topic=vmware-solutions-vcsnsxt-overview-ic4vnetwork#vcsnsxt-overview-ic4vnetwork-vlan-spanning)
+* [Overview of IBM Cloud Networking, VLAN spanning for VMware solutions](/docs/vmwaresolutions/archiref/vcsnsxt?topic=vmware-solutions-vcsnsxt-overview-ic4vnetwork#vcsnsxt-overview-ic4vnetwork-vlan-spanning)
