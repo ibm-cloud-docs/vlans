@@ -19,30 +19,30 @@ subcollection: vlans
 # Editing a VLAN name
 {:#edit-vlan-name}
 
-Each VLAN is issued a permanent VLAN number to assist in identifying it. You also may assign a VLAN name and edit it at any time. VLAN names are displayed on the VLANs screen and also when you view the individual VLAN. We recommend using a naming convention for your VLANs, so they can be identified easily by all users on the account.
+Each VLAN is issued a permanent VLAN number to help identify it. You also can assign a VLAN name and edit it at any time. VLAN names are displayed on the VLANs screen and also when you view the individual VLAN. We recommend that you use a naming convention for your VLANs, so they can be identified easily by all users on the account.
 
 You can update the VLAN name from the **VLANs** screen or from the **VLAN Details** screen. Your changes are visible in all locations for the VLAN, regardless of which screen you use.
 
-For either option, first go to the VLANs screen:
+For either option, follow these steps first to go to the VLANs screen.
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
+1. From the dashboard, click the menu icon ![menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure navigation, select **Network > IP Management > VLANs**.
 
 
 To edit a VLAN name from the VLANs screen:
 
-1. Select the **Name** cell for the desired VLAN to open the cell for edits.
+1. Select the **Name** cell for the specific VLAN to open the cell for edits.
 1. Click anywhere on the screen to close the field for edits and save the change.
 
 
 To edit a VLAN name from the VLAN Details screen:
 
-1. Click on the VLAN to view its details.
-1. Select the **Name** cell for the desired VLAN to open the cell for edits.
+1. Click the VLAN to view its details.
+1. Select the **Name** cell for the specific VLAN to open the cell for edits.
 1. Click anywhere on the screen to close the field for edits and save the change.
 
 ## What Happens Next
 {:#edit-vlan-name-what-happens-next}
 
-After you edit the VLAN name, the field will change color briefly, indicating that your change has been saved. You may edit the VLAN name again at any time by repeating the previous steps.
+After you edit the VLAN name, the field will change color briefly, which indicates that your change is saved. You can edit the VLAN name again at any time by repeating the previous steps.
