@@ -6,6 +6,7 @@
     "provision a new server in the new vlan",
     "provisioning new server in a new vlan",
     "moving my VLAN firewall to my new VLAN",
+    "My server has chosen the wrong VLAN"
     "move my VLAN firewall to my new VLAN"
    ],
   "is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-":[
@@ -15,6 +16,8 @@
      "specifying a VLAN when ordering",
      "select a VLAN that is in a different datacenter",
      "specify the VLAN that I want to provision",
+     "choose which VLAN I use when ordering a server",
+     "chose the VLAN I want when buying bare metal",
      "specifying VLANs that to provision"
    ],
  "how-many-devices-may-be-assigned-to-a-single-vlan-":[
