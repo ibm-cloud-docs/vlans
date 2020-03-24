@@ -11,9 +11,13 @@ subcollection: vlans
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
-# Upgrading an Automatic VLAN
+# Upgrading an automatic VLAN
 {:#upgrading-automatic-vlan}
+{: help}
+{: support}
 
 If you built a solution around an Automatic VLAN and later decide you want it to have the capabilities of a Premium VLAN, you can upgrade it. Upgrading is not reversible. The VLAN becomes a Premium VLAN and stays on your account until canceled, at which point it is reclaimed.
 
@@ -38,7 +42,7 @@ Run the [SoftLayer_Network_Vlan.upgrade](https://softlayer.github.io/reference/s
 
 See the API documentation for [SoftLayer_Network_Vlan.upgrade](https://softlayer.github.io/reference/services/SoftLayer_Network_Vlan/upgrade/) for more details.
 
-## What Happens Next?
+## What happens next
 {:#upgrade-vlan-what-happens-next}
 
 The VLAN is converted to a Premium VLAN shortly after a successful order is placed.

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="vlans" category="network" audience="service" href="/docs/vlans?topic=vlans-getting-started" path="vlans"}
+{: .toc subcollection="vlans" category="network" audience="service" href="/docs/vlans?topic=vlans-getting-started" console-page="/classic/network/vlans" product-page="https://www.ibm.com/cloud/blog/introducing-premium-vlans-are-you-compute-first-or-network-first" path="vlans"}
 VLANs
 
     {: .navgroup id="learn"}
@@ -13,7 +13,10 @@ VLANs
     Tutorials
         /tutorials/solution-tutorials-vlan-spanning
 
-    [Subnets and IPs](/subnets/subnets-getting-started)
+    {: .topicgroup}
+    Related links
+        [Subnets and IPs](/subnets/subnets-getting-started)
+        [What are computer network types?](https://www.ibm.com/cloud/learn/networking-a-complete-guide#toc-computer-n-H96vzaB9)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

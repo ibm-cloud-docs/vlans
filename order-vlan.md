@@ -20,9 +20,13 @@ subcollection: vlans
 {:external: target="_blank" .external}
 {:DomainName: data-hd-keyref="DomainName"}
 {:note: .note}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
-# Ordering Premium VLANs
+# Ordering premium VLANs
 {:#ordering-premium-vlans}
+{: help}
+{: support}
 
 When you're ready to explore a more complex network topology, you can add more VLANs to isolate traffic between groups of devices. Unlike Automatic VLANs, which are automatically assigned to fulfill the needs of other products, a Premium VLAN stays on your account until canceled.
 
@@ -36,7 +40,7 @@ Follow these steps to order a VLAN.
   1. In the Classic infrastructure navigation, select **Network > IP Management > VLANs**.
   1. Select **Order VLAN** and complete your specific configuration.
 
-## What happens next?
+## What happens next
 {:#order-premium-vlans-what-happens-next}
 
 A new VLAN with your specific configuration appears on your account within a few moments, except in cases that require approval processes for your account status.

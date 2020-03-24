@@ -37,12 +37,12 @@ We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed
 Follow these steps to review the VLANs on your account.
 
   1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and log in to your account.
-  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-  1. In the Classic Infrastructure navigation, select **Network > IP Management > VLANs**.
+  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+  1. Select **Network > IP Management > VLANs**.
 
 The VLANs listing displays information about your VLANs, and it provides access to each VLAN, along with associated devices or subnets.
 
-### Understanding pod vs. data center selection
+### Understanding pod versus data center selection
 {:#pod-vs-datacenter-selection}
 
 The options for where to order a VLAN provide for different needs and constraints. This section summarizes reasons why you might select one option over another.
@@ -61,10 +61,10 @@ The portal ordering experience only provides for ordering a single VLAN configur
 ### A note about capacity
 {:#note-about-capacity}
 
-An attempt to order a VLAN may be prevented due to capacity restrictions in the location selected. If encountered, it affects all users trying to order VLANs in that location; no recourse is available. If possible, we encourage you to establish a presence in another data center, and consider taking advantage of [VLAN Spanning](/docs/vlans?topic=vlans-vlan-spanning). If your location needs are flexible, it's best to use the least specific location option when ordering VLANs, because this allows for greater flexibility in allocating your VLANs. Additionally, VLAN capacity in a previously attempted location can become available at a later time.
+An attempt to order a VLAN may be prevented due to capacity restrictions in the location selected. If encountered, it affects all users trying to order VLANs in that location; no recourse is available. If possible, we encourage you to establish a presence in another data center, and consider taking advantage of [VLAN spanning](/docs/vlans?topic=vlans-vlan-spanning). If your location needs are flexible, it's best to use the least specific location option when ordering VLANs, because this allows for greater flexibility in allocating your VLANs. Additionally, VLAN capacity in a previously attempted location can become available at a later time.
 
 
-## Canceling Premium VLANs
+## Canceling premium VLANs
 {:#canceling-premium-vlans}
 
 When you are ready to remove a premium VLAN, locate that VLAN in your account's VLAN listing (See Managing VLANs) and click the "X" icon within the entry to initiate the cancellation prompts.
@@ -77,6 +77,6 @@ Premium VLANs cannot be canceled if they are being used by other products. The f
   * Association to an Auto Scale Group.
   * Being trunked to servers (this will change in the future).
 
-Additionally, some products and features **will not prevent cancellation** of a VLAN, but will be affected by its removal. These include:
+Additionally, some products and features **do not prevent cancellation** of a VLAN, but are affected by its removal. These include:
 
   * Being protected by a Virtual Router Appliance. The VLAN association will be removed whether it is bypassed or not.
