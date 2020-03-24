@@ -24,6 +24,7 @@ VLANs
     upgrade-vlan.md
     display-vlans.md
     edit-vlan.md
+    cancel-vlan.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
