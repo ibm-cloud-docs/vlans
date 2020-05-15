@@ -28,7 +28,6 @@ You often need to enable VLAN spanning when you work with [{{site.data.keyword.c
 For help with specific VLANs tasks, refer to the following resources.
 
 * [Premium VLANs](https://www.ibm.com/cloud/blog/introducing-premium-vlans-are-you-compute-first-or-network-first)
-* [Setting up classic VLAN spanning with VRAs](/docs/tutorials?topic=solution-tutorials-vlan-spanning#vlan-spanning)
 * [For Kubernetes service, configure edge nodes with multiple VLANs](/docs/containers?topic=containers-loadbalancer#edge_nodes_multiple_vlans)
 * [IBM Cloud CLI commands for VLANs](/docs/cli/reference/ibmcloud?topic=cloud-cli-manage-classic-vlans)
 * [Managing VLANs with a Gateway Appliance](/docs/vsrx?topic=gateway-appliance-managing-vlans-and-gateway-appliances)
