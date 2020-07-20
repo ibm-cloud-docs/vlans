@@ -11,7 +11,7 @@ VLANs
 
     {: .topicgroup}
     Tutorials
-        /tutorials/solution-tutorials-vlan-spanning
+        /solution-tutorials?topic=solution-tutorials-linking-secure-network-enclosures
 
     {: .topicgroup}
     Related links
