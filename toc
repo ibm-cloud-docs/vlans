@@ -11,8 +11,8 @@ VLANs
 
     {: .topicgroup}
     Tutorials
-        /solution-tutorials-solution-tutorials-linking-secure-network-enclosures
-
+        /solution-tutorials/solution-tutorials-linking-secure-network-enclosures
+        
     {: .topicgroup}
     Related links
         [Subnets and IPs](/subnets/subnets-getting-started)

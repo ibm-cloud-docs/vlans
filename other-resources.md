@@ -11,6 +11,18 @@ subcollection: vlans
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:codeblock: .codeblock}
+{:pre: .pre}
+{:screen: .screen}
+{:term: .term}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:external: target="_blank" .external}
+{:table: .aria-labeledby="caption"}
+{:generic: data-hd-programlang="generic"}
+{:download: .download}
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Resources for VLAN spanning
@@ -31,4 +43,4 @@ For help with specific VLANs tasks, refer to the following resources.
 * [For Kubernetes service, configure edge nodes with multiple VLANs](/docs/containers?topic=containers-loadbalancer#edge_nodes_multiple_vlans)
 * [IBM Cloud CLI commands for VLANs](/docs/cli?topic=cli-manage-classic-vlans)
 * [Managing VLANs with a Gateway Appliance](/docs/vsrx?topic=gateway-appliance-managing-vlans-and-gateway-appliances)
-* [Enabling routing between primary subnets on the same VLAN](/docs/containers?topic=containers-subnets#vlan-spanning)
+* [Enabling routing between primary subnets on the same VLAN](/docs/containers?topic=containers-subnets#basics_segmentation)
