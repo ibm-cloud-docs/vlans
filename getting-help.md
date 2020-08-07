@@ -39,4 +39,4 @@ If you have problems or questions about using VLANs, you can get help by searchi
 
 If you use the forum to ask a question, tag your question so that it is seen by the {{site.data.keyword.cloud_notm}} development teams. If you have technical questions about VLANs, post your question on [Stack Overflow](https://stackoverflow.com/search?q=vlans+ibm-cloud){:external}{:new_window} and tag your question with `vlans` and `ibm-cloud`.
 
-See [Contacting support](/docs/get-support?topic=get-support-getting-customer-support) for more information about opening IBM support cases, or about support levels and case severities.
+See [Contacting support](/docs/get-support) for more information about opening IBM support cases, or about support levels and case severities.
