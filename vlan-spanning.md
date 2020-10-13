@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-07-20"
 
-keywords: VLAN Spanning VLAN, Default values, VLAN Spanning
+keywords: VLAN Spanning
 
 subcollection: vlans
 
@@ -36,9 +36,7 @@ VLAN spanning enables all devices on an account to communicate with each other b
 ## Understanding VLAN spanning
 {: #understanding-vlan-spanning}
 
-
 In {{site.data.keyword.cloud}}, VLAN spanning can be used for many different purposes and has an impact on device communication. To learn more about the basics of VLAN spanning before you get started, review the following information.
-{: shortdesc}
 
 ### How VLAN spanning works
 {: #how-vlan-spanning-works}
@@ -63,7 +61,6 @@ Specific tutorials are available to help you set up VLAN spanning for your situa
 {: #manage-vlan-spanning}
 
 You can enable or disable VLAN spanning for your account.
-{: shortdesc}
 
 To update your account setting, follow these steps:
 

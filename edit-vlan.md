@@ -4,9 +4,10 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-11-27"
 
-keywords: VLAN Name, VLANs screen, permanent VLAN number
+keywords: VLAN Name, permanent VLAN number
 
 subcollection: vlans
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -24,7 +25,11 @@ subcollection: vlans
 {: help}
 {: support}
 
-Each VLAN is issued a permanent VLAN number to help identify it. You also can assign a VLAN name and edit it at any time. VLAN names are displayed on the VLANs screen and also when you view the individual VLAN. We recommend that you use a naming convention for your VLANs, so they can be identified easily by all users on the account.
+Each VLAN is issued a permanent VLAN number to help identify it. You also can assign a VLAN name and edit it at any time.
+{:shortdesc}
+
+VLAN names are displayed on the VLANs screen and also when you view the individual VLAN. It is recommended that you use a naming convention for your VLANs, so they can be identified easily by all users on the account.
+
 
 You can update the VLAN name from the **VLANs** screen or from the **VLAN Details** screen. Your changes are visible in all locations for the VLAN, regardless of which screen you use.
 

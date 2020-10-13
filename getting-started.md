@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-11-27"
 
-keywords: compute order, Additional compute orders, Premium VLANs
+keywords: vlans, vlan
 
 subcollection: vlans
 
@@ -15,17 +15,25 @@ subcollection: vlans
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
+{:term: .term}
 {:tip: .tip}
-{:download: .download}
-{:important: .important}
 {:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:table: .aria-labeledby="caption"}
 {:external: target="_blank" .external}
+{:table: .aria-labeledby="caption"}
+{:generic: data-hd-programlang="generic"}
+{:download: .download}
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Getting started with VLANs
 {: #getting-started}
 
-Virtual Local Area Networks (VLANs) are used by {{site.data.keyword.cloud}} to isolate broadcast traffic on the public and private networks. VLANs are assigned as needed to fulfill other offerings. For instance, if you place a compute order for a data center in which you don't yet have a presence, you automatically receive a VLAN. Additional compute orders for the same data center, which do not specify network requirements, usually are placed in the previously assigned VLAN. All VLANs that are assigned automatically are also removed automatically when your resources no longer require them.
+Virtual Local Area Networks (VLANs) are used by {{site.data.keyword.cloud}} to isolate broadcast traffic on the public and private networks.
+{:shortdesc}
+
+VLANs are assigned as needed to fulfill other offerings. For instance, if you place a compute order for a data center in which you don't yet have a presence, you automatically receive a VLAN. Additional compute orders for the same data center, which do not specify network requirements, usually are placed in the previously assigned VLAN. All VLANs that are assigned automatically are also removed automatically when your resources no longer require them.
 
 VLANs are specific to the routers used in IBM Cloud data centers, and a data center contains multiple routers for both the public and private networks. Thus, it is possible that multiple VLANs can be assigned within a single data center. It also is possible to order additional VLANs to construct more complex network topologies; typically in conjunction with a [Virtual Router Appliance](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started).
 

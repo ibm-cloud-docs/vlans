@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2018, 2019
+  years: 1994, 2019
 lastupdated: "2019-02-27"
 
-keywords: Automatic VLAN, capabilities of a Premium VLAN, upgrade shortcut interface
+keywords: upgrade automatic vlan
 
 subcollection: vlans
 
@@ -14,6 +14,20 @@ subcollection: vlans
 {:new_window: target="_blank"}
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
+{:codeblock: .codeblock}
+{:pre: .pre}
+{:screen: .screen}
+{:term: .term}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:table: .aria-labeledby="caption"}
+{:generic: data-hd-programlang="generic"}
+{:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # Upgrading an automatic VLAN
 {:#upgrading-automatic-vlan}
@@ -21,6 +35,7 @@ subcollection: vlans
 {: support}
 
 If you built a solution around an Automatic VLAN and later decide you want it to have the capabilities of a Premium VLAN, you can upgrade it. Upgrading is not reversible. The VLAN becomes a Premium VLAN and stays on your account until canceled, at which point it is reclaimed.
+{:shortdesc}
 
 Upgrading VLANs is not always possible. VLAN capacity limitations still apply.
 

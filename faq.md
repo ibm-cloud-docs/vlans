@@ -1,24 +1,31 @@
 ---
 
 copyright:
-  years: 1994, 2017, 2018, 2019
+  years: 1994, 2019
 lastupdated: "2019-10-10"
 
-keywords: new VLAN, subnet selector, VLAN moves
+keywords: vlans faq
 
 subcollection: vlans
 
 ---
+
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
+{:codeblock: .codeblock}
+{:pre: .pre}
+{:screen: .screen}
+{:term: .term}
+{:tip: .tip}
 {:note: .note}
 {:important: .important}
 {:deprecated: .deprecated}
+{:table: .aria-labeledby="caption"}
 {:external: target="_blank" .external}
+{:table: .aria-labeledby="caption"}
 {:generic: data-hd-programlang="generic"}
-{:faq: data-hd-content-type='faq'}
-{:support: data-reuse='support'}
+{:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # FAQs
 {:#vlans-faqs}

@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2019
 lastupdated: "2019-11-27"
 
-keywords: Premium VLANs, complex network topology, Automatic VLANs
+keywords: order VLANs
 
 subcollection: vlans
 
@@ -30,6 +30,7 @@ subcollection: vlans
 {: support}
 
 When you're ready to explore a more complex network topology, you can add more VLANs to isolate traffic between groups of devices. Unlike Automatic VLANs, which are automatically assigned to fulfill the needs of other products, a Premium VLAN stays on your account until canceled.
+{:shortdesc}
 
 Pricing is visible during the ordering process.
 {:note}

@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-08-07"
+  years: 1994, 2020
+lastupdated: "2020-08-14"
 
-keywords: VLANs, different role, network concept
+keywords:  
 
 subcollection: vlans
 
@@ -25,6 +25,7 @@ subcollection: vlans
 VLANs are central in directing traffic to your resources. You might never need to interact directly with any VLANs because they are managed automatically: they are assigned as needed and removed when not.
 
 A VLAN is a network concept. VLANs allow you to create broadcast domains at the [OSI Model](https://en.wikipedia.org/wiki/OSI_model){:external} layer 2 level, the _data link layer_. VLANs provide one method of packet identification, and they allow multiple workloads to coexist on the same physical equipment. For more information about VLANs, refer to [this article](https://en.wikipedia.org/wiki/Virtual_LAN){:external}.
+{:shortdesc}
 
 ## Types of VLANs
 {:#types-of-vlans}
