@@ -22,7 +22,6 @@ subcollection: vlans
 {:deprecated: .deprecated}
 {:table: .aria-labeledby="caption"}
 {:external: target="_blank" .external}
-{:table: .aria-labeledby="caption"}
 {:generic: data-hd-programlang="generic"}
 {:download: .download}
 {:DomainName: data-hd-keyref="DomainName"}

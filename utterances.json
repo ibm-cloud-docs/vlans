@@ -1,75 +1,105 @@
 {
-  "can-i-move-an-existing-device-to-a-new-vlan-":[
+  "move-existing-device-new-vlan": [
     "move an existing device to a new VLAN",
     "moved my current server to my new VLAN",
+    "move my bare metal server to a new VLAN",
     "new VLAN, move my VSI to it",
     "provision a new server in the new vlan",
     "provisioning new server in a new vlan",
     "moving my VLAN firewall to my new VLAN",
+    "How do you change VLANs",
+    "change vlan",
+    "change vlans",
+    "can I move my VSI to a new VLAN",
     "My server has chosen the wrong VLAN",
     "move my VLAN firewall to my new VLAN"
-   ],
-  "is-there-a-way-to-specify-which-vlan-i-want-to-use-for-my-device-when-i-order-it-":[
-     "specify which VLAN I want to use for my device when I order it",
-     "specify a VLAN when I order it",
-     "select a specific vlan",
-     "specifying a VLAN when ordering",
-     "select a VLAN that is in a different datacenter",
-     "specify the VLAN that I want to provision",
-     "choose which VLAN I use when ordering a server",
-     "chose the VLAN I want when buying bare metal",
-     "specifying VLANs that to provision"
-   ],
- "how-many-devices-may-be-assigned-to-a-single-vlan-":[
+  ],
+  "specify-vlan-during-order": [
+    "specify which VLAN I want to use for my device when I order it",
+    "specify a VLAN when I order it",
+    "select a specific vlan",
+    "specific VLAN be selected during the ordering process",
+    "specifiying which VLAN when I make an order",
+    "specifying a VLAN when ordering",
+    "select a VLAN that is in a different datacenter",
+    "specify the VLAN that I want to provision",
+    "choose which VLAN I use when ordering a server",
+    "chose the VLAN I want when buying bare metal",
+    "specifying VLANs that to provision"
+  ],
+  "number-of-devices-assigned-vlan": [
     "many devices may be assigned to a single VLAN",
     "many devices assigned to a vlan",
     "how many devices placed on one VLAN",
     "many devices added to a single VLAN",
     "multiple devices on one vlan",
+    "how many servers can I place on one VLAN",
+    "limit on the number of devices that can be associated with a single VLAN",
+    "limit to the number of devices on a single VLAN",
     "multiple servers added to a single vlan",
     "many VMs assigned to one vlan"
-   ],
- "what-kinds-of-devices-are-assigned-to-a-vlan-":[
-    "kinds of devices are assigned to a VLAN", 
-    "what can be assigned to a vlan",   
-    "what can be associated with a VLAN",   
-    "dedicated server be assigned to a VLAN",    
+  ],
+  "kinds-of-devices-assigned-vlan": [
+    "kinds of devices are assigned to a VLAN",
+    "what can be assigned to a vlan",
+    "what devices can be assigned to a VLAN",
+    "assign a dedicated server to a Vlan",
+    "can I associate servers to a VLAN",
+    "can any device be assigned to a VLAN",
+    "what can be associated with a VLAN",
+    "dedicated server be assigned to a VLAN",
     "servers be associated with a VLAN",
     "assign a server to a VLAN"
   ],
- "how-do-i-trunk-my-vlans-to-my-servers-":[
-    "trunk my VLANs to my servers", 
-    "trunk a VLAN to bare metal",   
-    "VLAN and server trunked",   
-    "trunking a server to a VLAN",    
+  "trunk-vlans-to-servers": [
+    "trunk my VLANs to my servers",
+    "trunk a VLAN to bare metal",
+    "VLAN and server trunked",
+    "trunking a server to a VLAN",
+    "information about managing VLANs as trunks",
+    "can I manage VLANs as trunks",
+    "using a VLAN as a trunk",
+    "trunking a server to a VLAN",
     "trunk a VLAN with a server",
+    "VLAN and bare metal server trunking",
     "VLAN and server trunking"
- ],
- "when-ordering-a-vlan-what-does-it-mean-when-i-m-told-there-aren-t-any-available-vlans-":[
-    "there aren't any available VLANs", 
-    "there isn't an available VLAN", 
-    "no VLANs available in my region",   
-    "error that there are no available VLANs",   
-    "error given that no available VLAN",    
+  ],
+  "no-vlans-available": [
+    "there aren't any available VLANs",
+    "there isn't an available VLAN",
+    "no VLANs available in my region",
+    "error that there are no available VLANs",
+    "error given that no available VLAN",
+    "why aren't there any VLANs available",
     "trying to create a VLAN and none available",
     "aren't there any VLANs available",
-    "VLANs unavailable in this region", 
-    "VLAN unavailable"   
+    "VLANs unavailable in this region",
+    "VLAN unavailable"
   ],
- "why-can-t-my-devices-communicate-with-one-another-on-the-same-private-vlan-":[
-    "can't my devices communicate with one another on the same private VLAN",   
+  "devices-cant-communicate-on-private-vlan": [
+    "can't my devices communicate with one another on the same private VLAN",
+    "servers can't communicate with one another on the same private VLAN",
     "devices can't communicate on the same VLAN",
     "servers on the same VLAN but can't communicate",
     "attempting to communicate with each other on the same VLAN",
+    "devices unable to communicate on the same private VLAN",
+    "devices not able to communicate via IP addresses on the same VLAN",
+    "devices on the same VLAN can not communicate via IP",
+    "how to enable VLAN Spanning",
+    "enabling VLAN Spanning",
     "unable to communicate together on the same VLAN",
     "same VLAN but can't communicate"
   ],
- "what-options-do-i-have-if-i-need-devices-on-different-private-subnets-within-the-same-vlan-to-communicate-by-default-but-i-don-t-want-to-enable-vlan-spanning-":[
+  "communicate-without-vlan-spanning": [
     "need devices on different private subnets within the same VLAN to communicate",
     "cannot enable VLAN spanning but require some VLANs to route with each other",
     "need VLAN and subnets to route with each other",
+    "do not want to enable VLAN Spanning",
+    "how can I avoid using VLAN Spanning",
+    "avoid VLAN Spanning for VLANs and subnet routing",
+    "VLANs and subnets to route without VLAN Spanning",
     "need some VLANs to route with each other",
     "want my VLANs and subnets to route together",
     "route my VLAN and subnet together"
-   ] 
+  ]
 }
