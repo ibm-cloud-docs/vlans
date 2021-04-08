@@ -34,7 +34,7 @@ VLANs ordered independently of a device can be canceled when no references to th
 
 References include devices on the VLAN and portable subnets that are ordered on the VLAN.
 
-For premium VLANs that are associated with a Virtual Router Appliance, you must first [disassociate](/docs/virtual-router-appliance?topic=gateway-appliance-managing-vlans-and-gateway-appliances#disassociate-a-vlan-from-a-gateway-appliance) the VLAN before you cancel it. The disassociation occurs automatically if the Virtual Router Appliance is canceled, but you can only cancel the VLAN after the Virtual Route Appliance cancellation has completed.
+For premium VLANs that are associated with a gateway appliance, you must first [disassociate](/docs/virtual-router-appliance?topic=gateway-appliance-managing-vlans-and-gateway-appliances#disassociate-a-vlan-from-a-gateway-appliance) the VLAN before you cancel it. The disassociation occurs automatically if the gateway appliance is canceled, but you can only cancel the VLAN after the gateway appliance cancellation has completed.
 {:note}
 
 Follow these steps to cancel a VLAN.
