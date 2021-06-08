@@ -12,7 +12,7 @@ VLANs
     {: .topicgroup}
     Tutorials
         /solution-tutorials/solution-tutorials-linking-secure-network-enclosures
-        
+
     {: .topicgroup}
     Related links
         [Subnets and IPs](/subnets/subnets-getting-started)
@@ -30,10 +30,11 @@ VLANs
     {: .navgroup id="reference"}
     legacy-customers.md
     other-resources.md
-    [Terraform](https://cloud.ibm.com/docs/terraform?topic=terraform-getting-started)
+    [Terraform](/docs/terraform?topic=terraform-getting-started)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     faq.md
     getting-help.md
+
     {: .navgroup-end}

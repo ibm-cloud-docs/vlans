@@ -38,7 +38,7 @@ Have a question about VLANs? Review frequently asked questions, which provide an
 {: faq}
 {: support}
 
-Existing compute devices, such as a virtual server instance (VSI) or a bare metal, cannot be moved to a new VLAN. A new VSI or bare metal needs to be provisioned in the new VLAN and deprovisioned accordingly. Single VLAN firewalls cannot be moved to a new VLAN either. Multi VLAN firewalls can be attached to the new VLAN and then detached from the previous VLAN. Refer to the specific offering documentation for capabilities and limitations.
+Existing compute devices, such as a virtual server instance (VSI) or a bare metal, cannot be moved to a new VLAN. A new VSI or bare metal must be provisioned in the new VLAN and deprovisioned accordingly. Single VLAN firewalls cannot be moved to a new VLAN either. Multi VLAN firewalls can be attached to the new VLAN and then detached from the previous VLAN. Refer to the specific offering documentation for capabilities and limitations.
 
 ## Is there a way to specify which VLAN I want to use for my device when I order it?
 {:#specify-vlan-during-order}
@@ -72,7 +72,8 @@ Any device that has a network connection is associated with a VLAN. Dedicated se
 {: support}
 
 VLANs can be trunked to bare metal servers only through use of the API; no portal interface is available for this activity.
-For more information about managing VLANs as trunks, see the following API documentation links.
+For more information about managing VLANs as trunks, see the following API documentation links:
+
 * https://softlayer.github.io/reference/services/SoftLayer_Network_Component/addNetworkVlanTrunks
 * https://softlayer.github.io/reference/services/SoftLayer_Network_Component/removeNetworkVlanTrunks
 

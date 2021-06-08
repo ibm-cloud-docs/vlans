@@ -45,7 +45,7 @@ We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed
 
 Follow these steps to review the VLANs on your account.
 
-  1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and log in to your account.
+  1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
   1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
   1. Select **Network > IP Management > VLANs**.
 
