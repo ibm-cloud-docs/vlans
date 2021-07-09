@@ -1,13 +1,14 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="vlans" category="network_classic" audience="service" href="/docs/vlans?topic=vlans-getting-started" console-page="/classic/network/vlans" product-page="https://www.ibm.com/cloud/blog/introducing-premium-vlans-are-you-compute-first-or-network-first" path="vlans"}
+{: .toc subcollection="vlans" category="network_classic" audience="service" href="/docs/vlans" console-page="/classic/network/vlans" product-page="https://www.ibm.com/cloud/blog/introducing-premium-vlans-are-you-compute-first-or-network-first" path="vlans"}
 VLANs
 
     {: .navgroup id="learn"}
     getting-started.md
     about-vlans.md
     vlan-spanning.md
+    release-notes.md
 
     {: .topicgroup}
     Tutorials
@@ -30,7 +31,7 @@ VLANs
     {: .navgroup id="reference"}
     legacy-customers.md
     other-resources.md
-    [Terraform](/docs/terraform?topic=terraform-getting-started)
+    [Terraform](https://{DomainName}/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
