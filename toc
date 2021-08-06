@@ -29,9 +29,9 @@ VLANs
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
+    [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/network_vlan)
     legacy-customers.md
     other-resources.md
-    [Terraform](https://{DomainName}/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
