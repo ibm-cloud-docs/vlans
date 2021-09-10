@@ -31,7 +31,7 @@ subcollection: vlans
 {: #getting-started}
 
 Virtual Local Area Networks (VLANs) are used by {{site.data.keyword.cloud}} to isolate broadcast traffic on the public and private networks.
-{:shortdesc}
+{: shortdesc}
 
 VLANs are assigned as needed to fulfill other offerings. For instance, if you place a compute order for a data center in which you don't yet have a presence, you automatically receive a VLAN. Additional compute orders for the same data center, which do not specify network requirements, usually are placed in the previously assigned VLAN. All VLANs that are assigned automatically are also removed automatically when your resources no longer require them.
 
@@ -41,18 +41,18 @@ We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed
 
 
 ## Managing VLANs
-{:#managing-vlans}
+{: #managing-vlans}
 
 Follow these steps to review the VLANs on your account.
 
-  1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-  1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
-  1. Select **Network > IP Management > VLANs**.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
+1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. Select **Network > IP Management > VLANs**.
 
 The VLANs listing displays information about your VLANs, and it provides access to each VLAN, along with associated devices or subnets.
 
 ### Understanding pod versus data center selection
-{:#pod-vs-datacenter-selection}
+{: #pod-vs-datacenter-selection}
 
 The options for where to order a VLAN provide for different needs and constraints. This section summarizes reasons why you might select one option over another.
 
@@ -63,29 +63,29 @@ Use the **Order by data center** option when the location of the VLAN is less im
 It's best to use the least specific location option available that fits your current need.
 
 ### Complex orders
-{:#complex-orders-vlans}
+{: #complex-orders-vlans}
 
 The portal ordering experience only provides for ordering a single VLAN configuration per order. A configuration consists of the desired network, location option, and quantity. While it is possible to order multiple VLAN configurations in a single order via the API, each configuration quantity is restricted to 1. This means that each VLAN configuration provided is fulfilled independently. Thus, if each configuration utilizes the data center location option, each VLAN can be assigned to different pods within that data center.
 
 ### A note about capacity
-{:#note-about-capacity}
+{: #note-about-capacity}
 
 An attempt to order a VLAN may be prevented due to capacity restrictions in the location selected. If encountered, it affects all users trying to order VLANs in that location; no recourse is available. If possible, we encourage you to establish a presence in another data center, and consider taking advantage of [VLAN spanning](/docs/vlans?topic=vlans-vlan-spanning). If your location needs are flexible, it's best to use the least specific location option when ordering VLANs, because this allows for greater flexibility in allocating your VLANs. Additionally, VLAN capacity in a previously attempted location can become available at a later time.
 
 
 ## Canceling premium VLANs
-{:#canceling-premium-vlans}
+{: #canceling-premium-vlans}
 
 When you are ready to remove a premium VLAN, locate that VLAN in your account's VLAN listing (See Managing VLANs) and click the "X" icon within the entry to initiate the cancellation prompts.
 
 Premium VLANs cannot be canceled if they are being used by other products. The following uses prevent cancellation:
 
-  * Servers directly homed on the VLAN (as opposed to trunked).
-  * Secondary subnets routed to the VLAN or an IP address on the VLAN.
-  * Firewall products which serve the entire VLAN. This excludes non-dedicated hardware firewalls, for instance.
-  * Association to an Auto Scale Group.
-  * Being trunked to servers (this will change in the future).
+* Servers directly homed on the VLAN (as opposed to trunked).
+* Secondary subnets routed to the VLAN or an IP address on the VLAN.
+* Firewall products which serve the entire VLAN. This excludes non-dedicated hardware firewalls, for instance.
+* Association to an Auto Scale Group.
+* Being trunked to servers (this will change in the future).
 
 Additionally, some products and features **do not prevent cancellation** of a VLAN, but are affected by its removal. These include:
 
-  * Being protected by a Virtual Router Appliance. The VLAN association will be removed whether it is bypassed or not.
+* Being protected by a Virtual Router Appliance. The VLAN association will be removed whether it is bypassed or not.

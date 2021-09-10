@@ -1,0 +1,64 @@
+#  Name your file `toc.yaml`
+#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+
+toc:
+  properties:
+    subcollection: vlans
+    version: 2
+    category: network_classic
+    audience: service
+    href: /docs/vlans
+    console-page: /classic/network/vlans
+    product-page: https://www.ibm.com/cloud/blog/introducing-premium-vlans-are-you-compute-first-or-network-first
+    path: vlans
+    label: VLANs
+
+#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
+  entries:
+    - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+      - about-vlans.md
+      - vlan-spanning.md
+      - topicgroup:
+        label: Related links
+        topics:
+        - /subnets/subnets-getting-started
+
+    - navgroup:
+      id: tutorial
+      topics:
+      - topicgroup:
+        label: Linking secure private networks over the IBM network
+        topics:
+        - /solution-tutorials/solution-tutorials-linking-secure-network-enclosures
+
+    - navgroup:
+      id: howto
+      topics:
+      - order-vlan.md
+      - upgrade-vlan.md
+      - display-vlans.md
+      - edit-vlan.md
+      - cancel-vlan.md
+      - terraform.md
+
+#  Links to your REST API docs should be included in the Reference navigation group. For details on publishing API docs, see https://test.cloud.ibm.com/docs/api-docs.
+#  Links to your command line reference docs should be included in the Reference navigation group.
+    - navgroup:
+      id: reference
+      topics:
+      - link:
+          label: Terraform reference
+          href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/network_vlan
+      - legacy-customers.md
+      - other-resources.md
+
+    - navgroup:
+      id: help
+      topics:
+      - faq.md
+      - release-notes.md
+      - getting-help.md

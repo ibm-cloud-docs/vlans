@@ -32,7 +32,7 @@ subcollection: vlans
 {: #release-notes}
 
 Use these release notes to learn about the latest updates to VLANs that are grouped by date.
-{:shortdesc}
+{: shortdesc}
 
 ## 13 October 2020
 {: #13-october-2020}

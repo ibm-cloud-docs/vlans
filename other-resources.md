@@ -27,10 +27,10 @@ subcollection: vlans
 {:DomainName: data-hd-keyref="DomainName"}
 
 # Resources for VLAN spanning
-{:#other-resources-vlan-spanning}
+{: #other-resources-vlan-spanning}
 
 You must enable VLAN spanning for your {{site.data.keyword.cloud_notm}} infrastructure account so your worker nodes can communicate with each other on the private network if you have multiple VLANs for a cluster, multiple subnets on the same VLAN, or a multizone cluster.
-{:shortdesc}
+{: shortdesc}
 
 If you do not have the correct access to perform this action, you can ask the account owner to enable it. If you're unsure about whether VLAN spanning is enabled, you can run `ibmcloud ks vlan-spanning-get` to see your account status.
 
