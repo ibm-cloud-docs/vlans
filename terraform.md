@@ -55,25 +55,25 @@ To install Terraform and configure resources for VLANs:
    ```
    {: codeblock}
 
-3. Initialize the Terraform CLI.
+1. Initialize the Terraform CLI.
 
    ```
    terraform init
    ```
    {: pre}
 
-4. Create a Terraform execution plan. The Terraform execution plan summarizes all the actions that need to be run to create the VLAN instance in your account.
+1. Create a Terraform execution plan. The Terraform execution plan summarizes all the actions that need to be run to create the VLAN instance in your account.
 
    ```
    terraform plan
    ```
    {: pre}
 
-5. Create the VLAN instance in {{site.data.keyword.cloud_notm}}.
+1. Create the VLAN instance in {{site.data.keyword.cloud_notm}}.
 
    ```
    terraform apply
    ```
    {: pre}
 
-6. From the [{{site.data.keyword.cloud_notm}} resource list](/resources){: external}, select the VLAN instance that you created and note the instance ID.
+1. From the [{{site.data.keyword.cloud_notm}} resource list](/resources){: external}, select the VLAN instance that you created and note the instance ID.

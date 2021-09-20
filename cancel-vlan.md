@@ -45,8 +45,9 @@ Follow these steps to cancel a VLAN.
 1. Choose the **Cancel** icon for the wanted VLAN.
 1. Select the appropriate **Cancel** method based how you want to cancel the VLAN.
 
-      Specific information on cancellation options is displayed next to each item.
-      {: note}
+    Specific information on cancellation options is displayed next to each item.
+    {: note}
+    
 1. Enter notes about the cancellation in the **Notes** text box.
 1. Select **Continue** to proceed to the confirmation message, or select **Cancel** to cancel the action.
 1. Review the **Terms of Service** accessible on the screen, and click the **Acknowledgement** checkbox.
