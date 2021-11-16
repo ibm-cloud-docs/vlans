@@ -10,21 +10,7 @@ subcollection: vlans
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:term: .term}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:table: .aria-labeledby="caption"}
-{:external: target="_blank" .external}
-{:generic: data-hd-programlang="generic"}
-{:download: .download}
-{:DomainName: data-hd-keyref="DomainName"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Canceling a VLAN
 {: #cancel-vlan}
@@ -39,7 +25,7 @@ For premium VLANs that are associated with a gateway appliance, you must first [
 
 Follow these steps to cancel a VLAN.
 
-1. From your browser, open the [IBM Cloud console](https://{DomainName}/){: new_window} and log in to your account.
+1. From your browser, open the [IBM Cloud console](https://{DomainName}/) and log in to your account.
 1. In the menu, select **Classic Infrastructure**.
 1. Select **Network > IP Management > VLANs**.
 1. Choose the **Cancel** icon for the wanted VLAN.

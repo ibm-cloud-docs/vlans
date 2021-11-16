@@ -10,18 +10,7 @@ subcollection: vlans
 
 ---
 
-<!-- Common attributes used in the template are defined as follows: -->
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
-{:DomainName: data-hd-keyref="DomainName"}
-{:external: target="_blank" .external}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:generic: data-hd-programlang="generic"}
+{{site.data.keyword.attribute-definition-list}}
 
 
 # Getting help and support

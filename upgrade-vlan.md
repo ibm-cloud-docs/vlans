@@ -10,24 +10,7 @@ subcollection: vlans
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:term: .term}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:table: .aria-labeledby="caption"}
-{:external: target="_blank" .external}
-{:table: .aria-labeledby="caption"}
-{:generic: data-hd-programlang="generic"}
-{:download: .download}
-{:DomainName: data-hd-keyref="DomainName"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Upgrading an automatic VLAN
 {: #upgrading-automatic-vlan}
@@ -54,9 +37,8 @@ For the moment, upgrading is only available via the API. Two methods are availab
 ## Shortcut interface
 {: #vlan-shortcut-interface}
 
-Run the [SoftLayer_Network_Vlan.upgrade](https://softlayer.github.io/reference/services/SoftLayer_Network_Vlan/upgrade/) operation against an existing VLAN by initializing the call with the `SoftLayer_Network_Vlan.id` value of the VLAN to upgrade. This locates the appropriate package and pricing information for the VLAN, and places the necessary order to perform the upgrade. Using this method, VLAN upgrade orders are placed only if your account qualifies for automatic order approval.
-
-See the API documentation for [SoftLayer_Network_Vlan.upgrade](https://softlayer.github.io/reference/services/SoftLayer_Network_Vlan/upgrade/) for more details.
+Run the [SoftLayer_Network_Vlan.upgrade](https://softlayer.github.io/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} operation against an existing VLAN by initializing the call with the `SoftLayer_Network_Vlan.id` value of the VLAN to upgrade. This locates the appropriate package and pricing information for the VLAN, and places the necessary order to perform the upgrade. Using this method, VLAN upgrade orders are placed only if your account qualifies for automatic order approval
+See the API documentation for [SoftLayer_Network_Vlan.upgrade](https://softlayer.github.io/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} for more details.
 
 ## What happens next
 {: #upgrade-vlan-what-happens-next}

@@ -25,7 +25,9 @@ toc:
         - topicgroup:
             label: Related links
             topics:
-            - /subnets/subnets-getting-started
+            - link:
+                label: Getting started with subnets and IPs
+                href: /subnets/subnets-getting-started
 
      - navgroup:
         id: tutorial
