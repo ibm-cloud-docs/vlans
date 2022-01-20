@@ -1,6 +1,6 @@
 {
     "title": "VLANs docs",
-    "lastupdated": "2021-07-09",
+    "lastupdated": "2022-01-20",
     "introduction": "Virtual Local Area Networks (VLANs) are used by IBM Cloud to isolate broadcast traffic on the public and private networks.",
     "section_devtools": {
         "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/multi_vlan_firewall"
@@ -32,9 +32,9 @@
       "view_more": "/docs/vlans?topic=vlans-release-notes",
       "tiles": [
         {
-          "date": "13 October 2020",
-          "title": "Update Canceling a VLAN",
-          "description": "Added a note about disassociating a Virtual Router Appliance from a premium VLAN before attempting to cancel the VLAN."
+          "date": "20 January 2022",
+          "title": "UI Update and VLAN Trunking",
+          "description": "Improved the UI and ordering experience. Also, added the ability to manage VLAN trunking from the UI."
         }
       ]
     }

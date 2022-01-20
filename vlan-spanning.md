@@ -50,12 +50,11 @@ You can enable or disable VLAN spanning for your account.
 To update your account setting, follow these steps:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and log in to your account.
-1. From the dashboard, click the menu icon ![menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the console, click the Menu icon ![menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > VLANs**.
-1. Select the **VLAN Spanning** tab to access the VLAN Spanning section.
-1. Toggle to **Disabled** or **Enable** as needed to enable or disable VLAN spanning.
+1. Select the **VLAN Spanning** toggle button to enable or disable VLAN spanning as needed.
 
-Toggling VLAN Spanning within a short amount of time might delay application.
-{: note}
+   Toggling VLAN Spanning within a short amount of time might delay application.
+   {: note}
 
-The update request can take up to 15 minutes to process. A confirmation of the change shows on the screen. You can update your VLAN spanning settings at any time by repeating the previous steps.
+The update request can take up to 15 minutes to process. A confirmation of the change shows on the page. You can update your VLAN spanning settings at any time by repeating the previous steps.

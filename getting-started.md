@@ -31,7 +31,7 @@ We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed
 Follow these steps to review the VLANs on your account.
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the console, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > VLANs**.
 
 The VLANs listing displays information about your VLANs, and it provides access to each VLAN, along with associated devices or subnets.
@@ -57,20 +57,17 @@ The portal ordering experience only provides for ordering a single VLAN configur
 
 An attempt to order a VLAN may be prevented due to capacity restrictions in the location selected. If encountered, it affects all users trying to order VLANs in that location; no recourse is available. If possible, we encourage you to establish a presence in another data center, and consider taking advantage of [VLAN spanning](/docs/vlans?topic=vlans-vlan-spanning). If your location needs are flexible, it's best to use the least specific location option when ordering VLANs, because this allows for greater flexibility in allocating your VLANs. Additionally, VLAN capacity in a previously attempted location can become available at a later time.
 
-
 ## Canceling premium VLANs
 {: #canceling-premium-vlans}
 
-When you are ready to remove a premium VLAN, locate that VLAN in your account's VLAN listing (See Managing VLANs) and click the "X" icon within the entry to initiate the cancellation prompts.
+When you are ready to remove a premium VLAN, locate the VLAN in your account's VLAN listing and click **Cancel VLAN** from the VLAN's overflow menu ![overflow menu](/images/overflow.png).
 
-Premium VLANs cannot be canceled if they are being used by other products. The following uses prevent cancellation:
+Premium VLANs cannot be cancelled if they are being used by other products. The following uses prevent cancellation:
 
 * Servers directly homed on the VLAN (as opposed to trunked).
 * Secondary subnets routed to the VLAN or an IP address on the VLAN.
 * Firewall products which serve the entire VLAN. This excludes non-dedicated hardware firewalls, for instance.
 * Association to an Auto Scale Group.
-* Being trunked to servers (this will change in the future).
+* Being trunked to servers (this will change in the future).    
 
-Additionally, some products and features **do not prevent cancellation** of a VLAN, but are affected by its removal. These include:
-
-* Being protected by a Virtual Router Appliance. The VLAN association will be removed whether it is bypassed or not.
+Additionally, some products and features **do not prevent cancellation** of a VLAN, but are affected by its removal. This includes being protected by a Virtual Router Appliance. The VLAN association is removed whether it is bypassed or not.

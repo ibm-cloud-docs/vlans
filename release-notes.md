@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-07-09"
+  years: 2022
+lastupdated: "2022-01-20"
 
 keywords:
 subcollection: vlans
@@ -14,10 +14,10 @@ subcollection: vlans
 # Release notes for VLANs
 {: #release-notes}
 
-Use these release notes to learn about the latest updates to VLANs that are grouped by date.
+Use these release notes to learn about the latest updates to VLANs.
 {: shortdesc}
 
-## 13 October 2020
-{: #13-october-2020}
+## 20 January 2022
+{: #20-january-2022}
 
-Added a note about disassociating a Virtual Router Appliance from a premium VLAN before attempting to cancel the VLAN.
+- Improved the UI and ordering experience. Also, added the ability to manage VLAN trunking from the UI. 
