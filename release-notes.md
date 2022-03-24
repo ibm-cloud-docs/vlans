@@ -18,6 +18,8 @@ Use these release notes to learn about the latest updates to VLANs.
 {: shortdesc}
 
 ## 20 January 2022
-{: #20-january-2022}
+{: #vlans-jan2022}
+{: release-note}
 
-- Improved the UI and ordering experience. Also, added the ability to manage VLAN trunking from the UI. 
+Update UI
+:   Improved the UI and ordering experience, including the ability to manage VLAN trunks from the UI. 
