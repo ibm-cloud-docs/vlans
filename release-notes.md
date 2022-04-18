@@ -5,7 +5,10 @@ copyright:
 lastupdated: "2022-01-20"
 
 keywords:
+
 subcollection: vlans
+
+content-type: release-note
 
 ---
 

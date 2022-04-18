@@ -1,0 +1,82 @@
+---
+
+copyright:
+  years: 2022
+lastupdated: "2022-04-13"
+
+keywords:
+
+subcollection: vlans
+
+---
+
+{{site.data.keyword.attribute-definition-list}}
+
+# Configuring VLAN trunks
+{: #configuring-vlan-trunks}
+
+Servers can establish trunks with Automatic and Premium VLANs so that traffic can flow between devices using different VLANs than the ones chosen during provisioning.
+{: shortdesc}
+
+You can use VLAN trunks for many purposes, including, but not limited to:
+
+- Segmenting guests into different VLANs by adding VLAN trunks to hypervisor hosts (such as ESXi, Hyper-V and Xen Server)
+- Providing more direct access to external storage or other devices (commonly used when the host is behind a gateway device)
+
+You can add and remove VLAN trunks to a server's interface. The VLAN and server for the VLAN trunk must reside in the same pod as the server whose network interface is being connected. VLANs and their trunks must also be in the same network because private VLANs can only be trunked to private interfaces and public VLANs can only be trunked to public interfaces.
+
+You cannot establish VLAN trunks against management ports.
+{: tip}
+
+## Learning about network interfaces
+{: #about-network-interfaces}
+
+Network component groups are multiple physical interfaces participating in a logical redundant connection. A device can have multiple network interfaces and network interface groups. When you establish a trunk to any member in the group, that VLAN trunk is replicated to all group members.
+
+## Managing VLAN trunks using the UI
+{: #ui-manage-trunks}
+{: ui}
+
+You can establish or remove VLAN trunks using the UI.
+
+### Creating VLAN trunks using the UI
+{: #ui-create-vlan-trunks}
+
+Create a VLAN trunk using the console by taking the following steps:
+
+1. In the navigation pane, click **Classic Infrastructure** and scroll to **IP Management > VLANs** in the **Network** group.
+1. Select a VLAN by clicking on its fully qualified name in the list of VLANs.
+1. Click **Attach trunk** in the **Devices with trunks** section.
+1. Select a resource from the devices list in the panel that appears.
+1. Click **Attach** to establish the trunk, or click **Cancel** to close the panel without adding the trunk.
+
+Add VLANs as trunks to a network component. The VLANs given must be assigned to your account, and on the router to which this network component is connected. The native VLAN (`networkVlanId/networkVlan`) of the selected device cannot be added as a trunk. 
+
+You must manually configure your host's network with your added VLAN trunks before they can be used to pass traffic.
+{: note}
+
+### Removing VLAN trunks using the UI
+{: #ui-remove-vlan-trunks}
+
+To remove a VLAN trunk using the UI, take the following steps:
+
+1. In the navigation pane, click **Classic Infrastructure** and scroll to **IP Management > VLANs** in the **Network** group.
+1. Select a VLAN by clicking on its fully qualified name from the list of VLANs.
+1. Select a device from the **Devices with trunks** section.
+1. Click the Actions menu ![Actions menu icon](/images/overflow-icon.png "Actions menu icon") next to the VLAN trunk and select **Remove**.
+
+## Managing VLAN trunks using the API
+{: #api-manage-trunks}
+{: api}
+
+You can create and remove VLAN trunks by using the API.
+
+### Creating VLAN trunks using the API
+{: #api-create-vlan-trunks}
+
+For more information on creating VLAN trunks using the API, see [addNetworkVlanTrunks](https://sldn.softlayer.com/reference/services/SoftLayer_Network_Component/addNetworkVlanTrunks/){: external}
+
+### Removing VLAN trunks using the API
+{: #api-remove-vlan-trunks}
+
+For more information on removing VLAN trunks using the API, see [clearNetworkVlanTrunks](https://sldn.softlayer.com/reference/services/SoftLayer_Network_Component/clearNetworkVlanTrunks/){: external}
