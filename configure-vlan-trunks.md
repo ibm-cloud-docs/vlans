@@ -44,11 +44,14 @@ You can establish or remove VLAN trunks using the UI.
 
 Create a VLAN trunk using the console by taking the following steps:
 
-1. In the navigation pane, click **Classic Infrastructure** and scroll to **IP Management > VLANs** in the **Network** group.
+1. From your browser, open the [IBM Cloud console](https://{DomainName}/) and log in to your account.
+1. From the console, click the Menu icon ![menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. Select **Network > IP Management > VLANs**.
 1. Select a VLAN by clicking on its fully qualified name in the list of VLANs.
 1. Click **Attach trunk** in the **Devices with trunks** section.
 1. Select a resource from the devices list in the panel that appears.
 1. Click **Attach** to establish the trunk, or click **Cancel** to close the panel without adding the trunk.
+
 
 Add VLANs as trunks to a network component. The VLANs given must be assigned to your account, and on the router to which this network component is connected. The native VLAN (`networkVlanId/networkVlan`) of the selected device cannot be added as a trunk. 
 
@@ -58,12 +61,14 @@ You must manually configure your host's network with your added VLAN trunks befo
 ### Removing VLAN trunks using the UI
 {: #ui-remove-vlan-trunks}
 
-To remove a VLAN trunk using the UI, take the following steps:
+Remove a VLAN trunk using the console by taking the following steps:
 
-1. In the navigation pane, click **Classic Infrastructure** and scroll to **IP Management > VLANs** in the **Network** group.
-1. Select a VLAN by clicking on its fully qualified name from the list of VLANs.
-1. Select a device from the **Devices with trunks** section.
-1. Click the Actions menu ![Actions menu icon](/images/overflow-icon.png "Actions menu icon") next to the VLAN trunk and select **Remove**.
+1. From your browser, open the [IBM Cloud console](https://{DomainName}/) and log in to your account.
+1. From the console, click the Menu icon ![menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. Select **Network > IP Management > VLANs**.
+1. Select a VLAN by clicking on its fully qualified name in the list of VLANs.
+1. Select **Remove** from the overflow menu ![overflow icon](/images/overflow.png) of the trunk you want to remove.
+1. Click **Remove trunk** to remove the trunk, or click **Cancel** to close the panel without removing the trunk.
 
 ## Managing VLAN trunks using the API
 {: #api-manage-trunks}

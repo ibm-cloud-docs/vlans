@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2019-10-10"
+  years: 1994, 2022
+lastupdated: "2022-05-19"
 
 keywords:
 
@@ -56,11 +56,7 @@ Any device that has a network connection is associated with a VLAN. Dedicated se
 {: faq}
 {: support}
 
-VLANs can be trunked to bare metal servers only through use of the API; no portal interface is available for this activity.
-For more information about managing VLANs as trunks, see the following API documentation links:
-
-* https://softlayer.github.io/reference/services/SoftLayer_Network_Component/addNetworkVlanTrunks
-* https://softlayer.github.io/reference/services/SoftLayer_Network_Component/removeNetworkVlanTrunks
+For more information about managing VLANs as trunks, see [Configuring VLAN trunks](/docs/vlans?topic=vlans-configuring-vlan-trunks&interface=ui).
 
 ## As I order a VLAN, what does it mean when I'm told that no VLANs are available?
 {: #no-vlans-available}

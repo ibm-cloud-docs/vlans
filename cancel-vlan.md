@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-01-20"
+lastupdated: "2022-05-31"
 
 keywords: cancel VLANs
 
@@ -15,10 +15,8 @@ subcollection: vlans
 # Canceling a VLAN
 {: #cancel-vlan}
 
-VLANs ordered independently of a device can be canceled when no references to the VLAN remain.
+VLANs ordered independently of a device can be canceled when no references to the VLAN remain. References include devices on the VLAN and portable subnets that are ordered on the VLAN.
 {: shortdesc}
-
-References include devices on the VLAN and portable subnets that are ordered on the VLAN.
 
 For premium VLANs that are associated with a gateway appliance, you must first [disassociate](/docs/virtual-router-appliance?topic=gateway-appliance-managing-vlans-and-gateway-appliances#disassociate-a-vlan-from-a-gateway-appliance) the VLAN before you cancel it. The disassociation occurs automatically if the gateway appliance is canceled, but you can only cancel the VLAN after the gateway appliance cancellation has completed.
 {: note}
@@ -29,16 +27,18 @@ Follow these steps to cancel a VLAN.
 1. From the console, click the Menu icon ![menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > VLANs**.
 1. Select **Cancel VLAN** from the overflow menu ![overflow icon](/images/overflow.png) of the VLAN that you want to cancel. 
-1. Select the appropriate **Cancel** method based how you want to cancel the VLAN.
+1. Select the appropriate **Cancel** method based on when you want to cancel the VLAN.
 
     Specific information on cancellation options is displayed next to each item.
     {: note}
      
 1. Select **Confirm** to confirm the cancellation, or select **Close** to cancel the action and keep the VLAN active.
 
-Alternatively, you can click **Actions > Cancel VLAN** on the VLAN Details page.
+
+You can alternatively click **Actions > Cancel VLAN** on the **VLAN Details** page.
+{: tip}
 
 ## What happens next
 {: #cancel-vlan-what-happens-next}
 
-The VLAN is canceled after you submit a cancellation request. VLANs are canceled either immediately, or on the billing anniversary date. If you choose to cancel the VLAN immediately, the VLAN is reclaimed as soon as possible. If you select cancellation on the billing anniversary date, the VLAN remains active until the billing anniversary date.
+VLANs are canceled either immediately or on the billing anniversary date. If you choose to cancel the VLAN immediately, the VLAN is reclaimed as soon as possible. If you select cancellation on the billing anniversary date, the VLAN remains on your account and active until the billing anniversary date.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2019
-lastupdated: "2019-02-27"
+lastupdated: "2022-05-12"
 
 keywords: upgrade automatic vlan
 
@@ -32,15 +32,14 @@ For the moment, upgrading is only available via the API. Two methods are availab
 
 1. Construct an order similar to a typical Premium VLAN, with the correct package and pricing.
 1. Remove the `location` and `routerId` properties that are required when you order a new Premium VLAN.
-1. Add the `id` property, and populate it with the `SoftLayer_Network_Vlan.id` value of the VLAN to upgrade.
+1. Add the `id` property, and populate it with the `SoftLayer_Network_Vlan.id` value of the Automatic VLAN to upgrade.
 
 ## Shortcut interface
 {: #vlan-shortcut-interface}
 
-Run the [SoftLayer_Network_Vlan.upgrade](https://softlayer.github.io/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} operation against an existing VLAN by initializing the call with the `SoftLayer_Network_Vlan.id` value of the VLAN to upgrade. This locates the appropriate package and pricing information for the VLAN, and places the necessary order to perform the upgrade. Using this method, VLAN upgrade orders are placed only if your account qualifies for automatic order approval
-See the API documentation for [SoftLayer_Network_Vlan.upgrade](https://softlayer.github.io/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} for more details.
+Run the [SoftLayer_Network_Vlan.upgrade](https://softlayer.github.io/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} operation against an existing Automatic VLAN by initializing the call with the `SoftLayer_Network_Vlan.id` value of the VLAN to upgrade. This operation locates the appropriate package and pricing information for the VLAN, and places the necessary order to perform the upgrade. Using this method, VLAN upgrade orders are placed only if your account qualifies for automatic order approval. See [SoftLayer_Network_Vlan.upgrade](https://sldn.softlayer.com/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} in the API documentation for more details.
 
 ## What happens next
 {: #upgrade-vlan-what-happens-next}
 
-The VLAN is converted to a Premium VLAN shortly after a successful order is placed.
+The Automatic VLAN is converted to a Premium VLAN shortly after a successful order is placed.
