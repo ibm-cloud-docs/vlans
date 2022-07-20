@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-04-08"
+lastupdated: "2022-07-13"
 
 keywords: vlans, vlan
 
@@ -18,9 +18,9 @@ subcollection: vlans
 Virtual Local Area Networks (VLANs) are used by {{site.data.keyword.cloud}} to isolate broadcast traffic on the public and private networks.
 {: shortdesc}
 
-VLANs are assigned as needed to fulfill other offerings. For instance, if you place a compute order for a data center in which you don't yet have a presence, you automatically receive a VLAN. Additional compute orders for the same data center, which do not specify network requirements, usually are placed in the previously assigned VLAN. All VLANs that are assigned automatically are also removed automatically when your resources no longer require them.
+VLANs are assigned as needed to fulfill other offerings. For instance, if you place a compute order for a data center in which you don't yet have a presence, you automatically receive a VLAN. Additional compute orders for the same data center, which do not specify network requirements, usually are placed in the previously assigned VLAN. All VLANs that are assigned automatically are also removed automatically when you no longer have resources that require them.
 
-VLANs are specific to the routers used in IBM Cloud data centers, and a data center contains multiple routers for both the public and private networks. Thus, it is possible that multiple VLANs can be assigned within a single data center. It also is possible to order additional VLANs to construct more complex network topologies; typically in conjunction with a [Virtual Router Appliance](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started).
+VLANs are specific to the routers used in {{site.data.keyword.cloud}} data centers, and a data center contains multiple routers for both the public and private networks. Thus, it is possible that multiple VLANs can be assigned within a single data center. It also is possible to order additional VLANs to construct more complex network topologies; typically in conjunction with a [Virtual Router Appliance](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started).
 
 We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed by {{site.data.keyword.cloud}} as **Automatic VLANs**. Learn more about how VLANs operate in [About VLANs](/docs/vlans?topic=vlans-about-vlans).
 
@@ -67,6 +67,5 @@ Premium VLANs cannot be cancelled if they are being used by other products. The 
 * Servers directly homed on the VLAN (as opposed to trunked).
 * Secondary subnets routed to the VLAN or an IP address on the VLAN.
 * Firewall products which serve the entire VLAN. This excludes non-dedicated hardware firewalls, for instance.
-* Being trunked to servers (this will change in the future).    
 
 Additionally, some products and features **do not prevent cancellation** of a VLAN, but are affected by its removal. This includes being protected by a Virtual Router Appliance. The VLAN association is removed whether it is bypassed or not.

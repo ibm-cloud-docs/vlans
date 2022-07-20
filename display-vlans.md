@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994, 202022
+  years: 1994, 2022
 lastupdated: "2022-05-12"
 
 keywords: View VLAN Details
