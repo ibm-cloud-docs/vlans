@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-07-13"
+lastupdated: "2022-07-26"
 
 keywords: vlans, vlan
 
@@ -65,7 +65,6 @@ When you are ready to remove a premium VLAN, locate the VLAN in your account's V
 Premium VLANs cannot be cancelled if they are being used by other products. The following uses prevent cancellation:
 
 * Servers directly homed on the VLAN (as opposed to trunked).
-* Secondary subnets routed to the VLAN or an IP address on the VLAN.
 * Firewall products which serve the entire VLAN. This excludes non-dedicated hardware firewalls, for instance.
 
 Additionally, some products and features **do not prevent cancellation** of a VLAN, but are affected by its removal. This includes being protected by a Virtual Router Appliance. The VLAN association is removed whether it is bypassed or not.
