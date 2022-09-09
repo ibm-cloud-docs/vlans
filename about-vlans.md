@@ -2,7 +2,8 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-05-12"
+
+lastupdated: "2022-09-09"
 
 keywords:  
 
@@ -28,7 +29,7 @@ A VLAN is a network concept. VLANs allow you to create broadcast domains at the 
 ### Automatic VLANs
 {: #automatic-vlans}
 
-Automatic VLANs are managed by {{site.data.keyword.cloud}} automatically. They're assigned and removed as needed to fulfill the needs of other products you order. You typically have one automatic VLAN per router. Automatic VLANs are associated to servers ordered without a specific VLAN selected. It's not possible to order or cancel automatic VLANs because they exist on your account only when our systems determine they are required. They're removed when our systems determine they are no longer needed.
+Automatic VLANs are managed by {{site.data.keyword.cloud_notm}} automatically. They're assigned and removed as needed to fulfill the needs of other products that you order. You typically have one automatic VLAN per router. Automatic VLANs are associated to servers ordered without a specific VLAN selected. It's not possible to order or cancel automatic VLANs because they exist on your account only when our systems determine that they are required. They're removed when our systems determine that they are no longer needed.
 
 ### Premium VLANs
 {: #about-premium-vlans}
@@ -40,7 +41,7 @@ An important distinction of Premium VLANs is that they're not selected automatic
 ## VLAN identification
 {: #vlan-identification}
 
-VLANs exist on routers within {{site.data.keyword.cloud}} data centers. Each VLAN is identified by a unique fully qualified name. For example, the fully qualified name `dal10.fcr03.1431` is identified by the VLAN number `1431`, on router `fcr03`, and within data center `dal10` (Dallas 10). 
+VLANs exist on routers within {{site.data.keyword.cloud_notm}} data centers. Each VLAN is identified by a unique fully qualified name. For example, the fully qualified name `dal10.fcr03.1431` is identified by the VLAN number `1431`, on router `fcr03`, and within data center `dal10` (Dallas 10). 
 
 ## VLANs and subnets
 {: #vlans-subnets}
@@ -56,7 +57,7 @@ All resources on a VLAN can communicate, but that does not mean they will by def
 ### Communication within a VLAN on the public network
 {: #communication-within-vlans-public}
 
-Communication between resources on the public network is not inherently restricted, whether on one or more VLANs within {{site.data.keyword.cloud}}'s public network infrastructure or the internet. Restrictions can be added by introducing a Firewall or Gateway Appliance.
+Communication between resources on the public network is not inherently restricted, whether on one or more VLANs within {{site.data.keyword.cloud_notm}}'s public network infrastructure or the internet. Restrictions can be added by introducing a firewall or gateway appliance.
 
 ### Communication within a VLAN on the private network
 {: #communication-within-vlans-private}
