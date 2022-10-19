@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-08-12"
+  years: 2021, 2022
+lastupdated: "2022-10-19"
 
 subcollection: vlans
 
@@ -29,7 +29,7 @@ To install Terraform and configure resources for VLANs:
 
 1. Create a Terraform configuration file that is named `main.tf`. In this file, you add the configuration to create a VLAN service instance. For more information, see the [Terraform documentation](https://www.terraform.io/docs/language/index.html){: external}.
 
-   The VLAN resource in the following example is named `test_vlan`. This `PUBLIC` VLAN resides in the `dal06` data center and `fcr01a.dal06` is the hostname of the primary router associated with the VLAN.
+   The VLAN resource in the following example is named `test_vlan`. This `PUBLIC` VLAN resides in the `sjc04` data center and `fcr01a.sjc04` is the hostname of the primary router associated with the VLAN.
 
       For more information, see the [ibm_network_vlan](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/network_vlan){: external} usage example.
       {: note}
@@ -37,9 +37,9 @@ To install Terraform and configure resources for VLANs:
    ```terraform
    resource "ibm_network_vlan" "test_vlan" {
      name            = "test_vlan"
-     datacenter      = "dal06"
+     datacenter      = "sjc04"
      type            = "PUBLIC"
-     router_hostname = "fcr01a.dal06"
+     router_hostname = "fcr01a.sjc04"
      tags = [
        "collectd",
        "mesos-master",
