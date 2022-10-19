@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-05-31"
+lastupdated: "2022-09-01"
 
 keywords: cancel VLANs
 
@@ -15,7 +15,7 @@ subcollection: vlans
 # Canceling a VLAN
 {: #cancel-vlan}
 
-VLANs ordered independently of a device can be canceled when no references to the VLAN remain. References include devices on the VLAN and portable subnets that are ordered on the VLAN.
+You can cancel VLANs when you no longer need them and when they are empty of native devices, or have devices which are all canceled. Trunked devices do not prevent cancelation.
 {: shortdesc}
 
 For premium VLANs that are associated with a gateway appliance, you must first [disassociate](/docs/virtual-router-appliance?topic=gateway-appliance-managing-vlans-and-gateway-appliances#disassociate-a-vlan-from-a-gateway-appliance) the VLAN before you cancel it. The disassociation occurs automatically if the gateway appliance is canceled, but you can only cancel the VLAN after the gateway appliance cancellation has completed.
@@ -41,4 +41,6 @@ You can alternatively click **Actions > Cancel VLAN** on the **VLAN Details** pa
 ## What happens next
 {: #cancel-vlan-what-happens-next}
 
-VLANs are canceled either immediately or on the billing anniversary date. If you choose to cancel the VLAN immediately, the VLAN is reclaimed as soon as possible. If you select cancellation on the billing anniversary date, the VLAN remains on your account and active until the billing anniversary date.
+VLANs are canceled either immediately or on the billing anniversary date. If you choose to cancel the VLAN immediately, the VLAN is reclaimed as soon as possible. If you select cancellation on the billing anniversary date, the VLAN remains on your account and active until the billing anniversary date. 
+
+Any secondary subnets present on the VLAN will be unrouted as part of VLAN reclaim, and any trunks present on the VLAN will be automatically removed.
