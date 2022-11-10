@@ -3,7 +3,7 @@
 copyright:
   years: 1994, 2022
 
-lastupdated: "2022-09-09"
+lastupdated: "2022-11-08"
 
 keywords:  
 
@@ -34,9 +34,12 @@ Automatic VLANs are managed by {{site.data.keyword.cloud_notm}} automatically. T
 ### Premium VLANs
 {: #about-premium-vlans}
 
-Premium VLANs are acquired by ordering a VLAN. See [Ordering VLANs](/docs/vlans?topic=vlans-ordering-premium-vlans) for instructions. Premium VLANs remain on your account until explicitly canceled. You can order as many premium VLANs as you like, subject to capacity limitations. If capacity is unavailable, seek VLANs in another pod or data center.
+Premium VLANs are acquired by ordering a VLAN. See [Ordering VLANs](/docs/vlans?topic=vlans-ordering-premium-vlans) for instructions. You can order as many premium VLANs as you like, subject to capacity limitations. If capacity is unavailable, seek VLANs in another pod or data center.
 
 An important distinction of Premium VLANs is that they're not selected automatically to fulfill a server order. Premium VLANs must be explicitly selected while you are ordering servers to have servers reside on them. See the [FAQs](/docs/vlans?topic=vlans-vlans-faqs#specify-vlan-during-order) for instructions on VLAN selection.
+
+Premium VLANs which are not in use may be subject to automatic reclaim. Refer to the [FAQs](/docs/vlans?topic=vlans-vlans-faqs#empty-vlan-automatic-reclaim) for more details on this policy.
+{: note}
 
 ## VLAN identification
 {: #vlan-identification}

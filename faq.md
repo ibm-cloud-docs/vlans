@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2022
-lastupdated: "2022-05-19"
+lastupdated: "2022-11-08"
 
 keywords:
 
@@ -65,12 +65,19 @@ For more information about managing VLANs as trunks, see [Configuring VLAN trunk
 
 If you are told that no VLANs are available, see [A note about capacity](/docs/vlans?topic=vlans-getting-started#note-about-capacity).
 
+## How long can empty Premium VLANs remain unused on my account?
+{: #empty-vlan-automatic-reclaim}
+{: faq}
+{: support}
+
+Starting **February 13, 2023**, Premium VLANs which are not in use for 90 days or more are subject to automatic cancellation of billing and reclaim of the VLAN in order to maintain sufficient VLAN capacity for all customers.
+
 ## Why can't my devices communicate with one another on the same private VLAN?
 {: #devices-cant-communicate-on-private-vlan}
 {: faq}
 {: support}
 
-If each server is on a different subnet, then by default, they are not able to communicate via IP addresses. Technically, your servers can communicate by using OSI Model Layer 2 methods because they are on the same VLAN (a Layer 2 construct). For Internet Protocol (IP) (also called Layer 3) communication to work, you can either of the following:
+If each server is on a different subnet, then by default, they are not able to communicate via IP addresses. Technically, your servers can communicate by using OSI Model Layer 2 methods because they are on the same VLAN (a Layer 2 construct). For Internet Protocol (IP) (also called Layer 3) communication to work, you can do either of the following:
 
 * Add a route for the subnet you're attempting to communicate with on each server (the route is different on each server)
 * Enable [VLAN Spanning](/docs/vlans?topic=vlans-vlan-spanning)
