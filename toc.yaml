@@ -57,7 +57,6 @@ toc:
         - link:
            label: Terraform reference
            href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/network_vlan
-        - legacy-customers.md
         - other-resources.md
 
      - navgroup:
