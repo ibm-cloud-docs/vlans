@@ -26,7 +26,7 @@ You can use VLAN trunks for many purposes, including, but not limited to:
 You can add and remove VLAN trunks to a server's interface. The VLAN and server for the VLAN trunk must reside in the same pod as the server whose network interface is being connected. VLANs and their trunks must also be in the same network because private VLANs can only be trunked to private interfaces and public VLANs can only be trunked to public interfaces.
 
 You cannot establish VLAN trunks against management ports.
-{: tip}
+{: note}
 
 ## Learning about network interfaces
 {: #about-network-interfaces}
@@ -37,7 +37,10 @@ Network component groups are multiple physical interfaces participating in a log
 {: #ui-manage-trunks}
 {: ui}
 
-You can establish or remove VLAN trunks using the UI.
+You can establish or remove VLAN trunks using the UI. 
+
+When you want to change multiple VLAN trunks with a bare metal server, consider using the bare metal server page that can affect multiple VLAN trunks at a time. For more information, see [bare metal VLAN trunks](/docs/bare-metal?topic=bare-metal-network-options#bare-metal-vlan-trunks).
+{: tip}
 
 ### Creating VLAN trunks using the UI
 {: #ui-create-vlan-trunks}

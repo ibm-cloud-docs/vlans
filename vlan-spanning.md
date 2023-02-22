@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 1994, 2020
+  years: 1994, 2022
 lastupdated: "2022-05-12"
 
 keywords: VLAN Spanning
@@ -28,7 +28,7 @@ In {{site.data.keyword.cloud}}, VLAN spanning can be used for many different pur
 
 By enabling VLAN spanning, all of your routed traffic can travel between all private subnets, across all private VLANs on your account. VLAN spanning serves business needs that require the global communication of your routed traffic. For example, enable VLAN spanning if devices that reside on more than one private subnet need to communicate, whether on the same or different VLANs.
 
-When spanning is enabled, it affects the entire account. You cannot exempt any subnets, VLANs, or devices from VLAN spanning. If you currently rely solely on private subnets to segregate servers into roles or tiers, enabling VLAN spanning removes that segregation.
+When spanning is enabled, it affects the entire account. You cannot exempt any subnets, VLANs, or devices from VLAN spanning. If you currently rely solely on private subnets to separate servers into roles or tiers, enabling VLAN spanning removes that separation.
 {: note}
 
 ### Default values
