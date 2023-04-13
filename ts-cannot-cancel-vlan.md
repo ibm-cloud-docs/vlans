@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2022
-lastupdated: "2022-04-08"
+  years: 2021, 2023
+lastupdated: "2023-04-13"
 
 keywords:
 
@@ -27,7 +27,5 @@ You attempt to cancel VLAN billing items by completing the steps in [Cancelling 
 This error message occurs when the VLAN is still associated with resources.
 {: tsCauses}
 
-Trunked VLANs prevent the cancellation, but you can self-manage this issue without contacting IBM Support.  
-
-You must cancel the associated resources prior to attempting to cancel the associated VLANs. You can cancel VLANs that were ordered independently of a device when references to the VLAN do not remain. 
+You must cancel the associated resources prior to attempting to cancel the associated VLANs. You can cancel premium VLANs when there are no references to the VLAN.
 {: tsResolve}
