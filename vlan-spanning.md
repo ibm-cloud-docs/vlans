@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-05-12"
+  years: 1994, 2024
+lastupdated: "2024-01-18"
 
 keywords: VLAN Spanning
 
@@ -15,8 +15,11 @@ subcollection: vlans
 # VLAN spanning
 {: #vlan-spanning}
 
-VLAN spanning enables all devices on an account to communicate with each other by using the private network.
+VLAN spanning enables all devices on an account to communicate with each other by using the private network. This feature is only for older accounts and is mutually exclusive with VRF feature on an account.
 {: #shortdesc}
+
+Only enable VLAN spanning if you can't or don't want to enable Virtual Routing and Forwarding (VRF). For more information, see [Network segmentation](/docs/containers?topic=containers-subnets#basics_segmentation).
+{: important}
 
 ## Understanding VLAN spanning
 {: #understanding-vlan-spanning}
@@ -36,16 +39,15 @@ When spanning is enabled, it affects the entire account. You cannot exempt any s
 
 By default, VLAN spanning is disabled. Devices on two different private subnets, whether on the same or different VLANs, can't send IP traffic to one another.
 
-### Services that commonly require VLAN spanning
-{: #vlan-spanning-services}
-
-Specific tutorials are available to help you set up VLAN spanning for your situation. See [Resources for VLAN spanning](/docs/vlans?topic=vlans-other-resources-vlan-spanning) to access those tutorials.
-
-
 ## Managing VLAN spanning
 {: #manage-vlan-spanning}
 
-You can enable or disable VLAN spanning for your account. To update your account setting, follow these steps:
+You can enable or disable VLAN spanning for your account.
+
+This option will not appear for accounts that are incompatible with VLAN Spanning.
+{: note}
+
+To update your account setting, follow these steps:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and log in to your account.
 1. From the console, click the Menu icon ![menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
