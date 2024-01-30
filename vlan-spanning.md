@@ -49,8 +49,8 @@ This option will not appear for accounts that are incompatible with VLAN Spannin
 
 To update your account setting, follow these steps:
 
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and log in to your account.
-1. From the console, click the Menu icon ![menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login){: external} and log in to your account.
+1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > VLANs**.
 1. Select the **VLAN Spanning** toggle button to enable or disable VLAN spanning as needed.
 

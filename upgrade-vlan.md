@@ -37,7 +37,7 @@ For the moment, upgrading is only available via the API. Two methods are availab
 ## Shortcut interface
 {: #vlan-shortcut-interface}
 
-Run the [SoftLayer_Network_Vlan.upgrade](https://softlayer.github.io/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} operation against an existing Automatic VLAN by initializing the call with the `SoftLayer_Network_Vlan.id` value of the VLAN to upgrade. This operation locates the appropriate package and pricing information for the VLAN, and places the necessary order to perform the upgrade. Using this method, VLAN upgrade orders are placed only if your account qualifies for automatic order approval. See [SoftLayer_Network_Vlan.upgrade](https://sldn.softlayer.com/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} in the API documentation for more details.
+Run the [SoftLayer_Network_Vlan.upgrade](https://sldn.softlayer.com/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} operation against an existing Automatic VLAN by initializing the call with the `SoftLayer_Network_Vlan.id` value of the VLAN to upgrade. This operation locates the appropriate package and pricing information for the VLAN, and places the necessary order to perform the upgrade. Using this method, VLAN upgrade orders are placed only if your account qualifies for automatic order approval. See [SoftLayer_Network_Vlan.upgrade](https://sldn.softlayer.com/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} in the API documentation for more details.
 
 ## What happens next
 {: #upgrade-vlan-what-happens-next}

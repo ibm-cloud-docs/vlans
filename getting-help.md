@@ -16,7 +16,7 @@ subcollection: vlans
 # Getting help and support
 {: #gettinghelp-vlans}
 
-If you have problems or questions about using VLANs, you can get help by searching for information or by asking questions through a forum. You can also open an IBM Support case by opening the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/unifiedsupport/cases/add){: external} and logging in to your account.
+If you have problems or questions about using VLANs, you can get help by searching for information or by asking questions through a forum. You can also open an IBM Support case by opening the [{{site.data.keyword.cloud_notm}} console](/unifiedsupport/cases/add){: external} and logging in to your account.
 {: shortdesc}
 
 If you use the forum to ask a question, tag your question so that it is seen by the {{site.data.keyword.cloud_notm}} development teams.

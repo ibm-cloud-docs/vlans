@@ -26,18 +26,18 @@ You can update the VLAN name from the **VLANs** page or from the **VLAN Details*
 
 For either option, follow these steps first to go to the **VLANs** page.
 
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and log in to your account. 
-1. From the console, click the Menu icon ![menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**. 
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login){: external} and log in to your account.
+1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > VLANs**.
 
 
 To add or edit a VLAN name from the **VLANs** page:
 
-1. Click the overflow menu ![overflow icon](/images/overflow.png) for the VLAN you want to edit and select **Rename**.
+1. Click the Actions menu ![Actions menu](/images/overflow.png) for the VLAN you want to edit and select **Rename**.
 1. Add a new name or edit an existing name.
 1. Click **Update** to save the name.
 
-   A name can have a maximum of 20 characters. 
+   A name can have a maximum of 20 characters.
    {: note}
 
 
@@ -51,4 +51,4 @@ To edit a name from the **VLAN Details** page:
 ## What happens next
 {: #edit-vlan-name-what-happens-next}
 
-After you edit the VLAN name, a message appears stating that the name was changed successfully. 
+After you edit the VLAN name, a message appears stating that the name was changed successfully.

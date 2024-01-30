@@ -21,7 +21,7 @@ Virtual Local Area Networks (VLANs) are used by {{site.data.keyword.cloud}} to i
 
 VLANs are assigned as needed to fulfill other offerings. For instance, if you place a compute order for a data center in which you don't yet have a presence, you automatically receive a VLAN. Additional compute orders for the same data center, which do not specify network requirements, usually are placed in the previously assigned VLAN. All VLANs that are assigned automatically are also removed automatically when you no longer have resources that require them.
 
-VLANs are specific to the routers used in {{site.data.keyword.cloud_notm}} data centers, and a data center contains multiple routers for both the public and private networks. Thus, it is possible that multiple VLANs can be assigned within a single data center. It also is possible to order additional VLANs to construct more complex network topologies; typically in conjunction with a [Virtual Router Appliance](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started).
+VLANs are specific to the routers used in {{site.data.keyword.cloud_notm}} data centers, and a data center contains multiple routers for both the public and private networks. Thus, it is possible that multiple VLANs can be assigned within a single data center. It also is possible to order additional VLANs to construct more complex network topologies; typically in conjunction with a [Virtual Router Appliance](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started-vra).
 
 We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed by {{site.data.keyword.cloud_notm}} as **Automatic VLANs**. Learn more about how VLANs operate in [About VLANs](/docs/vlans?topic=vlans-about-vlans).
 
@@ -31,8 +31,8 @@ We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed
 
 Follow these steps to review the VLANs on your account.
 
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-1. From the console, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login) and log in to your account.
+1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > VLANs**.
 
 The VLANs listing displays information about your VLANs, and it provides access to each VLAN, along with associated devices or subnets.
@@ -61,7 +61,7 @@ An attempt to order a VLAN may be prevented due to capacity restrictions in the 
 ## Canceling premium VLANs
 {: #canceling-premium-vlans}
 
-When you are ready to remove a premium VLAN, locate the VLAN in your account's VLAN listing and click **Cancel VLAN** from the VLAN's overflow menu ![overflow menu](/images/overflow.png).
+When you are ready to remove a premium VLAN, locate the VLAN in your account's VLAN listing and click **Cancel VLAN** from the VLAN's Actions menu ![Actions menu](/images/overflow.png).
 
 Premium VLANs cannot be cancelled if they are being used by other products. The following uses prevent cancellation:
 

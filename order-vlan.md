@@ -25,10 +25,10 @@ Pricing is visible during the ordering process for Premium VLANs.
 
 Follow these steps to order a Premium VLAN:
 
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and log in to your account.
-1. From the console, click the Menu icon ![menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**. 
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login){: external} and log in to your account.
+1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. In the navigation pane, select **Network > IP Management > VLANs**.
-1. Select **Order** and complete your specific configuration. 
+1. Select **Order** and complete your specific configuration.
 
 ## What happens next
 {: #order-premium-vlans-what-happens-next}

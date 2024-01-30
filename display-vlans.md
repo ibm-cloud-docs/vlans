@@ -20,8 +20,8 @@ subcollection: vlans
 To view all your VLANs and their details, take the following steps.
 {: shortdesc}
 
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: external} and log in to your account. 
-1. From the console, click the Menu icon ![menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**. 
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login){: external} and log in to your account.
+1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
 1. Select **Network > IP Management > VLANs**.
 1. Click the **Fully qualified name** link to view more details about that specific VLAN.
 
@@ -37,6 +37,6 @@ You can tag all VLANs on your account with one or more alphanumeric identifiers 
 ## Other actions available
 {: #other-actions-available}
 
-- Click the **Edit** button in the **Details** section to [edit the VLAN name](/docs/vlans?topic=vlans-edit-vlan-name). 
-- View any subnets and devices associated with the VLAN. You can manage them by navigating to their respective details pages. 
+- Click the **Edit** button in the **Details** section to [edit the VLAN name](/docs/vlans?topic=vlans-edit-vlan-name).
+- View any subnets and devices associated with the VLAN. You can manage them by navigating to their respective details pages.
 - View and [configure VLAN trunks](/docs/vlans?topic=vlans-configuring-vlan-trunks).
