@@ -7,7 +7,6 @@ toc:
     audience: service
     href: /docs/vlans
     console-page: /classic/network/vlans
-    product-page:
     path: vlans
     label: VLANs
 
