@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2023
-lastupdated: "2023-01-27"
+  years: 2017, 2024
+lastupdated: "2024-02-14"
 
 keywords: vlans support case
 
@@ -13,12 +13,23 @@ subcollection: vlans
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Getting help and support
+# Getting help and support for VLANs
 {: #gettinghelp-vlans}
 
-If you have problems or questions about using VLANs, you can get help by searching for information or by asking questions through a forum. You can also open an IBM Support case by opening the [{{site.data.keyword.cloud_notm}} console](/unifiedsupport/cases/add){: external} and logging in to your account.
+If you experience an issue or have questions when using VLANs, you can use the following resources before you open a support case.
 {: shortdesc}
 
-If you use the forum to ask a question, tag your question so that it is seen by the {{site.data.keyword.cloud_notm}} development teams.
+* Review [FAQs](/docs/vlans?topic=vlans-vlans-faqs) in the product documentation.
 
-For more information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support).
+If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/get-support?topic=get-support-open-case).
+
+## Providing support case details for VLANs
+{: #support-case-details-vlans}
+
+To ensure that the support team has all of the details for investigating your issue to provide a timely resolution, you must provide detailed information about your issue. Review the following tips about the type of information to include in your support case for issues with VLANs.
+Provide the following details based on the problem you're experiencing:
+
+* **Order problems:** need user ID, location, network, order ID if created
+* **Routing problems:** need mtr data, fully qualified names and fully qualified addresses
+* **Trunking problems:** need fully qualified names, hardware hostnames, hardware IDs, user/user ID
+* **Cancellation:** need fully qualified name, user ID, billing item ID
