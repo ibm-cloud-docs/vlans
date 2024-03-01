@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 1994, 2022
+  years: 1994, 2024
 
-lastupdated: "2022-11-08"
+lastupdated: "2024-03-01"
 
 keywords:  
 
@@ -38,8 +38,10 @@ Premium VLANs are acquired by ordering a VLAN. See [Ordering VLANs](/docs/vlans?
 
 An important distinction of Premium VLANs is that they're not selected automatically to fulfill a server order. Premium VLANs must be explicitly selected while you are ordering servers to have servers reside on them. See the [FAQs](/docs/vlans?topic=vlans-vlans-faqs#specify-vlan-during-order) for instructions on VLAN selection.
 
-Premium VLANs which are not in use may be subject to automatic reclaim. Refer to the [FAQs](/docs/vlans?topic=vlans-vlans-faqs#empty-vlan-automatic-reclaim) for more details on this policy.
+Premium VLANs which are not in use may be subject to automatic reclaim.
 {: note}
+
+Premium VLANs which are not participating in Layer 2 or Layer 3 networks for 90 days or more are subject to automatic cancellation of billing and reclaim of the VLAN in order to maintain sufficient VLAN capacity for all customers. Any secondary subnets present on the VLAN will be unrouted as part of VLAN reclaim. For more information regarding the automatic reclaim policy of unrouted secondary subnets, see the [Subnets FAQs](/docs/subnets?topic=subnets-faq#faq-unrouted-subnets-automatic-reclaim). 
 
 ## VLAN identification
 {: #vlan-identification}
