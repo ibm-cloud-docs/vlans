@@ -1,4 +1,3 @@
-
 toc:
   properties:
     subcollection: vlans
@@ -9,7 +8,6 @@ toc:
     console-page: /classic/network/vlans
     path: vlans
     label: VLANs
-
   entries:
      - navgroup:
         id: learn
@@ -24,7 +22,6 @@ toc:
                 label: Getting started with subnets and IPs
                 href: /subnets/subnets-getting-started
         - release-notes.md
-
      - navgroup:
         id: tutorial
         topics:
@@ -32,7 +29,6 @@ toc:
            label: Classic infrastructure
            topics:
            - include: ../solution-tutorials/linking-secure-network-enclosures.md
-
      - navgroup:
         id: howto
         topics:
@@ -43,14 +39,12 @@ toc:
         - cancel-vlan.md
         - configure-vlan-trunks.md
         - terraform.md
-
      - navgroup:
         id: reference
         topics:
         - link:
            label: Terraform reference
            href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/network_vlan
-
      - navgroup:
         id: help
         topics:
