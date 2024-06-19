@@ -1,6 +1,6 @@
 {
     "title": "VLANs docs",
-    "lastupdated": "2022-01-20",
+    "lastupdated": "2024-06-19",
     "introduction": "Virtual Local Area Networks (VLANs) are used by IBM Cloud to isolate broadcast traffic on the public and private networks.",
     "section_devtools": {
         "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/multi_vlan_firewall"
