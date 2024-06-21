@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-01-20"
+lastupdated: "2024-06-19"
 
 keywords:
 
@@ -25,4 +25,4 @@ Use these release notes to learn about the latest updates to VLANs.
 {: release-note}
 
 Update UI
-:   Improved the UI and ordering experience, including the ability to manage VLAN trunks from the UI. 
+:   Improved the UI and ordering experience, including the ability to manage VLAN trunks from the UI.

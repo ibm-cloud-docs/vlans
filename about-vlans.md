@@ -3,9 +3,9 @@
 copyright:
   years: 1994, 2024
 
-lastupdated: "2024-03-01"
+lastupdated: "2024-06-19"
 
-keywords:  
+keywords:
 
 subcollection: vlans
 
@@ -41,12 +41,12 @@ An important distinction of Premium VLANs is that they're not selected automatic
 Premium VLANs which are not in use may be subject to automatic reclaim.
 {: note}
 
-Premium VLANs which are not participating in Layer 2 or Layer 3 networks for 90 days or more are subject to automatic cancellation of billing and reclaim of the VLAN in order to maintain sufficient VLAN capacity for all customers. Any secondary subnets present on the VLAN will be unrouted as part of VLAN reclaim. For more information regarding the automatic reclaim policy of unrouted secondary subnets, see the [Subnets FAQs](/docs/subnets?topic=subnets-faq#faq-unrouted-subnets-automatic-reclaim). 
+Premium VLANs which are not participating in Layer 2 or Layer 3 networks for 90 days or more are subject to automatic cancellation of billing and reclaim of the VLAN in order to maintain sufficient VLAN capacity for all customers. Any secondary subnets present on the VLAN will be unrouted as part of VLAN reclaim. For more information regarding the automatic reclaim policy of unrouted secondary subnets, see the [Subnets FAQs](/docs/subnets?topic=subnets-faq#faq-unrouted-subnets-automatic-reclaim).
 
 ## VLAN identification
 {: #vlan-identification}
 
-VLANs exist on routers within {{site.data.keyword.cloud_notm}} data centers. Each VLAN is identified by a unique fully qualified name. For example, the fully qualified name `dal10.fcr03.1431` is identified by the VLAN number `1431`, on router `fcr03`, and within data center `dal10` (Dallas 10). 
+VLANs exist on routers within {{site.data.keyword.cloud_notm}} data centers. Each VLAN is identified by a unique fully qualified name. For example, the fully qualified name `dal10.fcr03.1431` is identified by the VLAN number `1431`, on router `fcr03`, and within data center `dal10` (Dallas 10).
 
 ## VLANs and subnets
 {: #vlans-subnets}

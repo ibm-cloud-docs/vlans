@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-03-01"
+lastupdated: "2024-06-19"
 
 keywords:
 
@@ -70,7 +70,7 @@ If you are told that no VLANs are available, see [A note about capacity](/docs/v
 {: faq}
 {: support}
 
-Premium VLANs which are not participating in Layer 2 or Layer 3 networks for 90 days or more are subject to automatic cancellation of billing and reclaim of the VLAN in order to maintain sufficient VLAN capacity for all customers. Any secondary subnets present on the VLAN will be unrouted as part of VLAN reclaim. For more information regarding the automatic reclaim policy of unrouted secondary subnets, see the [Subnets FAQs](/docs/subnets?topic=subnets-faq#faq-unrouted-subnets-automatic-reclaim). 
+Premium VLANs which are not participating in Layer 2 or Layer 3 networks for 90 days or more are subject to automatic cancellation of billing and reclaim of the VLAN in order to maintain sufficient VLAN capacity for all customers. Any secondary subnets present on the VLAN will be unrouted as part of VLAN reclaim. For more information regarding the automatic reclaim policy of unrouted secondary subnets, see the [Subnets FAQs](/docs/subnets?topic=subnets-faq#faq-unrouted-subnets-automatic-reclaim).
 
 ## Why can't my devices communicate with one another on the same private VLAN?
 {: #devices-cant-communicate-on-private-vlan}
