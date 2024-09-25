@@ -1,41 +1,48 @@
-{
-    "title": "VLANs docs",
-    "lastupdated": "2024-06-19",
+  {
+    "version": 2,
+    "title": "IBM Cloud VLANs",
     "introduction": "Virtual Local Area Networks (VLANs) are used by IBM Cloud to isolate broadcast traffic on the public and private networks.",
-    "section_devtools": {
-        "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/multi_vlan_firewall"
-      },
-      "section_recommended": [
-      {
-        "title": "Getting started with VLANs",
-        "description": "Instructions for setting up a VLAN.",
-        "href": "/docs/vlans?topic=vlans-getting-started"
-      },
-      {
-        "title": "About VLANs",
-        "description": "Learn about VLANS and how they direct traffic to your resources.",
-        "href": "/docs/vlans?topic=vlans-about-vlans"
-      },
-      {
-        "title": "Ordering premium VLANs",
-        "description": "When you're ready to explore a more complex network topology, you can add more VLANs to isolate traffic between groups of devices.",
-        "href": "/docs/vlans?topic=vlans-ordering-premium-vlans"
-      }
+    "product_page": "/docs/vlans?topic=vlans-about-vlans",
+    "console_page": "/networking/vlans",
+    "section_topics": {
+      "links": [
+        {
+          "title": "Ordering premium VLANs",
+          "description": "When you're ready to explore a more complex network topology, you can add more VLANs to isolate traffic between groups of devices.",
+          "href": "/docs/vlans?topic=vlans-ordering-premium-vlans"
+        },
+        {
+          "title": "Linking secure private networks over the IBM network",
+          "description": "This tutorial demonstrstes how to link secure private networks using VLANs.",
+          "href": "/docs/vlans?topic=vlans-linking-secure-network-enclosures"
+        }
+      ]
+    },
+    "section_highlights": [
+        {
+          "title": "Getting started with VLANs",
+          "description": "Instructions for setting up a VLAN.",
+          "href": "/docs/vlans?topic=vlans-getting-started"
+        },
+        {
+          "title": "About VLANs",
+          "description": "Learn about VLANS and how they direct traffic to your resources.",
+          "href": "/docs/vlans?topic=vlans-about-vlans"
+        }
     ],
-    "section_learn": {
-      "developer": "https://developer.ibm.com/depmodels/cloud/",
-      "architecture": "https://www.ibm.com/architectures/hybrid",
-      "training": "https://www.ibm.com/training/cloud",
-      "community": "https://community.ibm.com/community/user/cloud/home"
+    "section_devtools": {
+        "api": "/apidocs/vpc-beta/latest",
+        "cli": "/docs/vpc?topic=vpc-set-up-environment&interface=cli",
+        "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/is_instance"
     },
     "section_updates": {
-      "view_more": "/docs/vlans?topic=vlans-release-notes",
-      "tiles": [
-        {
-          "date": "20 January 2022",
-          "title": "UI Update and VLAN Trunking",
-          "description": "Improved the UI and ordering experience. Also, added the ability to manage VLAN trunking from the UI."
-        }
+        "view_more": "/docs/vlans?topic=vlans-release-notes",
+        "tiles": [
+          {
+            "date": "20 January 2022",
+            "title": "UI Update and VLAN Trunking",
+            "description": "Improved the UI and ordering experience. Also, added the ability to manage VLAN trunking from the UI."
+          },
       ]
     }
   }
