@@ -30,7 +30,7 @@
             "date": "20 January 2022",
             "title": "UI Update and VLAN Trunking",
             "description": "Improved the UI and ordering experience. Also, added the ability to manage VLAN trunking from the UI."
-          },
+          }
       ]
     }
   }
