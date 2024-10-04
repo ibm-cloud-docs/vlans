@@ -2,7 +2,6 @@
     "version": 2,
     "title": "IBM Cloud VLANs",
     "introduction": "Virtual Local Area Networks (VLANs) are used by IBM Cloud to isolate broadcast traffic on the public and private networks.",
-    "product_page": "/docs/vlans?topic=vlans-about-vlans",
     "console_page": "/networking/vlans",
     "section_topics": {
       "links": [
