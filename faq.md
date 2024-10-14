@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-10-02"
 
 keywords:
 
@@ -63,7 +63,7 @@ For more information about managing VLANs as trunks, see [Configuring VLAN trunk
 {: faq}
 {: support}
 
-If you are told that no VLANs are available, see [A note about capacity](/docs/vlans?topic=vlans-getting-started#note-about-capacity).
+If you are told that no VLANs are available, see [A note about capacity](/docs/vlans?topic=vlans-getting-started#note-about-capacity). 
 
 ## How long can empty Premium VLANs remain unused on my account?
 {: #empty-vlan-automatic-reclaim}
