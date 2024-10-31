@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-05-12"
+  years: 1994, 2024
+lastupdated: "2024-10-31"
 
 keywords: View VLAN Details
 
@@ -21,7 +21,7 @@ To view all your VLANs and their details, take the following steps.
 {: shortdesc}
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login){: external} and log in to your account.
-1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. Select **Network > IP Management > VLANs**.
 1. Click the **Fully qualified name** link to view more details about that specific VLAN.
 

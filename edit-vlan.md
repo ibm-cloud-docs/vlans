@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2022
-lastupdated: "2022-05-31"
+  years: 1994, 2024
+lastupdated: "2024-10-31"
 
 keywords: VLAN Name, permanent VLAN number
 
@@ -27,7 +27,7 @@ You can update the VLAN name from the **VLANs** page or from the **VLAN Details*
 For either option, follow these steps first to go to the **VLANs** page.
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login){: external} and log in to your account.
-1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. Select **Network > IP Management > VLANs**.
 
 
