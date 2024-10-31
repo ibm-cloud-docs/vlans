@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-04-13"
+  years: 2022, 2024
+lastupdated: "2024-10-31"
 
 keywords:
 
@@ -48,7 +48,7 @@ When you want to change multiple VLAN trunks with a bare metal server, consider 
 Create a VLAN trunk using the console by taking the following steps:
 
 1. From your browser, open the [IBM Cloud console](/login) and log in to your account.
-1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. Select **Network > IP Management > VLANs**.
 1. Select a VLAN by clicking on its fully qualified name in the list of VLANs.
 1. Click **Attach trunk** in the **Devices with trunks** section.
@@ -67,7 +67,7 @@ You must manually configure your host's network with your added VLAN trunks befo
 Remove a VLAN trunk using the console by taking the following steps:
 
 1. From your browser, open the [IBM Cloud console](/login) and log in to your account.
-1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. Select **Network > IP Management > VLANs**.
 1. Select a VLAN by clicking on its fully qualified name in the list of VLANs.
 1. Select **Remove** from the Actions menu ![Actions menu](/images/overflow.png) of the trunk you want to remove.

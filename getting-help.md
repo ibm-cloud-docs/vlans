@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-03-01"
+lastupdated: "2024-10-31"
 
 keywords: vlans support case
 
@@ -21,7 +21,7 @@ If you experience an issue or have questions when using VLANs, you can use the f
 
 * Review [FAQs](/docs/vlans?topic=vlans-vlans-faqs) in the product documentation.
 
-If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/get-support?topic=get-support-open-case).
+If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/account?topic=account-open-case&interface=ui).
 
 ## Providing support case details for VLANs
 {: #support-case-details-vlans}

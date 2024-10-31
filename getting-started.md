@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 1994, 2022
+  years: 1994, 2024
 
-lastupdated: "2022-09-09"
+lastupdated: "2024-10-31"
 
 keywords: vlans, vlan
 
@@ -32,7 +32,7 @@ We refer to purchased VLANs as **Premium VLANs** and VLANs automatically managed
 Follow these steps to review the VLANs on your account.
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login) and log in to your account.
-1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure**.
+1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. Select **Network > IP Management > VLANs**.
 
 The VLANs listing displays information about your VLANs, and it provides access to each VLAN, along with associated devices or subnets.
