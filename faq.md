@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-10-02"
+  years: 1994, 2025
+lastupdated: "2025-07-15"
 
 keywords:
 
@@ -12,7 +12,7 @@ subcollection: vlans
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs
+# FAQ
 {: #vlans-faqs}
 
 Have a question about VLANs? Review frequently asked questions, which provide answers to provisioning concerns, application access, and other common inquiries.
@@ -63,7 +63,7 @@ For more information about managing VLANs as trunks, see [Configuring VLAN trunk
 {: faq}
 {: support}
 
-If you are told that no VLANs are available, see [A note about capacity](/docs/vlans?topic=vlans-getting-started#note-about-capacity). 
+If you are told that no VLANs are available, see [A note about capacity](/docs/vlans?topic=vlans-getting-started#note-about-capacity).
 
 ## How long can empty Premium VLANs remain unused on my account?
 {: #empty-vlan-automatic-reclaim}
