@@ -9,47 +9,47 @@ toc:
     path: vlans
     label: VLANs
   entries:
-     - navgroup:
-        id: learn
-        topics:
-        - getting-started.md
-        - about-vlans.md
-        - vlan-spanning.md
-        - topicgroup:
-            label: Related links
-            topics:
-            - link:
-                label: Getting started with subnets and IPs
-                href: /subnets/subnets-getting-started
-     - navgroup:
-        id: tutorial
-        topics:
-        - topicgroup:
-           label: Classic infrastructure
-           topics:
-           - include: ../solution-tutorials/linking-secure-network-enclosures.md
-     - navgroup:
-        id: howto
-        topics:
-        - order-vlan.md
-        - upgrade-vlan.md
-        - display-vlans.md
-        - edit-vlan.md
-        - cancel-vlan.md
-        - configure-vlan-trunks.md
-        - terraform.md
-     - navgroup:
-        id: reference
-        topics:
-        - link:
-           label: Terraform reference
-           href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/network_vlan
-     - navgroup:
-        id: help
-        topics:
-        - faq.md
-        - getting-help.md
-        - topicgroup:
-            label: Troubleshooting
-            topics:
-            -  ts-cannot-cancel-vlan.md
+  - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+      - about-vlans.md
+      - vlan-spanning.md
+      - topicgroup:
+          label: Related links
+          topics:
+          - link:
+              label: Getting started with subnets and IPs
+              href: /subnets/subnets-getting-started
+  - navgroup:
+      id: tutorial
+      topics:
+      - topicgroup:
+          label: Classic infrastructure
+          topics:
+          - include: ../solution-tutorials/linking-secure-network-enclosures.md
+  - navgroup:
+      id: howto
+      topics:
+      - order-vlan.md
+      - upgrade-vlan.md
+      - display-vlans.md
+      - edit-vlan.md
+      - cancel-vlan.md
+      - configure-vlan-trunks.md
+      - terraform.md
+  - navgroup:
+      id: reference
+      topics:
+      - link:
+          label: Terraform reference
+          href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/network_vlan
+  - navgroup:
+      id: help
+      topics:
+      - faq.md
+      - getting-help.md
+      - topicgroup:
+          label: Troubleshooting
+          topics:
+          - ts-cannot-cancel-vlan.md
