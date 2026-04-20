@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-12-17"
+  years: 2021, 2026
+lastupdated: "2026-04-20"
 
 keywords:
 
@@ -27,5 +27,5 @@ You attempt to cancel VLAN billing items. However, an error message displays tha
 This error message occurs when the VLAN is still associated with resources.
 {: tsCauses}
 
-You must cancel the associated resources prior to attempting to cancel the associated VLANs. You can cancel premium VLANs when there are no references to the VLAN.
+You must cancel the associated resources before you attempt to cancel the associated VLANs. You can cancel premium VLANs when no references exist to the VLAN.
 {: tsResolve}

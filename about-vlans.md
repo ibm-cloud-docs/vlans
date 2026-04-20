@@ -18,7 +18,7 @@ subcollection: vlans
 
 VLANs are central in directing traffic to your resources. You might never need to interact directly with any VLANs because they are managed automatically. VLANs are assigned as needed and removed when not.
 
-A VLAN is a network concept. VLANs allow you to create broadcast domains at the [OSI Model](https://en.wikipedia.org/wiki/OSI_model){: external} layer 2 level, the _data link layer_. VLANs provide one method of packet identification, and they allow multiple workloads to coexist on the same physical equipment. For more information about VLANs, see this [VLAN article](https://en.wikipedia.org/wiki/Virtual_LAN){: external}.
+A VLAN is a network concept. VLANs allow you to create broadcast domains at the [OSI Model](https://en.wikipedia.org/wiki/OSI_model){: external} layer 2 level, the data link layer. VLANs provide one method of packet identification, and they allow multiple workloads to coexist on the same physical equipment. For more information about VLANs, see this [VLAN article](https://en.wikipedia.org/wiki/Virtual_LAN){: external}.
 {: shortdesc}
 
 ## Types of VLANs
@@ -29,7 +29,7 @@ A VLAN is a network concept. VLANs allow you to create broadcast domains at the 
 ### Automatic VLANs
 {: #automatic-vlans}
 
-{site.data.keyword.cloud_notm}} manages automatically. They're assigned and removed as needed to fulfill the needs of other products that you order. You typically have one automatic VLAN per router. Automatic VLANs are associated to servers ordered without a specific VLAN selected. It's not possible to order or cancel automatic VLANs because they exist on your account only when our systems determine that they are required. They're removed when our systems determine that they are no longer needed.
+{site.data.keyword.cloud_notm} manages automatically. They're assigned and removed as needed to fulfill the needs of other products that you order. You typically have one automatic VLAN per router. Automatic VLANs are associated to servers ordered without a specific VLAN selected. It's not possible to order or cancel automatic VLANs because they exist on your account only when our systems determine that they are required. They're removed when our systems determine that they are no longer needed.
 
 ### Premium VLANs
 {: #about-premium-vlans}

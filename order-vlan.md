@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-10-31"
+  years: 1994, 2026
+lastupdated: "2026-04-20"
 
 keywords: order VLANs
 
@@ -27,7 +27,7 @@ Follow these steps to order a Premium VLAN:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login){: external} and log in to your account.
 1. From the console, click the Navigation Menu icon ![Navigation Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
-1. In the navigation pane, select **Network > IP Management > VLANs**.
+1. In the navigation window, select **Network > IP Management > VLANs**.
 1. Select **Order** and complete your specific configuration.
 
 ## What happens next
@@ -35,4 +35,4 @@ Follow these steps to order a Premium VLAN:
 
 A new VLAN with your specific configuration appears on your account within a few moments, except in cases that require approval processes for your account status.
 
-New Premium VLANs are typically delivered without a primary subnet. The absence of a primary subnet is not an indication that one won't be added in the future. To understand more about what primary subnets are and how to use them, review [Subnets and IPs](/docs/subnets?topic=subnets-getting-started).
+New Premium VLANs are typically delivered without a primary subnet. The absence of a primary subnet doesn't indicate that one won't be added in the future. To understand more about what primary subnets are and how to use them, review [Subnets and IPs](/docs/subnets?topic=subnets-getting-started).

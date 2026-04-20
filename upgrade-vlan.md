@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2019
-lastupdated: "2022-05-12"
+  years: 1994, 2026
+lastupdated: "2026-04-20"
 
 keywords: upgrade automatic vlan
 
@@ -22,9 +22,9 @@ If you built a solution around an Automatic VLAN and later decide you want it to
 
 Upgrading VLANs is not always possible. VLAN capacity limitations still apply.
 
-For the moment, upgrading is only available via the API. Two methods are available to do so:
+For the moment, upgrading is only available with the API. Two methods are available to do so:
 
-1. Place an order using `SoftLayer_Product_Order.placeOrder`.
+1. Place an order by using `SoftLayer_Product_Order.placeOrder`.
 2. Use the `SoftLayer_Network_Vlan.upgrade` shortcut interface.
 
 ## Placing an order
@@ -37,7 +37,7 @@ For the moment, upgrading is only available via the API. Two methods are availab
 ## Shortcut interface
 {: #vlan-shortcut-interface}
 
-Run the [SoftLayer_Network_Vlan.upgrade](https://sldn.softlayer.com/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} operation against an existing Automatic VLAN by initializing the call with the `SoftLayer_Network_Vlan.id` value of the VLAN to upgrade. This operation locates the appropriate package and pricing information for the VLAN, and places the necessary order to perform the upgrade. Using this method, VLAN upgrade orders are placed only if your account qualifies for automatic order approval. See [SoftLayer_Network_Vlan.upgrade](https://sldn.softlayer.com/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} in the API documentation for more details.
+Run the [SoftLayer_Network_Vlan.upgrade](https://sldn.softlayer.com/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} operation against an existing Automatic VLAN by initializing the call with the `SoftLayer_Network_Vlan.id` value of the VLAN to upgrade. This operation locates the appropriate package and pricing information for the VLAN, and places the necessary order to do the upgrade. Using this method, VLAN upgrade orders are placed only if your account qualifies for automatic order approval. See [SoftLayer_Network_Vlan.upgrade](https://sldn.softlayer.com/reference/services/SoftLayer_Network_Vlan/upgrade/){: external} in the API documentation for more details.
 
 ## What happens next
 {: #upgrade-vlan-what-happens-next}
