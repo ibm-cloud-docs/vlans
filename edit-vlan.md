@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-10-31"
+  years: 1994, 2026
+lastupdated: "2026-04-20"
 
 keywords: VLAN Name, permanent VLAN number
 
@@ -17,10 +17,10 @@ subcollection: vlans
 {: help}
 {: support}
 
-Each VLAN has a fully qualified name to help identify it. You also can add a custom name and edit it at any time.
+Each VLAN has a fully qualified name to help identify it. You can also add a custom name and edit it at any time.
 {: shortdesc}
 
-VLAN names are displayed on the **VLANs** page and also when you view an individual VLAN. It is recommended that you use a naming convention for your VLANs, so they can be identified easily by all users on the account.
+VLAN names are displayed on the **VLANs** page and also when you view an individual VLAN. It is recommended that you use a naming convention for your VLANs, so they can be identified by all users on the account.
 
 You can update the VLAN name from the **VLANs** page or from the **VLAN Details** page. Your changes are visible in all locations for the VLAN, regardless of which option you use.
 
@@ -44,9 +44,9 @@ To add or edit a VLAN name from the **VLANs** page:
 To edit a name from the **VLAN Details** page:
 
 1. Click the fully qualified name of a VLAN to view its details.
-1. Click **Edit** in the upper right corner of the **Details** section.
+1. Click **Edit** in the upper right of the **Details** section.
 1. Add a new name or edit an existing name.
-1. Click **Save**  to save the name.
+1. Click **Save** to save the name.
 
 ## What happens next
 {: #edit-vlan-name-what-happens-next}

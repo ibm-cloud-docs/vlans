@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2024
-lastupdated: "2024-10-31"
+  years: 1994, 2026
+lastupdated: "2026-04-20"
 
 keywords: cancel VLANs
 
@@ -15,7 +15,7 @@ subcollection: vlans
 # Canceling a Premium VLAN
 {: #cancel-vlan}
 
-You can cancel your Premium VLANs when you no longer need them and when they are empty of native devices, or have devices which are all canceled. Trunked devices do not prevent cancelation.
+You can cancel your Premium VLANs when you no longer need them and when they are empty of native devices, or have devices, which are all canceled. Trunked devices do not prevent cancellation.
 {: shortdesc}
 
 Follow these steps to cancel a Premium VLAN.
@@ -40,4 +40,4 @@ You can alternatively click **Actions > Cancel VLAN** on the **VLAN Details** pa
 
 Premium VLANs are canceled either immediately or on the billing anniversary date. If you choose to cancel the VLAN immediately, the VLAN is reclaimed as soon as possible. If you select cancellation on the billing anniversary date, the VLAN remains on your account and active until the billing anniversary date.
 
-Any secondary subnets present on the VLAN will be unrouted as part of VLAN reclaim, and any trunks present on the VLAN will be automatically removed.
+Any secondary subnets present on the VLAN are unrouted as part of VLAN reclaim, and any trunks present on the VLAN are automatically removed.

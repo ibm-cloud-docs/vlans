@@ -1,35 +1,35 @@
-  {
-    "version": 2,
-    "title": "IBM Cloud VLANs",
-    "introduction": "Virtual Local Area Networks (VLANs) are used by IBM Cloud to isolate broadcast traffic on the public and private networks.",
-    "console_page": "/networking/vlans",
-    "section_topics": {
-      "links": [
-        {
-          "title": "Getting started with VLANs",
-          "href": "/docs/vlans?topic=vlans-getting-started"
-        },
-        {
-          "title": "About VLANs",
-          "href": "/docs/vlans?topic=vlans-about-vlans"
-        },
-        {
-          "title": "Ordering premium VLANs",
-          "href": "/docs/vlans?topic=vlans-ordering-premium-vlans"
-        },
-        {
-          "title": "Linking secure private networks over the IBM network",
-          "href": "/docs/vlans?topic=vlans-linking-secure-network-enclosures"
-        }
-      ]
-    },
-    "section_updates": {
-        "view_more": "/docs/vlans?topic=vlans-release-notes",
-        "tiles": [
-          {
-            "date": "20 January 2022",
-            "title": "Improved the UI and ordering experience, and added ability to manage VLAN trunking from the UI"
-          }
-      ]
-    }
+{
+  "version": 2,
+  "title": "IBM Cloud VLANs",
+  "introduction": "Virtual Local Area Networks (VLANs) are used by IBM Cloud to isolate broadcast traffic on the public and private networks.",
+  "console_page": "/networking/vlans",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Getting started with VLANs",
+        "href": "/docs/vlans?topic=vlans-getting-started"
+      },
+      {
+        "title": "About VLANs",
+        "href": "/docs/vlans?topic=vlans-about-vlans"
+      },
+      {
+        "title": "Ordering premium VLANs",
+        "href": "/docs/vlans?topic=vlans-ordering-premium-vlans"
+      },
+      {
+        "title": "Linking secure private networks over the IBM network",
+        "href": "/docs/vlans?topic=vlans-linking-secure-network-enclosures"
+      }
+    ]
+  },
+  "section_updates": {
+    "view_more": "/docs/vlans?topic=vlans-release-notes",
+    "tiles": [
+      {
+        "date": "20 January 2022",
+        "title": "Improved the UI and ordering experience, and added the ability to manage VLAN trunking from the UI"
+      }
+    ]
   }
+}
