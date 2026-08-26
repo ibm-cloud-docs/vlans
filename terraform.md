@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2026
-lastupdated: "2026-04-20"
+lastupdated: "2026-08-26"
 
 subcollection: vlans
 
@@ -25,7 +25,7 @@ Looking for a managed Terraform on {{site.data.keyword.cloud}} solution? Try out
 
 Before you can create an authorization by using Terraform, make sure that you complete the following tasks:
 
-* Make sure that you have the [required access](/docs/account?topic=account-mngclassicinfra) to create and work with VLAN resources.
+* Make sure that you have the [required access](/docs/iam?topic=iam-mngclassicinfra) to create and work with VLAN resources.
 * Install the Terraform CLI and configure the {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform. For more information, see the tutorial for [Getting started with Terraform on {{site.data.keyword.cloud}}](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started). The plug-in abstracts the {{site.data.keyword.cloud_notm}} APIs that are used to complete this task.
 * Create a Terraform configuration file that is named `main.tf`. In this file, you define resources by using HashiCorp Configuration Language. For more information, see the [Terraform documentation](https://developer.hashicorp.com/terraform/language){: external}.
 
