@@ -3,7 +3,7 @@
 copyright:
   years: 1994, 2026
 
-lastupdated: "2026-04-20"
+lastupdated: "2026-08-26"
 
 keywords:
 
@@ -29,7 +29,7 @@ A VLAN is a network concept. VLANs allow you to create broadcast domains at the 
 ### Automatic VLANs
 {: #automatic-vlans}
 
-{site.data.keyword.cloud_notm} manages automatically. They're assigned and removed as needed to fulfill the needs of other products that you order. You typically have one automatic VLAN per router. Automatic VLANs are associated to servers ordered without a specific VLAN selected. It's not possible to order or cancel automatic VLANs because they exist on your account only when our systems determine that they are required. They're removed when our systems determine that they are no longer needed.
+{{site.data.keyword.cloud_notm}} manages automatically. They're assigned and removed as needed to fulfill the needs of other products that you order. You typically have one automatic VLAN per router. Automatic VLANs are associated to servers ordered without a specific VLAN selected. It's not possible to order or cancel automatic VLANs because they exist on your account only when our systems determine that they are required. They're removed when our systems determine that they are no longer needed.
 
 ### Premium VLANs
 {: #about-premium-vlans}
